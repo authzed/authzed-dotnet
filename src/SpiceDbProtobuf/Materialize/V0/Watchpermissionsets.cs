@@ -28,74 +28,81 @@ namespace Authzed.Api.Materialize.V0 {
             "ZXRzLnByb3RvEhphdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MBoZYXV0aHpl",
             "ZC9hcGkvdjEvY29yZS5wcm90byJuChpXYXRjaFBlcm1pc3Npb25TZXRzUmVx",
             "dWVzdBJQChdvcHRpb25hbF9zdGFydGluZ19hZnRlchgBIAEoCzIYLmF1dGh6",
-            "ZWQuYXBpLnYxLlplZFRva2VuUhVvcHRpb25hbFN0YXJ0aW5nQWZ0ZXIiwwIK",
+            "ZWQuYXBpLnYxLlplZFRva2VuUhVvcHRpb25hbFN0YXJ0aW5nQWZ0ZXIirQMK",
             "G1dhdGNoUGVybWlzc2lvblNldHNSZXNwb25zZRJJCgZjaGFuZ2UYASABKAsy",
             "Ly5hdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MC5QZXJtaXNzaW9uU2V0Q2hh",
             "bmdlSABSBmNoYW5nZRJJChJjb21wbGV0ZWRfcmV2aXNpb24YAiABKAsyGC5h",
             "dXRoemVkLmFwaS52MS5aZWRUb2tlbkgAUhFjb21wbGV0ZWRSZXZpc2lvbhKB",
             "AQofbG9va3VwX3Blcm1pc3Npb25fc2V0c19yZXF1aXJlZBgDIAEoCzI4LmF1",
             "dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLkxvb2t1cFBlcm1pc3Npb25TZXRz",
-            "UmVxdWlyZWRIAFIcbG9va3VwUGVybWlzc2lvblNldHNSZXF1aXJlZEIKCghy",
-            "ZXNwb25zZSKiAQoGQ3Vyc29yEhQKBWxpbWl0GAEgASgNUgVsaW1pdBIuCgV0",
-            "b2tlbhgEIAEoCzIYLmF1dGh6ZWQuYXBpLnYxLlplZFRva2VuUgV0b2tlbhIl",
-            "Cg5zdGFydGluZ19pbmRleBgFIAEoDVINc3RhcnRpbmdJbmRleBIrChFjb21w",
-            "bGV0ZWRfbWVtYmVycxgGIAEoCFIQY29tcGxldGVkTWVtYmVycyKcAQobTG9v",
-            "a3VwUGVybWlzc2lvblNldHNSZXF1ZXN0EhQKBWxpbWl0GAEgASgNUgVsaW1p",
-            "dBJnCh5vcHRpb25hbF9zdGFydGluZ19hZnRlcl9jdXJzb3IYBCABKAsyIi5h",
-            "dXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MC5DdXJzb3JSG29wdGlvbmFsU3Rh",
-            "cnRpbmdBZnRlckN1cnNvciKjAQocTG9va3VwUGVybWlzc2lvblNldHNSZXNw",
-            "b25zZRJHCgZjaGFuZ2UYASABKAsyLy5hdXRoemVkLmFwaS5tYXRlcmlhbGl6",
-            "ZS52MC5QZXJtaXNzaW9uU2V0Q2hhbmdlUgZjaGFuZ2USOgoGY3Vyc29yGAIg",
-            "ASgLMiIuYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuQ3Vyc29yUgZjdXJz",
-            "b3Ii/AMKE1Blcm1pc3Npb25TZXRDaGFuZ2USOQoLYXRfcmV2aXNpb24YASAB",
-            "KAsyGC5hdXRoemVkLmFwaS52MS5aZWRUb2tlblIKYXRSZXZpc2lvbhJaCglv",
-            "cGVyYXRpb24YAiABKA4yPC5hdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MC5Q",
-            "ZXJtaXNzaW9uU2V0Q2hhbmdlLlNldE9wZXJhdGlvblIJb3BlcmF0aW9uEkcK",
-            "CnBhcmVudF9zZXQYAyABKAsyKC5hdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52",
-            "MC5TZXRSZWZlcmVuY2VSCXBhcmVudFNldBJHCgljaGlsZF9zZXQYBCABKAsy",
-            "KC5hdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MC5TZXRSZWZlcmVuY2VIAFII",
-            "Y2hpbGRTZXQSUAoMY2hpbGRfbWVtYmVyGAUgASgLMisuYXV0aHplZC5hcGku",
-            "bWF0ZXJpYWxpemUudjAuTWVtYmVyUmVmZXJlbmNlSABSC2NoaWxkTWVtYmVy",
-            "ImEKDFNldE9wZXJhdGlvbhIdChlTRVRfT1BFUkFUSU9OX1VOU1BFQ0lGSUVE",
-            "EAASFwoTU0VUX09QRVJBVElPTl9BRERFRBABEhkKFVNFVF9PUEVSQVRJT05f",
-            "UkVNT1ZFRBACQgcKBWNoaWxkIoIBCgxTZXRSZWZlcmVuY2USHwoLb2JqZWN0",
-            "X3R5cGUYASABKAlSCm9iamVjdFR5cGUSGwoJb2JqZWN0X2lkGAIgASgJUghv",
-            "YmplY3RJZBI0ChZwZXJtaXNzaW9uX29yX3JlbGF0aW9uGAMgASgJUhRwZXJt",
-            "aXNzaW9uT3JSZWxhdGlvbiKWAQoPTWVtYmVyUmVmZXJlbmNlEh8KC29iamVj",
-            "dF90eXBlGAEgASgJUgpvYmplY3RUeXBlEhsKCW9iamVjdF9pZBgCIAEoCVII",
-            "b2JqZWN0SWQSRQofb3B0aW9uYWxfcGVybWlzc2lvbl9vcl9yZWxhdGlvbhgD",
-            "IAEoCVIcb3B0aW9uYWxQZXJtaXNzaW9uT3JSZWxhdGlvbiJmChxMb29rdXBQ",
-            "ZXJtaXNzaW9uU2V0c1JlcXVpcmVkEkYKEnJlcXVpcmVkX2xvb2t1cF9hdBgB",
-            "IAEoCzIYLmF1dGh6ZWQuYXBpLnYxLlplZFRva2VuUhByZXF1aXJlZExvb2t1",
-            "cEF0MrkCChpXYXRjaFBlcm1pc3Npb25TZXRzU2VydmljZRKKAQoTV2F0Y2hQ",
-            "ZXJtaXNzaW9uU2V0cxI2LmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLldh",
-            "dGNoUGVybWlzc2lvblNldHNSZXF1ZXN0GjcuYXV0aHplZC5hcGkubWF0ZXJp",
-            "YWxpemUudjAuV2F0Y2hQZXJtaXNzaW9uU2V0c1Jlc3BvbnNlIgAwARKNAQoU",
-            "TG9va3VwUGVybWlzc2lvblNldHMSNy5hdXRoemVkLmFwaS5tYXRlcmlhbGl6",
-            "ZS52MC5Mb29rdXBQZXJtaXNzaW9uU2V0c1JlcXVlc3QaOC5hdXRoemVkLmFw",
-            "aS5tYXRlcmlhbGl6ZS52MC5Mb29rdXBQZXJtaXNzaW9uU2V0c1Jlc3BvbnNl",
-            "IgAwAUJiCh5jb20uYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjBQAVo+Z2l0",
-            "aHViLmNvbS9hdXRoemVkL2F1dGh6ZWQtZ28vcHJvdG8vYXV0aHplZC9hcGkv",
-            "bWF0ZXJpYWxpemUvdjBiBnByb3RvMw=="));
+            "UmVxdWlyZWRIAFIcbG9va3VwUGVybWlzc2lvblNldHNSZXF1aXJlZBJoChZi",
+            "cmVha2luZ19zY2hlbWFfY2hhbmdlGAQgASgLMjAuYXV0aHplZC5hcGkubWF0",
+            "ZXJpYWxpemUudjAuQnJlYWtpbmdTY2hlbWFDaGFuZ2VIAFIUYnJlYWtpbmdT",
+            "Y2hlbWFDaGFuZ2VCCgoIcmVzcG9uc2UixQEKBkN1cnNvchIUCgVsaW1pdBgB",
+            "IAEoDVIFbGltaXQSLgoFdG9rZW4YBCABKAsyGC5hdXRoemVkLmFwaS52MS5a",
+            "ZWRUb2tlblIFdG9rZW4SJQoOc3RhcnRpbmdfaW5kZXgYBSABKA1SDXN0YXJ0",
+            "aW5nSW5kZXgSKwoRY29tcGxldGVkX21lbWJlcnMYBiABKAhSEGNvbXBsZXRl",
+            "ZE1lbWJlcnMSIQoMc3RhcnRpbmdfa2V5GAcgASgJUgtzdGFydGluZ0tleSLo",
+            "AQobTG9va3VwUGVybWlzc2lvblNldHNSZXF1ZXN0EhQKBWxpbWl0GAEgASgN",
+            "UgVsaW1pdBJKChRvcHRpb25hbF9hdF9yZXZpc2lvbhgCIAEoCzIYLmF1dGh6",
+            "ZWQuYXBpLnYxLlplZFRva2VuUhJvcHRpb25hbEF0UmV2aXNpb24SZwoeb3B0",
+            "aW9uYWxfc3RhcnRpbmdfYWZ0ZXJfY3Vyc29yGAQgASgLMiIuYXV0aHplZC5h",
+            "cGkubWF0ZXJpYWxpemUudjAuQ3Vyc29yUhtvcHRpb25hbFN0YXJ0aW5nQWZ0",
+            "ZXJDdXJzb3IiowEKHExvb2t1cFBlcm1pc3Npb25TZXRzUmVzcG9uc2USRwoG",
+            "Y2hhbmdlGAEgASgLMi8uYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuUGVy",
+            "bWlzc2lvblNldENoYW5nZVIGY2hhbmdlEjoKBmN1cnNvchgCIAEoCzIiLmF1",
+            "dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLkN1cnNvclIGY3Vyc29yIvwDChNQ",
+            "ZXJtaXNzaW9uU2V0Q2hhbmdlEjkKC2F0X3JldmlzaW9uGAEgASgLMhguYXV0",
+            "aHplZC5hcGkudjEuWmVkVG9rZW5SCmF0UmV2aXNpb24SWgoJb3BlcmF0aW9u",
+            "GAIgASgOMjwuYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuUGVybWlzc2lv",
+            "blNldENoYW5nZS5TZXRPcGVyYXRpb25SCW9wZXJhdGlvbhJHCgpwYXJlbnRf",
+            "c2V0GAMgASgLMiguYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuU2V0UmVm",
+            "ZXJlbmNlUglwYXJlbnRTZXQSRwoJY2hpbGRfc2V0GAQgASgLMiguYXV0aHpl",
+            "ZC5hcGkubWF0ZXJpYWxpemUudjAuU2V0UmVmZXJlbmNlSABSCGNoaWxkU2V0",
+            "ElAKDGNoaWxkX21lbWJlchgFIAEoCzIrLmF1dGh6ZWQuYXBpLm1hdGVyaWFs",
+            "aXplLnYwLk1lbWJlclJlZmVyZW5jZUgAUgtjaGlsZE1lbWJlciJhCgxTZXRP",
+            "cGVyYXRpb24SHQoZU0VUX09QRVJBVElPTl9VTlNQRUNJRklFRBAAEhcKE1NF",
+            "VF9PUEVSQVRJT05fQURERUQQARIZChVTRVRfT1BFUkFUSU9OX1JFTU9WRUQQ",
+            "AkIHCgVjaGlsZCKCAQoMU2V0UmVmZXJlbmNlEh8KC29iamVjdF90eXBlGAEg",
+            "ASgJUgpvYmplY3RUeXBlEhsKCW9iamVjdF9pZBgCIAEoCVIIb2JqZWN0SWQS",
+            "NAoWcGVybWlzc2lvbl9vcl9yZWxhdGlvbhgDIAEoCVIUcGVybWlzc2lvbk9y",
+            "UmVsYXRpb24ilgEKD01lbWJlclJlZmVyZW5jZRIfCgtvYmplY3RfdHlwZRgB",
+            "IAEoCVIKb2JqZWN0VHlwZRIbCglvYmplY3RfaWQYAiABKAlSCG9iamVjdElk",
+            "EkUKH29wdGlvbmFsX3Blcm1pc3Npb25fb3JfcmVsYXRpb24YAyABKAlSHG9w",
+            "dGlvbmFsUGVybWlzc2lvbk9yUmVsYXRpb24iZgocTG9va3VwUGVybWlzc2lv",
+            "blNldHNSZXF1aXJlZBJGChJyZXF1aXJlZF9sb29rdXBfYXQYASABKAsyGC5h",
+            "dXRoemVkLmFwaS52MS5aZWRUb2tlblIQcmVxdWlyZWRMb29rdXBBdCJNChRC",
+            "cmVha2luZ1NjaGVtYUNoYW5nZRI1CgljaGFuZ2VfYXQYASABKAsyGC5hdXRo",
+            "emVkLmFwaS52MS5aZWRUb2tlblIIY2hhbmdlQXQyuQIKGldhdGNoUGVybWlz",
+            "c2lvblNldHNTZXJ2aWNlEooBChNXYXRjaFBlcm1pc3Npb25TZXRzEjYuYXV0",
+            "aHplZC5hcGkubWF0ZXJpYWxpemUudjAuV2F0Y2hQZXJtaXNzaW9uU2V0c1Jl",
+            "cXVlc3QaNy5hdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MC5XYXRjaFBlcm1p",
+            "c3Npb25TZXRzUmVzcG9uc2UiADABEo0BChRMb29rdXBQZXJtaXNzaW9uU2V0",
+            "cxI3LmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLkxvb2t1cFBlcm1pc3Np",
+            "b25TZXRzUmVxdWVzdBo4LmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLkxv",
+            "b2t1cFBlcm1pc3Npb25TZXRzUmVzcG9uc2UiADABQmIKHmNvbS5hdXRoemVk",
+            "LmFwaS5tYXRlcmlhbGl6ZS52MFABWj5naXRodWIuY29tL2F1dGh6ZWQvYXV0",
+            "aHplZC1nby9wcm90by9hdXRoemVkL2FwaS9tYXRlcmlhbGl6ZS92MGIGcHJv",
+            "dG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Authzed.Api.V1.CoreReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.WatchPermissionSetsRequest), global::Authzed.Api.Materialize.V0.WatchPermissionSetsRequest.Parser, new[]{ "OptionalStartingAfter" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse), global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse.Parser, new[]{ "Change", "CompletedRevision", "LookupPermissionSetsRequired" }, new[]{ "Response" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.Cursor), global::Authzed.Api.Materialize.V0.Cursor.Parser, new[]{ "Limit", "Token", "StartingIndex", "CompletedMembers" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequest), global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequest.Parser, new[]{ "Limit", "OptionalStartingAfterCursor" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse), global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse.Parser, new[]{ "Change", "CompletedRevision", "LookupPermissionSetsRequired", "BreakingSchemaChange" }, new[]{ "Response" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.Cursor), global::Authzed.Api.Materialize.V0.Cursor.Parser, new[]{ "Limit", "Token", "StartingIndex", "CompletedMembers", "StartingKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequest), global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequest.Parser, new[]{ "Limit", "OptionalAtRevision", "OptionalStartingAfterCursor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.LookupPermissionSetsResponse), global::Authzed.Api.Materialize.V0.LookupPermissionSetsResponse.Parser, new[]{ "Change", "Cursor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.PermissionSetChange), global::Authzed.Api.Materialize.V0.PermissionSetChange.Parser, new[]{ "AtRevision", "Operation", "ParentSet", "ChildSet", "ChildMember" }, new[]{ "Child" }, new[]{ typeof(global::Authzed.Api.Materialize.V0.PermissionSetChange.Types.SetOperation) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.SetReference), global::Authzed.Api.Materialize.V0.SetReference.Parser, new[]{ "ObjectType", "ObjectId", "PermissionOrRelation" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.MemberReference), global::Authzed.Api.Materialize.V0.MemberReference.Parser, new[]{ "ObjectType", "ObjectId", "OptionalPermissionOrRelation" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequired), global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequired.Parser, new[]{ "RequiredLookupAt" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequired), global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequired.Parser, new[]{ "RequiredLookupAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.BreakingSchemaChange), global::Authzed.Api.Materialize.V0.BreakingSchemaChange.Parser, new[]{ "ChangeAt" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
   #region Messages
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WatchPermissionSetsRequest : pb::IMessage<WatchPermissionSetsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -258,11 +265,7 @@ namespace Authzed.Api.Materialize.V0 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -284,11 +287,7 @@ namespace Authzed.Api.Materialize.V0 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -306,7 +305,6 @@ namespace Authzed.Api.Materialize.V0 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WatchPermissionSetsResponse : pb::IMessage<WatchPermissionSetsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -350,6 +348,9 @@ namespace Authzed.Api.Materialize.V0 {
           break;
         case ResponseOneofCase.LookupPermissionSetsRequired:
           LookupPermissionSetsRequired = other.LookupPermissionSetsRequired.Clone();
+          break;
+        case ResponseOneofCase.BreakingSchemaChange:
+          BreakingSchemaChange = other.BreakingSchemaChange.Clone();
           break;
       }
 
@@ -416,6 +417,24 @@ namespace Authzed.Api.Materialize.V0 {
       }
     }
 
+    /// <summary>Field number for the "breaking_schema_change" field.</summary>
+    public const int BreakingSchemaChangeFieldNumber = 4;
+    /// <summary>
+    /// breaking_schema_change is a signal that a breaking schema change has been written to the origin SpiceDB cluster,
+    /// and that the consumer should expect delays in the ingestion of new changes,
+    /// because the permission set snapshot needs to be rebuilt from scratch. Once the snapshot is ready, the consumer
+    /// will receive a LookupPermissionSetsRequired event.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.Materialize.V0.BreakingSchemaChange BreakingSchemaChange {
+      get { return responseCase_ == ResponseOneofCase.BreakingSchemaChange ? (global::Authzed.Api.Materialize.V0.BreakingSchemaChange) response_ : null; }
+      set {
+        response_ = value;
+        responseCase_ = value == null ? ResponseOneofCase.None : ResponseOneofCase.BreakingSchemaChange;
+      }
+    }
+
     private object response_;
     /// <summary>Enum of possible cases for the "response" oneof.</summary>
     public enum ResponseOneofCase {
@@ -423,6 +442,7 @@ namespace Authzed.Api.Materialize.V0 {
       Change = 1,
       CompletedRevision = 2,
       LookupPermissionSetsRequired = 3,
+      BreakingSchemaChange = 4,
     }
     private ResponseOneofCase responseCase_ = ResponseOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -456,6 +476,7 @@ namespace Authzed.Api.Materialize.V0 {
       if (!object.Equals(Change, other.Change)) return false;
       if (!object.Equals(CompletedRevision, other.CompletedRevision)) return false;
       if (!object.Equals(LookupPermissionSetsRequired, other.LookupPermissionSetsRequired)) return false;
+      if (!object.Equals(BreakingSchemaChange, other.BreakingSchemaChange)) return false;
       if (ResponseCase != other.ResponseCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -467,6 +488,7 @@ namespace Authzed.Api.Materialize.V0 {
       if (responseCase_ == ResponseOneofCase.Change) hash ^= Change.GetHashCode();
       if (responseCase_ == ResponseOneofCase.CompletedRevision) hash ^= CompletedRevision.GetHashCode();
       if (responseCase_ == ResponseOneofCase.LookupPermissionSetsRequired) hash ^= LookupPermissionSetsRequired.GetHashCode();
+      if (responseCase_ == ResponseOneofCase.BreakingSchemaChange) hash ^= BreakingSchemaChange.GetHashCode();
       hash ^= (int) responseCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -498,6 +520,10 @@ namespace Authzed.Api.Materialize.V0 {
         output.WriteRawTag(26);
         output.WriteMessage(LookupPermissionSetsRequired);
       }
+      if (responseCase_ == ResponseOneofCase.BreakingSchemaChange) {
+        output.WriteRawTag(34);
+        output.WriteMessage(BreakingSchemaChange);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -520,6 +546,10 @@ namespace Authzed.Api.Materialize.V0 {
         output.WriteRawTag(26);
         output.WriteMessage(LookupPermissionSetsRequired);
       }
+      if (responseCase_ == ResponseOneofCase.BreakingSchemaChange) {
+        output.WriteRawTag(34);
+        output.WriteMessage(BreakingSchemaChange);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -538,6 +568,9 @@ namespace Authzed.Api.Materialize.V0 {
       }
       if (responseCase_ == ResponseOneofCase.LookupPermissionSetsRequired) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(LookupPermissionSetsRequired);
+      }
+      if (responseCase_ == ResponseOneofCase.BreakingSchemaChange) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(BreakingSchemaChange);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -570,6 +603,12 @@ namespace Authzed.Api.Materialize.V0 {
           }
           LookupPermissionSetsRequired.MergeFrom(other.LookupPermissionSetsRequired);
           break;
+        case ResponseOneofCase.BreakingSchemaChange:
+          if (BreakingSchemaChange == null) {
+            BreakingSchemaChange = new global::Authzed.Api.Materialize.V0.BreakingSchemaChange();
+          }
+          BreakingSchemaChange.MergeFrom(other.BreakingSchemaChange);
+          break;
       }
 
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -583,11 +622,7 @@ namespace Authzed.Api.Materialize.V0 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -618,6 +653,15 @@ namespace Authzed.Api.Materialize.V0 {
             LookupPermissionSetsRequired = subBuilder;
             break;
           }
+          case 34: {
+            global::Authzed.Api.Materialize.V0.BreakingSchemaChange subBuilder = new global::Authzed.Api.Materialize.V0.BreakingSchemaChange();
+            if (responseCase_ == ResponseOneofCase.BreakingSchemaChange) {
+              subBuilder.MergeFrom(BreakingSchemaChange);
+            }
+            input.ReadMessage(subBuilder);
+            BreakingSchemaChange = subBuilder;
+            break;
+          }
         }
       }
     #endif
@@ -629,11 +673,7 @@ namespace Authzed.Api.Materialize.V0 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -664,6 +704,15 @@ namespace Authzed.Api.Materialize.V0 {
             LookupPermissionSetsRequired = subBuilder;
             break;
           }
+          case 34: {
+            global::Authzed.Api.Materialize.V0.BreakingSchemaChange subBuilder = new global::Authzed.Api.Materialize.V0.BreakingSchemaChange();
+            if (responseCase_ == ResponseOneofCase.BreakingSchemaChange) {
+              subBuilder.MergeFrom(BreakingSchemaChange);
+            }
+            input.ReadMessage(subBuilder);
+            BreakingSchemaChange = subBuilder;
+            break;
+          }
         }
       }
     }
@@ -671,7 +720,6 @@ namespace Authzed.Api.Materialize.V0 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Cursor : pb::IMessage<Cursor>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -710,6 +758,7 @@ namespace Authzed.Api.Materialize.V0 {
       token_ = other.token_ != null ? other.token_.Clone() : null;
       startingIndex_ = other.startingIndex_;
       completedMembers_ = other.completedMembers_;
+      startingKey_ = other.startingKey_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -779,6 +828,21 @@ namespace Authzed.Api.Materialize.V0 {
       }
     }
 
+    /// <summary>Field number for the "starting_key" field.</summary>
+    public const int StartingKeyFieldNumber = 7;
+    private string startingKey_ = "";
+    /// <summary>
+    /// starting_key is a string cursor used by some backends to resume the stream from a specific point.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string StartingKey {
+      get { return startingKey_; }
+      set {
+        startingKey_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -798,6 +862,7 @@ namespace Authzed.Api.Materialize.V0 {
       if (!object.Equals(Token, other.Token)) return false;
       if (StartingIndex != other.StartingIndex) return false;
       if (CompletedMembers != other.CompletedMembers) return false;
+      if (StartingKey != other.StartingKey) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -809,6 +874,7 @@ namespace Authzed.Api.Materialize.V0 {
       if (token_ != null) hash ^= Token.GetHashCode();
       if (StartingIndex != 0) hash ^= StartingIndex.GetHashCode();
       if (CompletedMembers != false) hash ^= CompletedMembers.GetHashCode();
+      if (StartingKey.Length != 0) hash ^= StartingKey.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -843,6 +909,10 @@ namespace Authzed.Api.Materialize.V0 {
         output.WriteRawTag(48);
         output.WriteBool(CompletedMembers);
       }
+      if (StartingKey.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(StartingKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -869,6 +939,10 @@ namespace Authzed.Api.Materialize.V0 {
         output.WriteRawTag(48);
         output.WriteBool(CompletedMembers);
       }
+      if (StartingKey.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteString(StartingKey);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -890,6 +964,9 @@ namespace Authzed.Api.Materialize.V0 {
       }
       if (CompletedMembers != false) {
         size += 1 + 1;
+      }
+      if (StartingKey.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(StartingKey);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -918,6 +995,9 @@ namespace Authzed.Api.Materialize.V0 {
       if (other.CompletedMembers != false) {
         CompletedMembers = other.CompletedMembers;
       }
+      if (other.StartingKey.Length != 0) {
+        StartingKey = other.StartingKey;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -929,11 +1009,7 @@ namespace Authzed.Api.Materialize.V0 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -956,6 +1032,10 @@ namespace Authzed.Api.Materialize.V0 {
             CompletedMembers = input.ReadBool();
             break;
           }
+          case 58: {
+            StartingKey = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -967,11 +1047,7 @@ namespace Authzed.Api.Materialize.V0 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -994,6 +1070,10 @@ namespace Authzed.Api.Materialize.V0 {
             CompletedMembers = input.ReadBool();
             break;
           }
+          case 58: {
+            StartingKey = input.ReadString();
+            break;
+          }
         }
       }
     }
@@ -1001,7 +1081,6 @@ namespace Authzed.Api.Materialize.V0 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class LookupPermissionSetsRequest : pb::IMessage<LookupPermissionSetsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1037,6 +1116,7 @@ namespace Authzed.Api.Materialize.V0 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public LookupPermissionSetsRequest(LookupPermissionSetsRequest other) : this() {
       limit_ = other.limit_;
+      optionalAtRevision_ = other.optionalAtRevision_ != null ? other.optionalAtRevision_.Clone() : null;
       optionalStartingAfterCursor_ = other.optionalStartingAfterCursor_ != null ? other.optionalStartingAfterCursor_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1061,6 +1141,23 @@ namespace Authzed.Api.Materialize.V0 {
       get { return limit_; }
       set {
         limit_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "optional_at_revision" field.</summary>
+    public const int OptionalAtRevisionFieldNumber = 2;
+    private global::Authzed.Api.V1.ZedToken optionalAtRevision_;
+    /// <summary>
+    /// optional_at_revision specifies the client is requesting to lookup PermissionSets at a specific revision. It's
+    /// optional, and if not provided, PermissionSets will be looked up at the current revision. The cursor always
+    /// takes precedence in defining the revision when present.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.ZedToken OptionalAtRevision {
+      get { return optionalAtRevision_; }
+      set {
+        optionalAtRevision_ = value;
       }
     }
 
@@ -1095,6 +1192,7 @@ namespace Authzed.Api.Materialize.V0 {
         return true;
       }
       if (Limit != other.Limit) return false;
+      if (!object.Equals(OptionalAtRevision, other.OptionalAtRevision)) return false;
       if (!object.Equals(OptionalStartingAfterCursor, other.OptionalStartingAfterCursor)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -1104,6 +1202,7 @@ namespace Authzed.Api.Materialize.V0 {
     public override int GetHashCode() {
       int hash = 1;
       if (Limit != 0) hash ^= Limit.GetHashCode();
+      if (optionalAtRevision_ != null) hash ^= OptionalAtRevision.GetHashCode();
       if (optionalStartingAfterCursor_ != null) hash ^= OptionalStartingAfterCursor.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1127,6 +1226,10 @@ namespace Authzed.Api.Materialize.V0 {
         output.WriteRawTag(8);
         output.WriteUInt32(Limit);
       }
+      if (optionalAtRevision_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(OptionalAtRevision);
+      }
       if (optionalStartingAfterCursor_ != null) {
         output.WriteRawTag(34);
         output.WriteMessage(OptionalStartingAfterCursor);
@@ -1145,6 +1248,10 @@ namespace Authzed.Api.Materialize.V0 {
         output.WriteRawTag(8);
         output.WriteUInt32(Limit);
       }
+      if (optionalAtRevision_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(OptionalAtRevision);
+      }
       if (optionalStartingAfterCursor_ != null) {
         output.WriteRawTag(34);
         output.WriteMessage(OptionalStartingAfterCursor);
@@ -1161,6 +1268,9 @@ namespace Authzed.Api.Materialize.V0 {
       int size = 0;
       if (Limit != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Limit);
+      }
+      if (optionalAtRevision_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OptionalAtRevision);
       }
       if (optionalStartingAfterCursor_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(OptionalStartingAfterCursor);
@@ -1180,6 +1290,12 @@ namespace Authzed.Api.Materialize.V0 {
       if (other.Limit != 0) {
         Limit = other.Limit;
       }
+      if (other.optionalAtRevision_ != null) {
+        if (optionalAtRevision_ == null) {
+          OptionalAtRevision = new global::Authzed.Api.V1.ZedToken();
+        }
+        OptionalAtRevision.MergeFrom(other.OptionalAtRevision);
+      }
       if (other.optionalStartingAfterCursor_ != null) {
         if (optionalStartingAfterCursor_ == null) {
           OptionalStartingAfterCursor = new global::Authzed.Api.Materialize.V0.Cursor();
@@ -1197,16 +1313,19 @@ namespace Authzed.Api.Materialize.V0 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
             Limit = input.ReadUInt32();
+            break;
+          }
+          case 18: {
+            if (optionalAtRevision_ == null) {
+              OptionalAtRevision = new global::Authzed.Api.V1.ZedToken();
+            }
+            input.ReadMessage(OptionalAtRevision);
             break;
           }
           case 34: {
@@ -1227,16 +1346,19 @@ namespace Authzed.Api.Materialize.V0 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
             Limit = input.ReadUInt32();
+            break;
+          }
+          case 18: {
+            if (optionalAtRevision_ == null) {
+              OptionalAtRevision = new global::Authzed.Api.V1.ZedToken();
+            }
+            input.ReadMessage(OptionalAtRevision);
             break;
           }
           case 34: {
@@ -1253,7 +1375,6 @@ namespace Authzed.Api.Materialize.V0 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class LookupPermissionSetsResponse : pb::IMessage<LookupPermissionSetsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1456,11 +1577,7 @@ namespace Authzed.Api.Materialize.V0 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1489,11 +1606,7 @@ namespace Authzed.Api.Materialize.V0 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1518,7 +1631,6 @@ namespace Authzed.Api.Materialize.V0 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class PermissionSetChange : pb::IMessage<PermissionSetChange>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1850,11 +1962,7 @@ namespace Authzed.Api.Materialize.V0 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1905,11 +2013,7 @@ namespace Authzed.Api.Materialize.V0 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1970,7 +2074,6 @@ namespace Authzed.Api.Materialize.V0 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SetReference : pb::IMessage<SetReference>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2193,11 +2296,7 @@ namespace Authzed.Api.Materialize.V0 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2224,11 +2323,7 @@ namespace Authzed.Api.Materialize.V0 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2251,7 +2346,6 @@ namespace Authzed.Api.Materialize.V0 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class MemberReference : pb::IMessage<MemberReference>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2474,11 +2568,7 @@ namespace Authzed.Api.Materialize.V0 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2505,11 +2595,7 @@ namespace Authzed.Api.Materialize.V0 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2535,9 +2621,8 @@ namespace Authzed.Api.Materialize.V0 {
   /// <summary>
   /// LookupPermissionSetsRequired is a signal that the consumer should perform a LookupPermissionSets call because
   /// the permission set snapshot needs to be rebuilt from scratch. This typically happens when the origin SpiceDB
-  /// cluster has seen its schema changed.
+  /// cluster has seen its schema changed, see BreakingSchemaChange event.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class LookupPermissionSetsRequired : pb::IMessage<LookupPermissionSetsRequired>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2699,11 +2784,7 @@ namespace Authzed.Api.Materialize.V0 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2725,11 +2806,7 @@ namespace Authzed.Api.Materialize.V0 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2738,6 +2815,212 @@ namespace Authzed.Api.Materialize.V0 {
               RequiredLookupAt = new global::Authzed.Api.V1.ZedToken();
             }
             input.ReadMessage(RequiredLookupAt);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// BreakingSchemaChange is used to signal a breaking schema change has happened, and that the consumer should
+  /// expect delays in the ingestion of new changes, because the permission set snapshot needs to be rebuilt from scratch.
+  /// Once the snapshot is ready, the consumer will receive a LookupPermissionSetsRequired event.
+  /// </summary>
+  public sealed partial class BreakingSchemaChange : pb::IMessage<BreakingSchemaChange>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BreakingSchemaChange> _parser = new pb::MessageParser<BreakingSchemaChange>(() => new BreakingSchemaChange());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<BreakingSchemaChange> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Authzed.Api.Materialize.V0.WatchpermissionsetsReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BreakingSchemaChange() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BreakingSchemaChange(BreakingSchemaChange other) : this() {
+      changeAt_ = other.changeAt_ != null ? other.changeAt_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BreakingSchemaChange Clone() {
+      return new BreakingSchemaChange(this);
+    }
+
+    /// <summary>Field number for the "change_at" field.</summary>
+    public const int ChangeAtFieldNumber = 1;
+    private global::Authzed.Api.V1.ZedToken changeAt_;
+    /// <summary>
+    /// change_at is the revision at which a breaking schema event has happened.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.ZedToken ChangeAt {
+      get { return changeAt_; }
+      set {
+        changeAt_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as BreakingSchemaChange);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(BreakingSchemaChange other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(ChangeAt, other.ChangeAt)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (changeAt_ != null) hash ^= ChangeAt.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (changeAt_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(ChangeAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (changeAt_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(ChangeAt);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (changeAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ChangeAt);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(BreakingSchemaChange other) {
+      if (other == null) {
+        return;
+      }
+      if (other.changeAt_ != null) {
+        if (changeAt_ == null) {
+          ChangeAt = new global::Authzed.Api.V1.ZedToken();
+        }
+        ChangeAt.MergeFrom(other.ChangeAt);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (changeAt_ == null) {
+              ChangeAt = new global::Authzed.Api.V1.ZedToken();
+            }
+            input.ReadMessage(ChangeAt);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (changeAt_ == null) {
+              ChangeAt = new global::Authzed.Api.V1.ZedToken();
+            }
+            input.ReadMessage(ChangeAt);
             break;
           }
         }

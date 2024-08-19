@@ -40,7 +40,7 @@ namespace Authzed.Api.V1 {
             "dGVzEkEKD2NoYW5nZXNfdGhyb3VnaBgCIAEoCzIYLmF1dGh6ZWQuYXBpLnYx",
             "LlplZFRva2VuUg5jaGFuZ2VzVGhyb3VnaDJsCgxXYXRjaFNlcnZpY2USXAoF",
             "V2F0Y2gSHC5hdXRoemVkLmFwaS52MS5XYXRjaFJlcXVlc3QaHS5hdXRoemVk",
-            "LmFwaS52MS5XYXRjaFJlc3BvbnNlIhSC0+STAg4iCS92MS93YXRjaDoBKjAB",
+            "LmFwaS52MS5XYXRjaFJlc3BvbnNlIhSC0+STAg46ASoiCS92MS93YXRjaDAB",
             "QkoKEmNvbS5hdXRoemVkLmFwaS52MVABWjJnaXRodWIuY29tL2F1dGh6ZWQv",
             "YXV0aHplZC1nby9wcm90by9hdXRoemVkL2FwaS92MWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
@@ -59,7 +59,6 @@ namespace Authzed.Api.V1 {
   /// watching mutations, and an optional start snapshot for when to start
   /// watching.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WatchRequest : pb::IMessage<WatchRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -275,11 +274,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -309,11 +304,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -345,7 +336,6 @@ namespace Authzed.Api.V1 {
   /// encoded in the watch response. The client can use the snapshot to resume
   /// watching where the previous watch response left off.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WatchResponse : pb::IMessage<WatchResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -522,11 +512,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -552,11 +538,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

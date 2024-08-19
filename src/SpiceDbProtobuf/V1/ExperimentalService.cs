@@ -201,48 +201,48 @@ namespace Authzed.Api.V1 {
             "ZUNoYW5nZWRCBgoEZGlmZjKqDwoTRXhwZXJpbWVudGFsU2VydmljZRKyAQoX",
             "QnVsa0ltcG9ydFJlbGF0aW9uc2hpcHMSLi5hdXRoemVkLmFwaS52MS5CdWxr",
             "SW1wb3J0UmVsYXRpb25zaGlwc1JlcXVlc3QaLy5hdXRoemVkLmFwaS52MS5C",
-            "dWxrSW1wb3J0UmVsYXRpb25zaGlwc1Jlc3BvbnNlIjSC0+STAi4iKS92MS9l",
-            "eHBlcmltZW50YWwvcmVsYXRpb25zaGlwcy9idWxraW1wb3J0OgEqKAESsgEK",
+            "dWxrSW1wb3J0UmVsYXRpb25zaGlwc1Jlc3BvbnNlIjSC0+STAi46ASoiKS92",
+            "MS9leHBlcmltZW50YWwvcmVsYXRpb25zaGlwcy9idWxraW1wb3J0KAESsgEK",
             "F0J1bGtFeHBvcnRSZWxhdGlvbnNoaXBzEi4uYXV0aHplZC5hcGkudjEuQnVs",
             "a0V4cG9ydFJlbGF0aW9uc2hpcHNSZXF1ZXN0Gi8uYXV0aHplZC5hcGkudjEu",
-            "QnVsa0V4cG9ydFJlbGF0aW9uc2hpcHNSZXNwb25zZSI0gtPkkwIuIikvdjEv",
-            "ZXhwZXJpbWVudGFsL3JlbGF0aW9uc2hpcHMvYnVsa2V4cG9ydDoBKjABEq4B",
+            "QnVsa0V4cG9ydFJlbGF0aW9uc2hpcHNSZXNwb25zZSI0gtPkkwIuOgEqIikv",
+            "djEvZXhwZXJpbWVudGFsL3JlbGF0aW9uc2hpcHMvYnVsa2V4cG9ydDABEq4B",
             "ChNCdWxrQ2hlY2tQZXJtaXNzaW9uEiouYXV0aHplZC5hcGkudjEuQnVsa0No",
             "ZWNrUGVybWlzc2lvblJlcXVlc3QaKy5hdXRoemVkLmFwaS52MS5CdWxrQ2hl",
-            "Y2tQZXJtaXNzaW9uUmVzcG9uc2UiPogCAYLT5JMCNSIwL3YxL2V4cGVyaW1l",
-            "bnRhbC9wZXJtaXNzaW9ucy9idWxrY2hlY2twZXJtaXNzaW9uOgEqEqsBChlF",
+            "Y2tQZXJtaXNzaW9uUmVzcG9uc2UiPogCAYLT5JMCNToBKiIwL3YxL2V4cGVy",
+            "aW1lbnRhbC9wZXJtaXNzaW9ucy9idWxrY2hlY2twZXJtaXNzaW9uEqsBChlF",
             "eHBlcmltZW50YWxSZWZsZWN0U2NoZW1hEjAuYXV0aHplZC5hcGkudjEuRXhw",
             "ZXJpbWVudGFsUmVmbGVjdFNjaGVtYVJlcXVlc3QaMS5hdXRoemVkLmFwaS52",
-            "MS5FeHBlcmltZW50YWxSZWZsZWN0U2NoZW1hUmVzcG9uc2UiKYLT5JMCIyIe",
-            "L3YxL2V4cGVyaW1lbnRhbC9yZWZsZWN0c2NoZW1hOgEqEswBCiFFeHBlcmlt",
+            "MS5FeHBlcmltZW50YWxSZWZsZWN0U2NoZW1hUmVzcG9uc2UiKYLT5JMCIzoB",
+            "KiIeL3YxL2V4cGVyaW1lbnRhbC9yZWZsZWN0c2NoZW1hEswBCiFFeHBlcmlt",
             "ZW50YWxDb21wdXRhYmxlUGVybWlzc2lvbnMSOC5hdXRoemVkLmFwaS52MS5F",
             "eHBlcmltZW50YWxDb21wdXRhYmxlUGVybWlzc2lvbnNSZXF1ZXN0GjkuYXV0",
             "aHplZC5hcGkudjEuRXhwZXJpbWVudGFsQ29tcHV0YWJsZVBlcm1pc3Npb25z",
-            "UmVzcG9uc2UiMoLT5JMCLCInL3YxL2V4cGVyaW1lbnRhbC9wZXJtaXNzaW9u",
-            "cy9jb21wdXRhYmxlOgEqEsIBCh5FeHBlcmltZW50YWxEZXBlbmRlbnRSZWxh",
+            "UmVzcG9uc2UiMoLT5JMCLDoBKiInL3YxL2V4cGVyaW1lbnRhbC9wZXJtaXNz",
+            "aW9ucy9jb21wdXRhYmxlEsIBCh5FeHBlcmltZW50YWxEZXBlbmRlbnRSZWxh",
             "dGlvbnMSNS5hdXRoemVkLmFwaS52MS5FeHBlcmltZW50YWxEZXBlbmRlbnRS",
             "ZWxhdGlvbnNSZXF1ZXN0GjYuYXV0aHplZC5hcGkudjEuRXhwZXJpbWVudGFs",
-            "RGVwZW5kZW50UmVsYXRpb25zUmVzcG9uc2UiMYLT5JMCKyImL3YxL2V4cGVy",
-            "aW1lbnRhbC9wZXJtaXNzaW9ucy9kZXBlbmRlbnQ6ASoSnwEKFkV4cGVyaW1l",
+            "RGVwZW5kZW50UmVsYXRpb25zUmVzcG9uc2UiMYLT5JMCKzoBKiImL3YxL2V4",
+            "cGVyaW1lbnRhbC9wZXJtaXNzaW9ucy9kZXBlbmRlbnQSnwEKFkV4cGVyaW1l",
             "bnRhbERpZmZTY2hlbWESLS5hdXRoemVkLmFwaS52MS5FeHBlcmltZW50YWxE",
             "aWZmU2NoZW1hUmVxdWVzdBouLmF1dGh6ZWQuYXBpLnYxLkV4cGVyaW1lbnRh",
-            "bERpZmZTY2hlbWFSZXNwb25zZSImgtPkkwIgIhsvdjEvZXhwZXJpbWVudGFs",
-            "L2RpZmZzY2hlbWE6ASoS4wEKJ0V4cGVyaW1lbnRhbFJlZ2lzdGVyUmVsYXRp",
+            "bERpZmZTY2hlbWFSZXNwb25zZSImgtPkkwIgOgEqIhsvdjEvZXhwZXJpbWVu",
+            "dGFsL2RpZmZzY2hlbWES4wEKJ0V4cGVyaW1lbnRhbFJlZ2lzdGVyUmVsYXRp",
             "b25zaGlwQ291bnRlchI+LmF1dGh6ZWQuYXBpLnYxLkV4cGVyaW1lbnRhbFJl",
             "Z2lzdGVyUmVsYXRpb25zaGlwQ291bnRlclJlcXVlc3QaPy5hdXRoemVkLmFw",
             "aS52MS5FeHBlcmltZW50YWxSZWdpc3RlclJlbGF0aW9uc2hpcENvdW50ZXJS",
-            "ZXNwb25zZSI3gtPkkwIxIiwvdjEvZXhwZXJpbWVudGFsL3JlZ2lzdGVycmVs",
-            "YXRpb25zaGlwY291bnRlcjoBKhK/AQoeRXhwZXJpbWVudGFsQ291bnRSZWxh",
+            "ZXNwb25zZSI3gtPkkwIxOgEqIiwvdjEvZXhwZXJpbWVudGFsL3JlZ2lzdGVy",
+            "cmVsYXRpb25zaGlwY291bnRlchK/AQoeRXhwZXJpbWVudGFsQ291bnRSZWxh",
             "dGlvbnNoaXBzEjUuYXV0aHplZC5hcGkudjEuRXhwZXJpbWVudGFsQ291bnRS",
             "ZWxhdGlvbnNoaXBzUmVxdWVzdBo2LmF1dGh6ZWQuYXBpLnYxLkV4cGVyaW1l",
-            "bnRhbENvdW50UmVsYXRpb25zaGlwc1Jlc3BvbnNlIi6C0+STAigiIy92MS9l",
-            "eHBlcmltZW50YWwvY291bnRyZWxhdGlvbnNoaXBzOgEqEusBCilFeHBlcmlt",
+            "bnRhbENvdW50UmVsYXRpb25zaGlwc1Jlc3BvbnNlIi6C0+STAig6ASoiIy92",
+            "MS9leHBlcmltZW50YWwvY291bnRyZWxhdGlvbnNoaXBzEusBCilFeHBlcmlt",
             "ZW50YWxVbnJlZ2lzdGVyUmVsYXRpb25zaGlwQ291bnRlchJALmF1dGh6ZWQu",
             "YXBpLnYxLkV4cGVyaW1lbnRhbFVucmVnaXN0ZXJSZWxhdGlvbnNoaXBDb3Vu",
             "dGVyUmVxdWVzdBpBLmF1dGh6ZWQuYXBpLnYxLkV4cGVyaW1lbnRhbFVucmVn",
-            "aXN0ZXJSZWxhdGlvbnNoaXBDb3VudGVyUmVzcG9uc2UiOYLT5JMCMyIuL3Yx",
-            "L2V4cGVyaW1lbnRhbC91bnJlZ2lzdGVycmVsYXRpb25zaGlwY291bnRlcjoB",
-            "KkJKChJjb20uYXV0aHplZC5hcGkudjFQAVoyZ2l0aHViLmNvbS9hdXRoemVk",
+            "aXN0ZXJSZWxhdGlvbnNoaXBDb3VudGVyUmVzcG9uc2UiOYLT5JMCMzoBKiIu",
+            "L3YxL2V4cGVyaW1lbnRhbC91bnJlZ2lzdGVycmVsYXRpb25zaGlwY291bnRl",
+            "ckJKChJjb20uYXV0aHplZC5hcGkudjFQAVoyZ2l0aHViLmNvbS9hdXRoemVk",
             "L2F1dGh6ZWQtZ28vcHJvdG8vYXV0aHplZC9hcGkvdjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, global::Authzed.Api.V1.CoreReflection.Descriptor, global::Authzed.Api.V1.PermissionServiceReflection.Descriptor, },
@@ -288,7 +288,6 @@ namespace Authzed.Api.V1 {
 
   }
   #region Messages
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalRegisterRelationshipCounterRequest : pb::IMessage<ExperimentalRegisterRelationshipCounterRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -483,11 +482,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -513,11 +508,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -539,7 +530,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalRegisterRelationshipCounterResponse : pb::IMessage<ExperimentalRegisterRelationshipCounterResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -666,11 +656,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -685,11 +671,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -700,7 +682,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalCountRelationshipsRequest : pb::IMessage<ExperimentalCountRelationshipsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -859,11 +840,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -882,11 +859,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -901,7 +874,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalCountRelationshipsResponse : pb::IMessage<ExperimentalCountRelationshipsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -962,24 +934,10 @@ namespace Authzed.Api.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool CounterStillCalculating {
-      get { return HasCounterStillCalculating ? (bool) counterResult_ : false; }
+      get { return counterResultCase_ == CounterResultOneofCase.CounterStillCalculating ? (bool) counterResult_ : false; }
       set {
         counterResult_ = value;
         counterResultCase_ = CounterResultOneofCase.CounterStillCalculating;
-      }
-    }
-    /// <summary>Gets whether the "counter_still_calculating" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasCounterStillCalculating {
-      get { return counterResultCase_ == CounterResultOneofCase.CounterStillCalculating; }
-    }
-    /// <summary> Clears the value of the oneof if it's currently set to "counter_still_calculating" </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearCounterStillCalculating() {
-      if (HasCounterStillCalculating) {
-        ClearCounterResult();
       }
     }
 
@@ -1044,7 +1002,7 @@ namespace Authzed.Api.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (HasCounterStillCalculating) hash ^= CounterStillCalculating.GetHashCode();
+      if (counterResultCase_ == CounterResultOneofCase.CounterStillCalculating) hash ^= CounterStillCalculating.GetHashCode();
       if (counterResultCase_ == CounterResultOneofCase.ReadCounterValue) hash ^= ReadCounterValue.GetHashCode();
       hash ^= (int) counterResultCase_;
       if (_unknownFields != null) {
@@ -1065,7 +1023,7 @@ namespace Authzed.Api.V1 {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (HasCounterStillCalculating) {
+      if (counterResultCase_ == CounterResultOneofCase.CounterStillCalculating) {
         output.WriteRawTag(8);
         output.WriteBool(CounterStillCalculating);
       }
@@ -1083,7 +1041,7 @@ namespace Authzed.Api.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (HasCounterStillCalculating) {
+      if (counterResultCase_ == CounterResultOneofCase.CounterStillCalculating) {
         output.WriteRawTag(8);
         output.WriteBool(CounterStillCalculating);
       }
@@ -1101,7 +1059,7 @@ namespace Authzed.Api.V1 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (HasCounterStillCalculating) {
+      if (counterResultCase_ == CounterResultOneofCase.CounterStillCalculating) {
         size += 1 + 1;
       }
       if (counterResultCase_ == CounterResultOneofCase.ReadCounterValue) {
@@ -1142,11 +1100,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1174,11 +1128,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1202,7 +1152,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ReadCounterValue : pb::IMessage<ReadCounterValue>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1396,11 +1345,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1426,11 +1371,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1452,7 +1393,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalUnregisterRelationshipCounterRequest : pb::IMessage<ExperimentalUnregisterRelationshipCounterRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1611,11 +1551,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1634,11 +1570,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1653,7 +1585,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalUnregisterRelationshipCounterResponse : pb::IMessage<ExperimentalUnregisterRelationshipCounterResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1780,11 +1711,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1799,11 +1726,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1817,7 +1740,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// NOTE: Deprecated now that BulkCheckPermission has been promoted to the stable API as "CheckBulkPermission".
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkCheckPermissionRequest : pb::IMessage<BulkCheckPermissionRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1995,11 +1917,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2025,11 +1943,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2051,7 +1965,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkCheckPermissionRequestItem : pb::IMessage<BulkCheckPermissionRequestItem>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2303,11 +2216,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2347,11 +2256,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2387,7 +2292,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkCheckPermissionResponse : pb::IMessage<BulkCheckPermissionResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2564,11 +2468,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2594,11 +2494,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2620,7 +2516,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkCheckPermissionPair : pb::IMessage<BulkCheckPermissionPair>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2876,11 +2771,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2920,11 +2811,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2960,7 +2847,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkCheckPermissionResponseItem : pb::IMessage<BulkCheckPermissionResponseItem>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3148,11 +3034,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3178,11 +3060,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3210,7 +3088,6 @@ namespace Authzed.Api.V1 {
   /// datastore, and optimal size should be determined by the calling client
   /// experimentally.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkImportRelationshipsRequest : pb::IMessage<BulkImportRelationshipsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3355,11 +3232,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3378,11 +3251,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3401,7 +3270,6 @@ namespace Authzed.Api.V1 {
   /// BulkImportRelationshipsResponse is returned on successful completion of the
   /// bulk load stream, and contains the total number of relationships loaded.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkImportRelationshipsResponse : pb::IMessage<BulkImportRelationshipsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3557,11 +3425,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3580,11 +3444,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3603,7 +3463,6 @@ namespace Authzed.Api.V1 {
   /// BulkExportRelationshipsRequest represents a resumable request for
   /// all relationships from the server.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkExportRelationshipsRequest : pb::IMessage<BulkExportRelationshipsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3870,11 +3729,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3914,11 +3769,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3960,7 +3811,6 @@ namespace Authzed.Api.V1 {
   /// server will continue to stream back relationship groups as quickly as it can
   /// until all relationships have been transmitted back.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkExportRelationshipsResponse : pb::IMessage<BulkExportRelationshipsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4137,11 +3987,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4167,11 +4013,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4193,7 +4035,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalReflectSchemaRequest : pb::IMessage<ExperimentalReflectSchemaRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4374,11 +4215,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4404,11 +4241,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4430,7 +4263,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalReflectSchemaResponse : pb::IMessage<ExperimentalReflectSchemaResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4634,11 +4466,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4668,11 +4496,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4701,7 +4525,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ExpSchemaFilter is a filter that can be applied to the schema on reflection.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExpSchemaFilter : pb::IMessage<ExpSchemaFilter>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4956,11 +4779,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4991,11 +4810,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5025,7 +4840,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ExpDefinition is the representation of a definition in the schema.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExpDefinition : pb::IMessage<ExpDefinition>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5250,11 +5064,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5285,11 +5095,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5319,7 +5125,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ExpCaveat is the representation of a caveat in the schema.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExpCaveat : pb::IMessage<ExpCaveat>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5555,11 +5360,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5590,11 +5391,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5624,7 +5421,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ExpCaveatParameter is the representation of a parameter in a caveat.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExpCaveatParameter : pb::IMessage<ExpCaveatParameter>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5842,11 +5638,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5873,11 +5665,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5903,7 +5691,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ExpRelation is the representation of a relation in the schema.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExpRelation : pb::IMessage<ExpRelation>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6135,11 +5922,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6170,11 +5953,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6204,7 +5983,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ExpTypeReference is the representation of a type reference in the schema.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExpTypeReference : pb::IMessage<ExpTypeReference>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6300,24 +6078,10 @@ namespace Authzed.Api.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool IsTerminalSubject {
-      get { return HasIsTerminalSubject ? (bool) typeref_ : false; }
+      get { return typerefCase_ == TyperefOneofCase.IsTerminalSubject ? (bool) typeref_ : false; }
       set {
         typeref_ = value;
         typerefCase_ = TyperefOneofCase.IsTerminalSubject;
-      }
-    }
-    /// <summary>Gets whether the "is_terminal_subject" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIsTerminalSubject {
-      get { return typerefCase_ == TyperefOneofCase.IsTerminalSubject; }
-    }
-    /// <summary> Clears the value of the oneof if it's currently set to "is_terminal_subject" </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIsTerminalSubject() {
-      if (HasIsTerminalSubject) {
-        ClearTyperef();
       }
     }
 
@@ -6329,24 +6093,10 @@ namespace Authzed.Api.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string OptionalRelationName {
-      get { return HasOptionalRelationName ? (string) typeref_ : ""; }
+      get { return typerefCase_ == TyperefOneofCase.OptionalRelationName ? (string) typeref_ : ""; }
       set {
         typeref_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         typerefCase_ = TyperefOneofCase.OptionalRelationName;
-      }
-    }
-    /// <summary>Gets whether the "optional_relation_name" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasOptionalRelationName {
-      get { return typerefCase_ == TyperefOneofCase.OptionalRelationName; }
-    }
-    /// <summary> Clears the value of the oneof if it's currently set to "optional_relation_name" </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearOptionalRelationName() {
-      if (HasOptionalRelationName) {
-        ClearTyperef();
       }
     }
 
@@ -6358,24 +6108,10 @@ namespace Authzed.Api.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool IsPublicWildcard {
-      get { return HasIsPublicWildcard ? (bool) typeref_ : false; }
+      get { return typerefCase_ == TyperefOneofCase.IsPublicWildcard ? (bool) typeref_ : false; }
       set {
         typeref_ = value;
         typerefCase_ = TyperefOneofCase.IsPublicWildcard;
-      }
-    }
-    /// <summary>Gets whether the "is_public_wildcard" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasIsPublicWildcard {
-      get { return typerefCase_ == TyperefOneofCase.IsPublicWildcard; }
-    }
-    /// <summary> Clears the value of the oneof if it's currently set to "is_public_wildcard" </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearIsPublicWildcard() {
-      if (HasIsPublicWildcard) {
-        ClearTyperef();
       }
     }
 
@@ -6431,9 +6167,9 @@ namespace Authzed.Api.V1 {
       int hash = 1;
       if (SubjectDefinitionName.Length != 0) hash ^= SubjectDefinitionName.GetHashCode();
       if (OptionalCaveatName.Length != 0) hash ^= OptionalCaveatName.GetHashCode();
-      if (HasIsTerminalSubject) hash ^= IsTerminalSubject.GetHashCode();
-      if (HasOptionalRelationName) hash ^= OptionalRelationName.GetHashCode();
-      if (HasIsPublicWildcard) hash ^= IsPublicWildcard.GetHashCode();
+      if (typerefCase_ == TyperefOneofCase.IsTerminalSubject) hash ^= IsTerminalSubject.GetHashCode();
+      if (typerefCase_ == TyperefOneofCase.OptionalRelationName) hash ^= OptionalRelationName.GetHashCode();
+      if (typerefCase_ == TyperefOneofCase.IsPublicWildcard) hash ^= IsPublicWildcard.GetHashCode();
       hash ^= (int) typerefCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -6461,15 +6197,15 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(18);
         output.WriteString(OptionalCaveatName);
       }
-      if (HasIsTerminalSubject) {
+      if (typerefCase_ == TyperefOneofCase.IsTerminalSubject) {
         output.WriteRawTag(24);
         output.WriteBool(IsTerminalSubject);
       }
-      if (HasOptionalRelationName) {
+      if (typerefCase_ == TyperefOneofCase.OptionalRelationName) {
         output.WriteRawTag(34);
         output.WriteString(OptionalRelationName);
       }
-      if (HasIsPublicWildcard) {
+      if (typerefCase_ == TyperefOneofCase.IsPublicWildcard) {
         output.WriteRawTag(40);
         output.WriteBool(IsPublicWildcard);
       }
@@ -6491,15 +6227,15 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(18);
         output.WriteString(OptionalCaveatName);
       }
-      if (HasIsTerminalSubject) {
+      if (typerefCase_ == TyperefOneofCase.IsTerminalSubject) {
         output.WriteRawTag(24);
         output.WriteBool(IsTerminalSubject);
       }
-      if (HasOptionalRelationName) {
+      if (typerefCase_ == TyperefOneofCase.OptionalRelationName) {
         output.WriteRawTag(34);
         output.WriteString(OptionalRelationName);
       }
-      if (HasIsPublicWildcard) {
+      if (typerefCase_ == TyperefOneofCase.IsPublicWildcard) {
         output.WriteRawTag(40);
         output.WriteBool(IsPublicWildcard);
       }
@@ -6519,13 +6255,13 @@ namespace Authzed.Api.V1 {
       if (OptionalCaveatName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(OptionalCaveatName);
       }
-      if (HasIsTerminalSubject) {
+      if (typerefCase_ == TyperefOneofCase.IsTerminalSubject) {
         size += 1 + 1;
       }
-      if (HasOptionalRelationName) {
+      if (typerefCase_ == TyperefOneofCase.OptionalRelationName) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(OptionalRelationName);
       }
-      if (HasIsPublicWildcard) {
+      if (typerefCase_ == TyperefOneofCase.IsPublicWildcard) {
         size += 1 + 1;
       }
       if (_unknownFields != null) {
@@ -6569,11 +6305,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6608,11 +6340,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6646,7 +6374,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ExpPermission is the representation of a permission in the schema.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExpPermission : pb::IMessage<ExpPermission>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6864,11 +6591,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6895,11 +6618,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6922,7 +6641,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalComputablePermissionsRequest : pb::IMessage<ExperimentalComputablePermissionsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7173,11 +6891,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7211,11 +6925,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7248,7 +6958,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ExpRelationReference is a reference to a relation or permission in the schema.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExpRelationReference : pb::IMessage<ExpRelationReference>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7462,11 +7171,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7493,11 +7198,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7520,7 +7221,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalComputablePermissionsResponse : pb::IMessage<ExperimentalComputablePermissionsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7700,11 +7400,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -7730,11 +7426,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -7756,7 +7448,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalDependentRelationsRequest : pb::IMessage<ExperimentalDependentRelationsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -7973,11 +7664,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8007,11 +7694,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8037,7 +7720,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalDependentRelationsResponse : pb::IMessage<ExperimentalDependentRelationsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8217,11 +7899,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8247,11 +7925,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8273,7 +7947,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalDiffSchemaRequest : pb::IMessage<ExperimentalDiffSchemaRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8461,11 +8134,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8491,11 +8160,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8517,7 +8182,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExperimentalDiffSchemaResponse : pb::IMessage<ExperimentalDiffSchemaResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8697,11 +8361,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8727,11 +8387,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -8753,7 +8409,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExpRelationSubjectTypeChange : pb::IMessage<ExpRelationSubjectTypeChange>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -8944,11 +8599,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -8977,11 +8628,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9006,7 +8653,6 @@ namespace Authzed.Api.V1 {
 
   }
 
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExpCaveatParameterTypeChange : pb::IMessage<ExpCaveatParameterTypeChange>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9194,11 +8840,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -9224,11 +8866,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -9253,7 +8891,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ExpSchemaDiff is the representation of a diff between two schemas.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExpSchemaDiff : pb::IMessage<ExpSchemaDiff>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -10072,11 +9709,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -10262,11 +9895,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

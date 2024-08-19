@@ -84,7 +84,6 @@ namespace Authzed.Api.V1 {
   ///
   /// See the github.com/authzed/authzed-go project for the specific header and footer names.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DebugInformation : pb::IMessage<DebugInformation>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -278,11 +277,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -308,11 +303,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -338,7 +329,6 @@ namespace Authzed.Api.V1 {
   /// CheckDebugTrace is a recursive trace of the requests made for resolving a CheckPermission
   /// API call.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CheckDebugTrace : pb::IMessage<CheckDebugTrace>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -512,24 +502,10 @@ namespace Authzed.Api.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public bool WasCachedResult {
-      get { return HasWasCachedResult ? (bool) resolution_ : false; }
+      get { return resolutionCase_ == ResolutionOneofCase.WasCachedResult ? (bool) resolution_ : false; }
       set {
         resolution_ = value;
         resolutionCase_ = ResolutionOneofCase.WasCachedResult;
-      }
-    }
-    /// <summary>Gets whether the "was_cached_result" field is set</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool HasWasCachedResult {
-      get { return resolutionCase_ == ResolutionOneofCase.WasCachedResult; }
-    }
-    /// <summary> Clears the value of the oneof if it's currently set to "was_cached_result" </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void ClearWasCachedResult() {
-      if (HasWasCachedResult) {
-        ClearResolution();
       }
     }
 
@@ -609,7 +585,7 @@ namespace Authzed.Api.V1 {
       if (Result != global::Authzed.Api.V1.CheckDebugTrace.Types.Permissionship.Unspecified) hash ^= Result.GetHashCode();
       if (caveatEvaluationInfo_ != null) hash ^= CaveatEvaluationInfo.GetHashCode();
       if (duration_ != null) hash ^= Duration.GetHashCode();
-      if (HasWasCachedResult) hash ^= WasCachedResult.GetHashCode();
+      if (resolutionCase_ == ResolutionOneofCase.WasCachedResult) hash ^= WasCachedResult.GetHashCode();
       if (resolutionCase_ == ResolutionOneofCase.SubProblems) hash ^= SubProblems.GetHashCode();
       hash ^= (int) resolutionCase_;
       if (_unknownFields != null) {
@@ -650,7 +626,7 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(40);
         output.WriteEnum((int) Result);
       }
-      if (HasWasCachedResult) {
+      if (resolutionCase_ == ResolutionOneofCase.WasCachedResult) {
         output.WriteRawTag(48);
         output.WriteBool(WasCachedResult);
       }
@@ -696,7 +672,7 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(40);
         output.WriteEnum((int) Result);
       }
-      if (HasWasCachedResult) {
+      if (resolutionCase_ == ResolutionOneofCase.WasCachedResult) {
         output.WriteRawTag(48);
         output.WriteBool(WasCachedResult);
       }
@@ -743,7 +719,7 @@ namespace Authzed.Api.V1 {
       if (duration_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Duration);
       }
-      if (HasWasCachedResult) {
+      if (resolutionCase_ == ResolutionOneofCase.WasCachedResult) {
         size += 1 + 1;
       }
       if (resolutionCase_ == ResolutionOneofCase.SubProblems) {
@@ -817,11 +793,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -889,11 +861,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -973,7 +941,6 @@ namespace Authzed.Api.V1 {
         [pbr::OriginalName("PERMISSIONSHIP_CONDITIONAL_PERMISSION")] ConditionalPermission = 3,
       }
 
-      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class SubProblems : pb::IMessage<SubProblems>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -1118,11 +1085,7 @@ namespace Authzed.Api.V1 {
         #else
           uint tag;
           while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
+            switch(tag) {
               default:
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
                 break;
@@ -1141,11 +1104,7 @@ namespace Authzed.Api.V1 {
         void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
           uint tag;
           while ((tag = input.ReadTag()) != 0) {
-          if ((tag & 7) == 4) {
-            // Abort on any end group tag.
-            return;
-          }
-          switch(tag) {
+            switch(tag) {
               default:
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
                 break;
@@ -1168,7 +1127,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// CaveatEvalInfo holds information about a caveat expression that was evaluated.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CaveatEvalInfo : pb::IMessage<CaveatEvalInfo>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1461,11 +1419,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1506,11 +1460,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

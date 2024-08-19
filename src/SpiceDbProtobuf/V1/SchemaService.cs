@@ -35,10 +35,10 @@ namespace Authzed.Api.V1 {
             "dHRlbl9hdBgBIAEoCzIYLmF1dGh6ZWQuYXBpLnYxLlplZFRva2VuQgj6QgWK",
             "AQIQAVIJd3JpdHRlbkF0MvUBCg1TY2hlbWFTZXJ2aWNlEm8KClJlYWRTY2hl",
             "bWESIS5hdXRoemVkLmFwaS52MS5SZWFkU2NoZW1hUmVxdWVzdBoiLmF1dGh6",
-            "ZWQuYXBpLnYxLlJlYWRTY2hlbWFSZXNwb25zZSIagtPkkwIUIg8vdjEvc2No",
-            "ZW1hL3JlYWQ6ASoScwoLV3JpdGVTY2hlbWESIi5hdXRoemVkLmFwaS52MS5X",
+            "ZWQuYXBpLnYxLlJlYWRTY2hlbWFSZXNwb25zZSIagtPkkwIUOgEqIg8vdjEv",
+            "c2NoZW1hL3JlYWQScwoLV3JpdGVTY2hlbWESIi5hdXRoemVkLmFwaS52MS5X",
             "cml0ZVNjaGVtYVJlcXVlc3QaIy5hdXRoemVkLmFwaS52MS5Xcml0ZVNjaGVt",
-            "YVJlc3BvbnNlIhuC0+STAhUiEC92MS9zY2hlbWEvd3JpdGU6ASpCSgoSY29t",
+            "YVJlc3BvbnNlIhuC0+STAhU6ASoiEC92MS9zY2hlbWEvd3JpdGVCSgoSY29t",
             "LmF1dGh6ZWQuYXBpLnYxUAFaMmdpdGh1Yi5jb20vYXV0aHplZC9hdXRoemVk",
             "LWdvL3Byb3RvL2F1dGh6ZWQvYXBpL3YxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
@@ -57,7 +57,6 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ReadSchemaRequest returns the schema from the database.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ReadSchemaRequest : pb::IMessage<ReadSchemaRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -184,11 +183,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -203,11 +198,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -222,7 +213,6 @@ namespace Authzed.Api.V1 {
   /// ReadSchemaResponse is the resulting data after having read the Object
   /// Definitions from a Schema.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ReadSchemaResponse : pb::IMessage<ReadSchemaResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -416,11 +406,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -446,11 +432,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -476,7 +458,6 @@ namespace Authzed.Api.V1 {
   /// WriteSchemaRequest is the required data used to "upsert" the Schema of a
   /// Permissions System.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WriteSchemaRequest : pb::IMessage<WriteSchemaRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -636,11 +617,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -659,11 +636,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -682,7 +655,6 @@ namespace Authzed.Api.V1 {
   /// WriteSchemaResponse is the resulting data after having written a Schema to
   /// a Permissions System.
   /// </summary>
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WriteSchemaResponse : pb::IMessage<WriteSchemaResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -844,11 +816,7 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -870,11 +838,7 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
+        switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

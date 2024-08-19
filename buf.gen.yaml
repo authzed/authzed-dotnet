@@ -1,5 +1,3 @@
-#!/usr/bin/env -S buf generate buf.build/authzed/api:v1.34.0 --template
----
 version: "v2"
 plugins:
   - protoc_builtin: "csharp"
@@ -8,3 +6,5 @@ plugins:
   - local: "grpc_csharp_plugin"
     out: "src/SpiceDbProtobuf"
     opt: "base_namespace=Authzed.Api"
+inputs:
+  - module: buf.build/authzed/api:v1.35.0

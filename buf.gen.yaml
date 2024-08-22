@@ -1,10 +1,14 @@
 version: "v2"
 plugins:
   - protoc_builtin: "csharp"
-    out: "src/SpiceDbProtobuf"
+    out: "src/Authzed.Net"
     opt: "base_namespace=Authzed.Api"
-  - local: "grpc_csharp_plugin"
-    out: "src/SpiceDbProtobuf"
+    # TODO: this is arch-specific and may be host-specific as well (in terms of where .nuget is)
+    # NOTE: part of the reason this is a pain is that the csharp ecosystem expects you to use
+    # the dotnet toolchain from top-to-bottom to compile protoc, so feeding things through buf
+    # and using a local plugin isn't in their use case.
+  - local: "/home/tstirrat/.nuget/packages/grpc.tools/2.65.0/tools/linux_x64/grpc_csharp_plugin"
+    out: "src/Authzed.Net"
     opt: "base_namespace=Authzed.Api"
 inputs:
   - module: buf.build/authzed/api:v1.35.0

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "AwP50RJIdBAqM5Jvm/YloIQt2MbWx0vDIKX+NON+qaHHlcgPA4pJFyd5VCTQDHDyjB9uH0BFrbCzdgFdU9zXNw==",
+  "success": true,
+  "projectFilePath": "/home/tstirrat/authzed/authzed-dotnet/src/Authzed.Net/Authzed.Net.csproj",
+  "expectedPackageFiles": [
+    "/home/tstirrat/.nuget/packages/google.protobuf/3.27.3/google.protobuf.3.27.3.nupkg.sha512",
+    "/home/tstirrat/.nuget/packages/grpc.core/2.46.6/grpc.core.2.46.6.nupkg.sha512",
+    "/home/tstirrat/.nuget/packages/grpc.core.api/2.46.6/grpc.core.api.2.46.6.nupkg.sha512",
+    "/home/tstirrat/.nuget/packages/grpc.tools/2.65.0/grpc.tools.2.65.0.nupkg.sha512",
+    "/home/tstirrat/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

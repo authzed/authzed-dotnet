@@ -79,40 +79,6 @@ namespace Authzed.Api.V1 {
       get { return global::Authzed.Api.V1.SchemaServiceReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of SchemaService</summary>
-    [grpc::BindServiceMethod(typeof(SchemaService), "BindService")]
-    public abstract partial class SchemaServiceBase
-    {
-      /// <summary>
-      /// Read returns the current Object Definitions for a Permissions System.
-      ///
-      /// Errors include:
-      /// - INVALID_ARGUMENT: a provided value has failed to semantically validate
-      /// - NOT_FOUND: no schema has been defined
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Authzed.Api.V1.ReadSchemaResponse> ReadSchema(global::Authzed.Api.V1.ReadSchemaRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      /// <summary>
-      /// Write overwrites the current Object Definitions for a Permissions System.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Authzed.Api.V1.WriteSchemaResponse> WriteSchema(global::Authzed.Api.V1.WriteSchemaRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
     /// <summary>Client for SchemaService</summary>
     public partial class SchemaServiceClient : grpc::ClientBase<SchemaServiceClient>
     {
@@ -258,27 +224,6 @@ namespace Authzed.Api.V1 {
       {
         return new SchemaServiceClient(configuration);
       }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(SchemaServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_ReadSchema, serviceImpl.ReadSchema)
-          .AddMethod(__Method_WriteSchema, serviceImpl.WriteSchema).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, SchemaServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_ReadSchema, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Authzed.Api.V1.ReadSchemaRequest, global::Authzed.Api.V1.ReadSchemaResponse>(serviceImpl.ReadSchema));
-      serviceBinder.AddMethod(__Method_WriteSchema, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Authzed.Api.V1.WriteSchemaRequest, global::Authzed.Api.V1.WriteSchemaResponse>(serviceImpl.WriteSchema));
     }
 
   }

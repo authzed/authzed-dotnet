@@ -64,39 +64,6 @@ namespace Authzed.Api.Materialize.V0 {
       get { return global::Authzed.Api.Materialize.V0.WatchpermissionsReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of WatchPermissionsService</summary>
-    [grpc::BindServiceMethod(typeof(WatchPermissionsService), "BindService")]
-    public abstract partial class WatchPermissionsServiceBase
-    {
-      /// <summary>
-      /// WatchPermissions returns a stream of PermissionChange events for the given permissions.
-      ///
-      /// WatchPermissions is a long-running RPC, and will stream events until the client
-      /// closes the connection or the server terminates the stream. The consumer is responsible of
-      /// keeping track of the last seen revision and resuming the stream from that point in the event
-      /// of disconnection or client-side restarts.
-      ///
-      /// The API does not offer a sharding mechanism and thus there should only be one consumer per target system.
-      /// Implementing an active-active HA consumer setup over the same target system will require coordinating which
-      /// revisions have been consumed in order to prevent transitioning to an inconsistent state.
-      ///
-      /// Usage of WatchPermissions requires to be explicitly enabled on the service, including the permissions to be
-      /// watched. It requires more resources and is less performant than WatchPermissionsSets. It's usage
-      /// is only recommended when performing the set intersections of WatchPermissionSets in the client side is not viable
-      /// or there is a strict application requirement to use consume the computed permissions.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="responseStream">Used for sending responses back to the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>A task indicating completion of the handler.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task WatchPermissions(global::Authzed.Api.Materialize.V0.WatchPermissionsRequest request, grpc::IServerStreamWriter<global::Authzed.Api.Materialize.V0.WatchPermissionsResponse> responseStream, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
     /// <summary>Client for WatchPermissionsService</summary>
     public partial class WatchPermissionsServiceClient : grpc::ClientBase<WatchPermissionsServiceClient>
     {
@@ -182,25 +149,6 @@ namespace Authzed.Api.Materialize.V0 {
       {
         return new WatchPermissionsServiceClient(configuration);
       }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(WatchPermissionsServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_WatchPermissions, serviceImpl.WatchPermissions).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, WatchPermissionsServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_WatchPermissions, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::Authzed.Api.Materialize.V0.WatchPermissionsRequest, global::Authzed.Api.Materialize.V0.WatchPermissionsResponse>(serviceImpl.WatchPermissions));
     }
 
   }

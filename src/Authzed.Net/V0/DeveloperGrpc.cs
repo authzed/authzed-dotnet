@@ -124,48 +124,6 @@ namespace Authzed.Api.V0 {
       get { return global::Authzed.Api.V0.DeveloperReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of DeveloperService</summary>
-    [grpc::BindServiceMethod(typeof(DeveloperService), "BindService")]
-    public abstract partial class DeveloperServiceBase
-    {
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Authzed.Api.V0.EditCheckResponse> EditCheck(global::Authzed.Api.V0.EditCheckRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Authzed.Api.V0.ValidateResponse> Validate(global::Authzed.Api.V0.ValidateRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Authzed.Api.V0.ShareResponse> Share(global::Authzed.Api.V0.ShareRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Authzed.Api.V0.LookupShareResponse> LookupShared(global::Authzed.Api.V0.LookupShareRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Authzed.Api.V0.UpgradeSchemaResponse> UpgradeSchema(global::Authzed.Api.V0.UpgradeSchemaRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Authzed.Api.V0.FormatSchemaResponse> FormatSchema(global::Authzed.Api.V0.FormatSchemaRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
     /// <summary>Client for DeveloperService</summary>
     public partial class DeveloperServiceClient : grpc::ClientBase<DeveloperServiceClient>
     {
@@ -319,35 +277,6 @@ namespace Authzed.Api.V0 {
       {
         return new DeveloperServiceClient(configuration);
       }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(DeveloperServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_EditCheck, serviceImpl.EditCheck)
-          .AddMethod(__Method_Validate, serviceImpl.Validate)
-          .AddMethod(__Method_Share, serviceImpl.Share)
-          .AddMethod(__Method_LookupShared, serviceImpl.LookupShared)
-          .AddMethod(__Method_UpgradeSchema, serviceImpl.UpgradeSchema)
-          .AddMethod(__Method_FormatSchema, serviceImpl.FormatSchema).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, DeveloperServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_EditCheck, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Authzed.Api.V0.EditCheckRequest, global::Authzed.Api.V0.EditCheckResponse>(serviceImpl.EditCheck));
-      serviceBinder.AddMethod(__Method_Validate, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Authzed.Api.V0.ValidateRequest, global::Authzed.Api.V0.ValidateResponse>(serviceImpl.Validate));
-      serviceBinder.AddMethod(__Method_Share, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Authzed.Api.V0.ShareRequest, global::Authzed.Api.V0.ShareResponse>(serviceImpl.Share));
-      serviceBinder.AddMethod(__Method_LookupShared, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Authzed.Api.V0.LookupShareRequest, global::Authzed.Api.V0.LookupShareResponse>(serviceImpl.LookupShared));
-      serviceBinder.AddMethod(__Method_UpgradeSchema, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Authzed.Api.V0.UpgradeSchemaRequest, global::Authzed.Api.V0.UpgradeSchemaResponse>(serviceImpl.UpgradeSchema));
-      serviceBinder.AddMethod(__Method_FormatSchema, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Authzed.Api.V0.FormatSchemaRequest, global::Authzed.Api.V0.FormatSchemaResponse>(serviceImpl.FormatSchema));
     }
 
   }

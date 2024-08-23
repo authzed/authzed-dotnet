@@ -76,79 +76,6 @@ namespace Authzed.Api.Materialize.V0 {
       get { return global::Authzed.Api.Materialize.V0.WatchpermissionsetsReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of WatchPermissionSetsService</summary>
-    [grpc::BindServiceMethod(typeof(WatchPermissionSetsService), "BindService")]
-    public abstract partial class WatchPermissionSetsServiceBase
-    {
-      /// <summary>
-      /// WatchPermissionSets returns a stream of changes to the sets which can be used to compute the watched permissions.
-      ///
-      /// WatchPermissionSets lets consumers achieve the same thing as WatchPermissions, but trades off a simpler usage model with
-      /// significantly lower computational requirements. Unlike WatchPermissions, this method returns changes to the sets of permissions,
-      /// rather than the individual permissions. Permission sets are a normalized form of the computed permissions, which
-      /// means that the consumer must perform an extra computation over this representation to obtain the final computed
-      /// permissions, typically by intersecting the provided sets.
-      ///
-      /// For example, this would look like a JOIN between the
-      /// materialize permission sets table in a target relation database, the table with the resources to authorize access
-      /// to, and the table with the subject (e.g. a user).
-      ///
-      /// In exchange, the number of changes issued by WatchPermissionSets will be several orders of magnitude less than those
-      /// emitted by WatchPermissions, which has several implications:
-      /// - significantly less resources to compute the sets
-      /// - significantly less messages to stream over the network
-      /// - significantly less events to ingest on the consumer side
-      /// - less ingestion lag from the origin SpiceDB mutation
-      ///
-      /// The type of scenarios WatchPermissionSets is particularly well suited is when a single change
-      /// in the origin SpiceDB can yield millions of changes. For example, in the GitHub authorization model, assigning a role
-      /// to a top-level team of an organization with hundreds of thousands of employees can lead to an explosion of
-      /// permission change events that would require a lot of computational resources to process, both on Materialize and
-      /// the consumer side.
-      ///
-      /// WatchPermissionSets is thus recommended for any larger scale use case where the fan-out in permission changes that
-      /// emerges from a specific schema and data shape is too large to handle effectively.
-      ///
-      /// The API does not offer a sharding mechanism and thus there should only be one consumer per target system.
-      /// Implementing an active-active HA consumer setup over the same target system will require coordinating which
-      /// revisions have been consumed in order to prevent transitioning to an inconsistent state.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="responseStream">Used for sending responses back to the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>A task indicating completion of the handler.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task WatchPermissionSets(global::Authzed.Api.Materialize.V0.WatchPermissionSetsRequest request, grpc::IServerStreamWriter<global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse> responseStream, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      /// <summary>
-      /// LookupPermissionSets returns the current state of the permission sets which can be used to derive the computed permissions.
-      /// It's typically used to backfill the state of the permission sets in the consumer side.
-      ///
-      /// It's a cursored API and the consumer is responsible to keep track of the cursor and use it on each subsequent call.
-      /// Each stream will return &lt;N> permission sets defined by the specified request limit. The server will keep streaming until
-      /// the sets per stream is hit, or the current state of the sets is reached,
-      /// whatever happens first, and then close the stream. The server will indicate there are no more changes to stream
-      /// through the `completed_members` in the cursor.
-      ///
-      /// There may be many elements to stream, and so the consumer should be prepared to resume the stream from the last
-      /// cursor received. Once completed, the consumer may start streaming permission set changes using WatchPermissionSets
-      /// and the revision token from the last LookupPermissionSets response.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="responseStream">Used for sending responses back to the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>A task indicating completion of the handler.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task LookupPermissionSets(global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequest request, grpc::IServerStreamWriter<global::Authzed.Api.Materialize.V0.LookupPermissionSetsResponse> responseStream, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
     /// <summary>Client for WatchPermissionSetsService</summary>
     public partial class WatchPermissionSetsServiceClient : grpc::ClientBase<WatchPermissionSetsServiceClient>
     {
@@ -312,27 +239,6 @@ namespace Authzed.Api.Materialize.V0 {
       {
         return new WatchPermissionSetsServiceClient(configuration);
       }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(WatchPermissionSetsServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_WatchPermissionSets, serviceImpl.WatchPermissionSets)
-          .AddMethod(__Method_LookupPermissionSets, serviceImpl.LookupPermissionSets).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, WatchPermissionSetsServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_WatchPermissionSets, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::Authzed.Api.Materialize.V0.WatchPermissionSetsRequest, global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse>(serviceImpl.WatchPermissionSets));
-      serviceBinder.AddMethod(__Method_LookupPermissionSets, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequest, global::Authzed.Api.Materialize.V0.LookupPermissionSetsResponse>(serviceImpl.LookupPermissionSets));
     }
 
   }

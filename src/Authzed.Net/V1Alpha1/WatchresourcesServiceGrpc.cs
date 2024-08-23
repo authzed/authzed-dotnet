@@ -68,26 +68,6 @@ namespace Authzed.Api.V1Alpha1 {
       get { return global::Authzed.Api.V1Alpha1.WatchresourcesServiceReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of WatchResourcesService</summary>
-    [grpc::BindServiceMethod(typeof(WatchResourcesService), "BindService")]
-    public abstract partial class WatchResourcesServiceBase
-    {
-      /// <summary>
-      /// WatchResources initiates a watch for permission changes for the provided
-      /// (resource type, permission, subject) pair.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="responseStream">Used for sending responses back to the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>A task indicating completion of the handler.</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task WatchResources(global::Authzed.Api.V1Alpha1.WatchResourcesRequest request, grpc::IServerStreamWriter<global::Authzed.Api.V1Alpha1.WatchResourcesResponse> responseStream, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
     /// <summary>Client for WatchResourcesService</summary>
     public partial class WatchResourcesServiceClient : grpc::ClientBase<WatchResourcesServiceClient>
     {
@@ -147,25 +127,6 @@ namespace Authzed.Api.V1Alpha1 {
       {
         return new WatchResourcesServiceClient(configuration);
       }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static grpc::ServerServiceDefinition BindService(WatchResourcesServiceBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_WatchResources, serviceImpl.WatchResources).Build();
-    }
-
-    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
-    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
-    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    public static void BindService(grpc::ServiceBinderBase serviceBinder, WatchResourcesServiceBase serviceImpl)
-    {
-      serviceBinder.AddMethod(__Method_WatchResources, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::Authzed.Api.V1Alpha1.WatchResourcesRequest, global::Authzed.Api.V1Alpha1.WatchResourcesResponse>(serviceImpl.WatchResources));
     }
 
   }

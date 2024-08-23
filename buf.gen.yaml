@@ -9,6 +9,8 @@ plugins:
     # and using a local plugin isn't in their use case.
   - local: "/home/tstirrat/.nuget/packages/grpc.tools/2.65.0/tools/linux_x64/grpc_csharp_plugin"
     out: "src/Authzed.Net"
-    opt: "base_namespace=Authzed.Api"
+    opt:
+      - "base_namespace=Authzed.Api"
+      - "no_server=on"
 inputs:
   - module: buf.build/authzed/api:v1.35.0

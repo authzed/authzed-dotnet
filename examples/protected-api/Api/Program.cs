@@ -1,5 +1,3 @@
-// Credit to https://medium.com/kpmg-uk-engineering/getting-started-with-spicedb-in-net-741e353a4d83
-// for the example.
 using Authzed.Api.V1;
 using Grpc.Core;
 using Grpc.Net.Client;

@@ -1,0 +1,23 @@
+name: "Publish to Maven"
+on:
+  push:
+    tags:
+      - '*'
+    branches:
+      # TODO: remove this
+      - "3-nuget-release"
+jobs:
+  publish:
+    name: "Publish to Maven"
+    runs-on: "ubuntu-latest"
+    steps:
+    - uses: "actions/checkout@v4"
+    - uses: "actions/setup-dotnet@v4"
+      with:
+        dotnet-version: '8.x'
+    - name: "Pack the project"
+      working-directory: "src/Authzed.Net"
+      run: "dotnet pack -c Release -o dist -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg -p:ContinuousIntegrationBuild=true"
+    - name: "Publish to Nuget"
+      working-directory: "src/Authzed.Net/dist"
+      run: 'dotnet nuget push *.nupkg -p:PackageVersion=0.1.0-beta -s https://api.nuget.org/v3/index.json -k "${{ secrets.NUGET_API_KEY }}" --skip-duplicate'

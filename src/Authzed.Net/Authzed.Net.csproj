@@ -4,6 +4,29 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>Authzed.Net</PackageId>
+    <!-- NOTE: This gets overridden by a CLI flag on publish. -->
+    <Version>0.1.0-alpha</Version>
+
+    <Description>
+        This client library enables working with the SpiceDB centralized authorization system.
+        For documentation, see https://authzed.com/docs or the README at https://github.com/authzed/authzed-dotnet.
+        For the changelog for this library, see the github releases: https://github.com/authzed/authzed-dotnet/releases
+    </Description>
+
+    <PackageTags>authzed;authz;authorization;zanzibar;spicedb;spicedb client</PackageTags>
+    <Authors>Employees of Authzed, Inc</Authors>
+    <Copyright>Copyright © Authzed, Inc 2024</Copyright>
+    <Company>Authzed, Inc</Company>
+
+    <PackageProjectUrl>https://authzed.com</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/authzed/authzed-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <!-- TODO: -->
+    <!--<PackageIcon>Icon.png</PackageIcon>-->
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +37,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+
+    <None Include="$(MSBuildThisFileDirectory)..\..\LICENSE" Pack="true" PackagePath=""/>
+    <None Include="$(MSBuildThisFileDirectory)..\..\README.md" Pack="true" PackagePath=""/>
+    <!-- TODO: -->
+    <!--<None Include="$(MSBuildThisFileDirectory)..\..\Icon.png" Pack="true" PackagePath=""/>-->
   </ItemGroup>
 
 </Project>

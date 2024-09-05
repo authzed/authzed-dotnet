@@ -1,8 +1,8 @@
 name: "Publish to Maven"
 on:
   push:
-    tags:
-      - '*'
+    #tags:
+      #- '*'
     branches:
       # TODO: remove this
       - "3-nuget-release"

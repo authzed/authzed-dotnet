@@ -1,0 +1,27 @@
+name: "Publish to Nuget"
+on:
+  release:
+    types:
+      - "published"
+jobs:
+  publish:
+    name: "Publish to Nuget"
+    runs-on: "ubuntu-latest"
+    steps:
+    - uses: "actions/checkout@v4"
+    - uses: "actions/setup-dotnet@v4"
+      with:
+        dotnet-version: '8.x'
+    # Store the version, stripping any v-prefix
+    # This lets us use v-prefixed releases
+    - name: Write release version
+      run: |
+        VERSION=${GITHUB_REF_NAME#v}
+        echo Version: $VERSION
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
+    - name: "Pack the project"
+      working-directory: "src/Authzed.Net"
+      run: "dotnet pack -c Release -o dist -p:PackageVersion=${VERSION} -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg -p:ContinuousIntegrationBuild=true"
+    - name: "Publish to Nuget"
+      working-directory: "src/Authzed.Net/dist"
+      run: 'dotnet nuget push *.nupkg -s https://api.nuget.org/v3/index.json -k "${{ secrets.NUGET_API_KEY }}" --skip-duplicate'

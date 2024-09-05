@@ -5,7 +5,7 @@
   },
   "projects": {
     "/home/tstirrat/authzed/authzed-dotnet/src/Authzed.Net/Authzed.Net.csproj": {
-      "version": "1.0.0",
+      "version": "0.1.0-alpha",
       "restore": {
         "projectUniqueName": "/home/tstirrat/authzed/authzed-dotnet/src/Authzed.Net/Authzed.Net.csproj",
         "projectName": "Authzed.Net",

@@ -1,1 +1,5 @@
 Debug
+src/Authzed.Net/bin
+src/Authzed.Net/out
+src/Authzed.Net/dist
+src/Authzed.Net/obj/Release

@@ -1,11 +1,8 @@
 name: "Publish to Nuget"
 on:
-  push:
-    #tags:
-      #- '*'
-    branches:
-      # TODO: remove this
-      - "3-add-nuget-release"
+  release:
+    types:
+      - "published"
 jobs:
   publish:
     name: "Publish to Maven"
@@ -17,7 +14,7 @@ jobs:
         dotnet-version: '8.x'
     - name: "Pack the project"
       working-directory: "src/Authzed.Net"
-      run: "dotnet pack -c Release -o dist -p:PackageVersion=0.1.0-beta -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg -p:ContinuousIntegrationBuild=true"
+      run: "dotnet pack -c Release -o dist -p:PackageVersion=${{ github.ref }} -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg -p:ContinuousIntegrationBuild=true"
     - name: "Publish to Nuget"
       working-directory: "src/Authzed.Net/dist"
       run: 'dotnet nuget push *.nupkg -s https://api.nuget.org/v3/index.json -k "${{ secrets.NUGET_API_KEY }}" --skip-duplicate'

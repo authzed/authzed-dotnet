@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zq5AA1voT2FFJPY+wp/gQKLdR11pQuZmbalwHSDET+IBQXpcAAFiJhCXO+kHhu2an8Kr5+yvmUiOfrFcL5l8pw==",
+  "dgSpecHash": "D+iZ1elM89+JueRx+i69wfXeLlHYwCO/U/fwsKHlopBjb6LM2kWs7cjp9AHwUTDesOaveWzzvhhGsU4MgV+HuQ==",
   "success": true,
   "projectFilePath": "/home/tstirrat/authzed/authzed-dotnet/src/Authzed.Net/Authzed.Net.csproj",
   "expectedPackageFiles": [

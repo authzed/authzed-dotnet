@@ -5,7 +5,7 @@ on:
       - "published"
 jobs:
   publish:
-    name: "Publish to Maven"
+    name: "Publish to Nuget"
     runs-on: "ubuntu-latest"
     steps:
     - uses: "actions/checkout@v4"

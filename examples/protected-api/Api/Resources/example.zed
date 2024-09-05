@@ -1,0 +1,9 @@
+definition user {}
+
+definition group {
+    relation admin: user
+    relation member: user
+
+    permission can_view_group = admin + member
+    permission can_add_member = admin
+}

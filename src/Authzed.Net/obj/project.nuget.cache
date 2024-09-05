@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "zq5AA1voT2FFJPY+wp/gQKLdR11pQuZmbalwHSDET+IBQXpcAAFiJhCXO+kHhu2an8Kr5+yvmUiOfrFcL5l8pw==",
+  "success": true,
+  "projectFilePath": "/home/tstirrat/authzed/authzed-dotnet/src/Authzed.Net/Authzed.Net.csproj",
+  "expectedPackageFiles": [
+    "/home/tstirrat/.nuget/packages/google.protobuf/3.27.3/google.protobuf.3.27.3.nupkg.sha512",
+    "/home/tstirrat/.nuget/packages/grpc.core/2.46.6/grpc.core.2.46.6.nupkg.sha512",
+    "/home/tstirrat/.nuget/packages/grpc.core.api/2.65.0/grpc.core.api.2.65.0.nupkg.sha512",
+    "/home/tstirrat/.nuget/packages/grpc.net.client/2.65.0/grpc.net.client.2.65.0.nupkg.sha512",
+    "/home/tstirrat/.nuget/packages/grpc.net.common/2.65.0/grpc.net.common.2.65.0.nupkg.sha512",
+    "/home/tstirrat/.nuget/packages/grpc.tools/2.65.0/grpc.tools.2.65.0.nupkg.sha512",
+    "/home/tstirrat/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/home/tstirrat/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

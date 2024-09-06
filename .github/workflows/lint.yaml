@@ -12,9 +12,12 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - uses: "actions/checkout@v4"
-      - uses: "actions/setup-dotnet@v4"
+      # needed for pre-commit
+      - uses: "actions/setup-python@v5"
         with:
           python-version: "3.11"
-          cache: 'poetry'
+      - uses: "actions/setup-dotnet@v4"
+        with:
+          dotnet-version: '8.x'
       - run: "poetry install"
       - uses: "pre-commit/action@v3.0.1"

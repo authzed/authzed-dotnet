@@ -14,4 +14,7 @@ jobs:
       - uses: "actions/setup-dotnet@v4"
         with:
           dotnet-version: '8.x'
+      - uses: "authzed/action-spicedb@v1"
+        with:
+          version: "latest"
       - run: "dotnet test"

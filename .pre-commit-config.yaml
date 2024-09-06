@@ -1,15 +1,20 @@
+---
 repos:
--   repo: local
+  - repo: local
     hooks:
-    -   id: dotnet-format
-        name: Format Tests
-        language: system 
-        entry: dotnet format tests/Authzed.Net.Tests --include 
+      - id: "dotnet-format"
+        name: "Format Tests"
+        language: "system"
+        entry: "dotnet format tests/Authzed.Net.Tests --include"
         types_or: ["c#", "vb"]
         files: "tests"
-    -   id: dotnet-format
-        name: Format Examples
-        language: system 
-        entry: dotnet format examples/protected-api/Api --include 
+      - id: "dotnet-format"
+        name: "Format Examples"
+        language: "system"
+        entry: "dotnet format examples/protected-api/Api --include"
         types_or: ["c#", "vb"]
         files: "examples"
+  - repo: "https://github.com/adrienverge/yamllint"
+    rev: "v1.35.1"
+    hooks:
+      - id: "yamllint"

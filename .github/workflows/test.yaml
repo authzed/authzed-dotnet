@@ -1,0 +1,17 @@
+---
+name: "Test"
+on:  # yamllint disable-line rule:truthy
+  push:
+    branches:
+      - "main"
+  pull_request:
+    branches: ["*"]
+jobs:
+  lint:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v4"
+      - uses: "actions/setup-dotnet@v4"
+        with:
+          dotnet-version: '8.x'
+      - run: "dotnet test"

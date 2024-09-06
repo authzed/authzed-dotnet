@@ -1,3 +1,5 @@
+---
+# yamllint disable rule:line-length
 version: "v2"
 plugins:
   - protoc_builtin: "csharp"

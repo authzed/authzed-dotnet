@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: "monthly"
     groups:
-      gradle:
+      dotnet:
         patterns: ["*"]
   - package-ecosystem: "github-actions"
     directory: "/"

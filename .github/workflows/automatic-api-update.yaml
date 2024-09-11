@@ -1,0 +1,17 @@
+name: "Called update for API change"
+on:
+  repository_dispatch:
+    types: ["api_update"]
+jobs:
+  api-update:
+    name: "Create PR for API update"
+    timeout-minutes: 10
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v4"
+      - name: "Install buf"
+        uses: "bufbuild/buf-setup-action@v1.39.0"
+        with:
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
+      # TODO: this workflow depends on string-replacing the hashbang at the beginning
+      # of the file, which seems potentially brittle? Need to update that script.

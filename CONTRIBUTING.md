@@ -70,14 +70,13 @@ If you have already authored a commit that is missing the signed-off, you can am
 ### Updating generated Protobuf code
 
 All [Protobuf] code is managed using [buf].
-The [shebang] at the top of `buf.gen.yaml` contains the [Buf Registry ref] that will be generated.
-You can regenerate the code by executing `buf.gen.yaml`:
+The `input[].module` at the bottom of `buf.gen.yaml` contains the [Buf Registry ref] that will be generated.
+You can regenerate the code by executing:
 
 [Protobuf]: https://developers.google.com/protocol-buffers/
 [buf]: https://docs.buf.build/installation
-[shebang]: https://en.wikipedia.org/wiki/Shebang_(Unix)
 [Buf Registry ref]: https://buf.build/authzed/api/history
 
 ```sh
-./buf.gen.yaml
+buf generate
 ```

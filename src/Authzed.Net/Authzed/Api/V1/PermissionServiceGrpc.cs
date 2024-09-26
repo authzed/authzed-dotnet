@@ -81,6 +81,14 @@ namespace Authzed.Api.V1 {
     static readonly grpc::Marshaller<global::Authzed.Api.V1.LookupSubjectsRequest> __Marshaller_authzed_api_v1_LookupSubjectsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.LookupSubjectsRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Authzed.Api.V1.LookupSubjectsResponse> __Marshaller_authzed_api_v1_LookupSubjectsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.LookupSubjectsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.ImportBulkRelationshipsRequest> __Marshaller_authzed_api_v1_ImportBulkRelationshipsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.ImportBulkRelationshipsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.ImportBulkRelationshipsResponse> __Marshaller_authzed_api_v1_ImportBulkRelationshipsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.ImportBulkRelationshipsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.ExportBulkRelationshipsRequest> __Marshaller_authzed_api_v1_ExportBulkRelationshipsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.ExportBulkRelationshipsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.ExportBulkRelationshipsResponse> __Marshaller_authzed_api_v1_ExportBulkRelationshipsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.ExportBulkRelationshipsResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Authzed.Api.V1.ReadRelationshipsRequest, global::Authzed.Api.V1.ReadRelationshipsResponse> __Method_ReadRelationships = new grpc::Method<global::Authzed.Api.V1.ReadRelationshipsRequest, global::Authzed.Api.V1.ReadRelationshipsResponse>(
@@ -145,6 +153,22 @@ namespace Authzed.Api.V1 {
         "LookupSubjects",
         __Marshaller_authzed_api_v1_LookupSubjectsRequest,
         __Marshaller_authzed_api_v1_LookupSubjectsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Authzed.Api.V1.ImportBulkRelationshipsRequest, global::Authzed.Api.V1.ImportBulkRelationshipsResponse> __Method_ImportBulkRelationships = new grpc::Method<global::Authzed.Api.V1.ImportBulkRelationshipsRequest, global::Authzed.Api.V1.ImportBulkRelationshipsResponse>(
+        grpc::MethodType.ClientStreaming,
+        __ServiceName,
+        "ImportBulkRelationships",
+        __Marshaller_authzed_api_v1_ImportBulkRelationshipsRequest,
+        __Marshaller_authzed_api_v1_ImportBulkRelationshipsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Authzed.Api.V1.ExportBulkRelationshipsRequest, global::Authzed.Api.V1.ExportBulkRelationshipsResponse> __Method_ExportBulkRelationships = new grpc::Method<global::Authzed.Api.V1.ExportBulkRelationshipsRequest, global::Authzed.Api.V1.ExportBulkRelationshipsResponse>(
+        grpc::MethodType.ServerStreaming,
+        __ServiceName,
+        "ExportBulkRelationships",
+        __Marshaller_authzed_api_v1_ExportBulkRelationshipsRequest,
+        __Marshaller_authzed_api_v1_ExportBulkRelationshipsResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -532,6 +556,66 @@ namespace Authzed.Api.V1 {
       public virtual grpc::AsyncServerStreamingCall<global::Authzed.Api.V1.LookupSubjectsResponse> LookupSubjects(global::Authzed.Api.V1.LookupSubjectsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncServerStreamingCall(__Method_LookupSubjects, null, options, request);
+      }
+      /// <summary>
+      /// ImportBulkRelationships is a faster path to writing a large number of
+      /// relationships at once. It is both batched and streaming. For maximum
+      /// performance, the caller should attempt to write relationships in as close
+      /// to relationship sort order as possible: (resource.object_type,
+      /// resource.object_id, relation, subject.object.object_type,
+      /// subject.object.object_id, subject.optional_relation)
+      /// </summary>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncClientStreamingCall<global::Authzed.Api.V1.ImportBulkRelationshipsRequest, global::Authzed.Api.V1.ImportBulkRelationshipsResponse> ImportBulkRelationships(grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ImportBulkRelationships(new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ImportBulkRelationships is a faster path to writing a large number of
+      /// relationships at once. It is both batched and streaming. For maximum
+      /// performance, the caller should attempt to write relationships in as close
+      /// to relationship sort order as possible: (resource.object_type,
+      /// resource.object_id, relation, subject.object.object_type,
+      /// subject.object.object_id, subject.optional_relation)
+      /// </summary>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncClientStreamingCall<global::Authzed.Api.V1.ImportBulkRelationshipsRequest, global::Authzed.Api.V1.ImportBulkRelationshipsResponse> ImportBulkRelationships(grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncClientStreamingCall(__Method_ImportBulkRelationships, null, options);
+      }
+      /// <summary>
+      /// ExportBulkRelationships is the fastest path available to exporting
+      /// relationships from the server. It is resumable, and will return results
+      /// in an order determined by the server.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncServerStreamingCall<global::Authzed.Api.V1.ExportBulkRelationshipsResponse> ExportBulkRelationships(global::Authzed.Api.V1.ExportBulkRelationshipsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ExportBulkRelationships(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ExportBulkRelationships is the fastest path available to exporting
+      /// relationships from the server. It is resumable, and will return results
+      /// in an order determined by the server.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncServerStreamingCall<global::Authzed.Api.V1.ExportBulkRelationshipsResponse> ExportBulkRelationships(global::Authzed.Api.V1.ExportBulkRelationshipsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncServerStreamingCall(__Method_ExportBulkRelationships, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

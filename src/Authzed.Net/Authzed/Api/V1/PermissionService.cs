@@ -208,38 +208,61 @@ namespace Authzed.Api.V1 {
             "cFBlcm1pc3Npb25zaGlwQgr6QgeCAQQQASAAUg5wZXJtaXNzaW9uc2hpcBJb",
             "ChNwYXJ0aWFsX2NhdmVhdF9pbmZvGAMgASgLMiEuYXV0aHplZC5hcGkudjEu",
             "UGFydGlhbENhdmVhdEluZm9CCPpCBYoBAhAAUhFwYXJ0aWFsQ2F2ZWF0SW5m",
-            "byqZAQoUTG9va3VwUGVybWlzc2lvbnNoaXASJQohTE9PS1VQX1BFUk1JU1NJ",
-            "T05TSElQX1VOU1BFQ0lGSUVEEAASKAokTE9PS1VQX1BFUk1JU1NJT05TSElQ",
-            "X0hBU19QRVJNSVNTSU9OEAESMAosTE9PS1VQX1BFUk1JU1NJT05TSElQX0NP",
-            "TkRJVElPTkFMX1BFUk1JU1NJT04QAjKaCQoSUGVybWlzc2lvbnNTZXJ2aWNl",
-            "Eo0BChFSZWFkUmVsYXRpb25zaGlwcxIoLmF1dGh6ZWQuYXBpLnYxLlJlYWRS",
-            "ZWxhdGlvbnNoaXBzUmVxdWVzdBopLmF1dGh6ZWQuYXBpLnYxLlJlYWRSZWxh",
-            "dGlvbnNoaXBzUmVzcG9uc2UiIYLT5JMCGzoBKiIWL3YxL3JlbGF0aW9uc2hp",
-            "cHMvcmVhZDABEo8BChJXcml0ZVJlbGF0aW9uc2hpcHMSKS5hdXRoemVkLmFw",
-            "aS52MS5Xcml0ZVJlbGF0aW9uc2hpcHNSZXF1ZXN0GiouYXV0aHplZC5hcGku",
-            "djEuV3JpdGVSZWxhdGlvbnNoaXBzUmVzcG9uc2UiIoLT5JMCHDoBKiIXL3Yx",
-            "L3JlbGF0aW9uc2hpcHMvd3JpdGUSkwEKE0RlbGV0ZVJlbGF0aW9uc2hpcHMS",
-            "Ki5hdXRoemVkLmFwaS52MS5EZWxldGVSZWxhdGlvbnNoaXBzUmVxdWVzdBor",
-            "LmF1dGh6ZWQuYXBpLnYxLkRlbGV0ZVJlbGF0aW9uc2hpcHNSZXNwb25zZSIj",
-            "gtPkkwIdOgEqIhgvdjEvcmVsYXRpb25zaGlwcy9kZWxldGUShAEKD0NoZWNr",
-            "UGVybWlzc2lvbhImLmF1dGh6ZWQuYXBpLnYxLkNoZWNrUGVybWlzc2lvblJl",
-            "cXVlc3QaJy5hdXRoemVkLmFwaS52MS5DaGVja1Blcm1pc3Npb25SZXNwb25z",
-            "ZSIggtPkkwIaOgEqIhUvdjEvcGVybWlzc2lvbnMvY2hlY2sSlwEKFENoZWNr",
-            "QnVsa1Blcm1pc3Npb25zEisuYXV0aHplZC5hcGkudjEuQ2hlY2tCdWxrUGVy",
-            "bWlzc2lvbnNSZXF1ZXN0GiwuYXV0aHplZC5hcGkudjEuQ2hlY2tCdWxrUGVy",
-            "bWlzc2lvbnNSZXNwb25zZSIkgtPkkwIeOgEqIhkvdjEvcGVybWlzc2lvbnMv",
-            "Y2hlY2tidWxrEpQBChRFeHBhbmRQZXJtaXNzaW9uVHJlZRIrLmF1dGh6ZWQu",
-            "YXBpLnYxLkV4cGFuZFBlcm1pc3Npb25UcmVlUmVxdWVzdBosLmF1dGh6ZWQu",
-            "YXBpLnYxLkV4cGFuZFBlcm1pc3Npb25UcmVlUmVzcG9uc2UiIYLT5JMCGzoB",
-            "KiIWL3YxL3Blcm1pc3Npb25zL2V4cGFuZBKKAQoPTG9va3VwUmVzb3VyY2Vz",
-            "EiYuYXV0aHplZC5hcGkudjEuTG9va3VwUmVzb3VyY2VzUmVxdWVzdBonLmF1",
-            "dGh6ZWQuYXBpLnYxLkxvb2t1cFJlc291cmNlc1Jlc3BvbnNlIiSC0+STAh46",
-            "ASoiGS92MS9wZXJtaXNzaW9ucy9yZXNvdXJjZXMwARKGAQoOTG9va3VwU3Vi",
-            "amVjdHMSJS5hdXRoemVkLmFwaS52MS5Mb29rdXBTdWJqZWN0c1JlcXVlc3Qa",
-            "Ji5hdXRoemVkLmFwaS52MS5Mb29rdXBTdWJqZWN0c1Jlc3BvbnNlIiOC0+ST",
-            "Ah06ASoiGC92MS9wZXJtaXNzaW9ucy9zdWJqZWN0czABQkoKEmNvbS5hdXRo",
-            "emVkLmFwaS52MVABWjJnaXRodWIuY29tL2F1dGh6ZWQvYXV0aHplZC1nby9w",
-            "cm90by9hdXRoemVkL2FwaS92MWIGcHJvdG8z"));
+            "byJzCh5JbXBvcnRCdWxrUmVsYXRpb25zaGlwc1JlcXVlc3QSUQoNcmVsYXRp",
+            "b25zaGlwcxgBIAMoCzIcLmF1dGh6ZWQuYXBpLnYxLlJlbGF0aW9uc2hpcEIN",
+            "+kIKkgEHIgWKAQIQAVINcmVsYXRpb25zaGlwcyJACh9JbXBvcnRCdWxrUmVs",
+            "YXRpb25zaGlwc1Jlc3BvbnNlEh0KCm51bV9sb2FkZWQYASABKARSCW51bUxv",
+            "YWRlZCK2AgoeRXhwb3J0QnVsa1JlbGF0aW9uc2hpcHNSZXF1ZXN0Ej0KC2Nv",
+            "bnNpc3RlbmN5GAEgASgLMhsuYXV0aHplZC5hcGkudjEuQ29uc2lzdGVuY3lS",
+            "C2NvbnNpc3RlbmN5Ei4KDm9wdGlvbmFsX2xpbWl0GAIgASgNQgf6QgQqAigA",
+            "Ug1vcHRpb25hbExpbWl0Ej8KD29wdGlvbmFsX2N1cnNvchgDIAEoCzIWLmF1",
+            "dGh6ZWQuYXBpLnYxLkN1cnNvclIOb3B0aW9uYWxDdXJzb3ISZAocb3B0aW9u",
+            "YWxfcmVsYXRpb25zaGlwX2ZpbHRlchgEIAEoCzIiLmF1dGh6ZWQuYXBpLnYx",
+            "LlJlbGF0aW9uc2hpcEZpbHRlclIab3B0aW9uYWxSZWxhdGlvbnNoaXBGaWx0",
+            "ZXIirQEKH0V4cG9ydEJ1bGtSZWxhdGlvbnNoaXBzUmVzcG9uc2USRgoTYWZ0",
+            "ZXJfcmVzdWx0X2N1cnNvchgBIAEoCzIWLmF1dGh6ZWQuYXBpLnYxLkN1cnNv",
+            "clIRYWZ0ZXJSZXN1bHRDdXJzb3ISQgoNcmVsYXRpb25zaGlwcxgCIAMoCzIc",
+            "LmF1dGh6ZWQuYXBpLnYxLlJlbGF0aW9uc2hpcFINcmVsYXRpb25zaGlwcyqZ",
+            "AQoUTG9va3VwUGVybWlzc2lvbnNoaXASJQohTE9PS1VQX1BFUk1JU1NJT05T",
+            "SElQX1VOU1BFQ0lGSUVEEAASKAokTE9PS1VQX1BFUk1JU1NJT05TSElQX0hB",
+            "U19QRVJNSVNTSU9OEAESMAosTE9PS1VQX1BFUk1JU1NJT05TSElQX0NPTkRJ",
+            "VElPTkFMX1BFUk1JU1NJT04QAjKEDAoSUGVybWlzc2lvbnNTZXJ2aWNlEo0B",
+            "ChFSZWFkUmVsYXRpb25zaGlwcxIoLmF1dGh6ZWQuYXBpLnYxLlJlYWRSZWxh",
+            "dGlvbnNoaXBzUmVxdWVzdBopLmF1dGh6ZWQuYXBpLnYxLlJlYWRSZWxhdGlv",
+            "bnNoaXBzUmVzcG9uc2UiIYLT5JMCGzoBKiIWL3YxL3JlbGF0aW9uc2hpcHMv",
+            "cmVhZDABEo8BChJXcml0ZVJlbGF0aW9uc2hpcHMSKS5hdXRoemVkLmFwaS52",
+            "MS5Xcml0ZVJlbGF0aW9uc2hpcHNSZXF1ZXN0GiouYXV0aHplZC5hcGkudjEu",
+            "V3JpdGVSZWxhdGlvbnNoaXBzUmVzcG9uc2UiIoLT5JMCHDoBKiIXL3YxL3Jl",
+            "bGF0aW9uc2hpcHMvd3JpdGUSkwEKE0RlbGV0ZVJlbGF0aW9uc2hpcHMSKi5h",
+            "dXRoemVkLmFwaS52MS5EZWxldGVSZWxhdGlvbnNoaXBzUmVxdWVzdBorLmF1",
+            "dGh6ZWQuYXBpLnYxLkRlbGV0ZVJlbGF0aW9uc2hpcHNSZXNwb25zZSIjgtPk",
+            "kwIdOgEqIhgvdjEvcmVsYXRpb25zaGlwcy9kZWxldGUShAEKD0NoZWNrUGVy",
+            "bWlzc2lvbhImLmF1dGh6ZWQuYXBpLnYxLkNoZWNrUGVybWlzc2lvblJlcXVl",
+            "c3QaJy5hdXRoemVkLmFwaS52MS5DaGVja1Blcm1pc3Npb25SZXNwb25zZSIg",
+            "gtPkkwIaOgEqIhUvdjEvcGVybWlzc2lvbnMvY2hlY2sSlwEKFENoZWNrQnVs",
+            "a1Blcm1pc3Npb25zEisuYXV0aHplZC5hcGkudjEuQ2hlY2tCdWxrUGVybWlz",
+            "c2lvbnNSZXF1ZXN0GiwuYXV0aHplZC5hcGkudjEuQ2hlY2tCdWxrUGVybWlz",
+            "c2lvbnNSZXNwb25zZSIkgtPkkwIeOgEqIhkvdjEvcGVybWlzc2lvbnMvY2hl",
+            "Y2tidWxrEpQBChRFeHBhbmRQZXJtaXNzaW9uVHJlZRIrLmF1dGh6ZWQuYXBp",
+            "LnYxLkV4cGFuZFBlcm1pc3Npb25UcmVlUmVxdWVzdBosLmF1dGh6ZWQuYXBp",
+            "LnYxLkV4cGFuZFBlcm1pc3Npb25UcmVlUmVzcG9uc2UiIYLT5JMCGzoBKiIW",
+            "L3YxL3Blcm1pc3Npb25zL2V4cGFuZBKKAQoPTG9va3VwUmVzb3VyY2VzEiYu",
+            "YXV0aHplZC5hcGkudjEuTG9va3VwUmVzb3VyY2VzUmVxdWVzdBonLmF1dGh6",
+            "ZWQuYXBpLnYxLkxvb2t1cFJlc291cmNlc1Jlc3BvbnNlIiSC0+STAh46ASoi",
+            "GS92MS9wZXJtaXNzaW9ucy9yZXNvdXJjZXMwARKGAQoOTG9va3VwU3ViamVj",
+            "dHMSJS5hdXRoemVkLmFwaS52MS5Mb29rdXBTdWJqZWN0c1JlcXVlc3QaJi5h",
+            "dXRoemVkLmFwaS52MS5Mb29rdXBTdWJqZWN0c1Jlc3BvbnNlIiOC0+STAh06",
+            "ASoiGC92MS9wZXJtaXNzaW9ucy9zdWJqZWN0czABErIBChdJbXBvcnRCdWxr",
+            "UmVsYXRpb25zaGlwcxIuLmF1dGh6ZWQuYXBpLnYxLkltcG9ydEJ1bGtSZWxh",
+            "dGlvbnNoaXBzUmVxdWVzdBovLmF1dGh6ZWQuYXBpLnYxLkltcG9ydEJ1bGtS",
+            "ZWxhdGlvbnNoaXBzUmVzcG9uc2UiNILT5JMCLjoBKiIpL3YxL2V4cGVyaW1l",
+            "bnRhbC9yZWxhdGlvbnNoaXBzL2J1bGtpbXBvcnQoARKyAQoXRXhwb3J0QnVs",
+            "a1JlbGF0aW9uc2hpcHMSLi5hdXRoemVkLmFwaS52MS5FeHBvcnRCdWxrUmVs",
+            "YXRpb25zaGlwc1JlcXVlc3QaLy5hdXRoemVkLmFwaS52MS5FeHBvcnRCdWxr",
+            "UmVsYXRpb25zaGlwc1Jlc3BvbnNlIjSC0+STAi46ASoiKS92MS9leHBlcmlt",
+            "ZW50YWwvcmVsYXRpb25zaGlwcy9idWxrZXhwb3J0MAFCSgoSY29tLmF1dGh6",
+            "ZWQuYXBpLnYxUAFaMmdpdGh1Yi5jb20vYXV0aHplZC9hdXRoemVkLWdvL3By",
+            "b3RvL2F1dGh6ZWQvYXBpL3YxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Authzed.Api.V1.CoreReflection.Descriptor, global::Authzed.Api.V1.DebugReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Authzed.Api.V1.LookupPermissionship), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -266,7 +289,11 @@ namespace Authzed.Api.V1 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.LookupResourcesResponse), global::Authzed.Api.V1.LookupResourcesResponse.Parser, new[]{ "LookedUpAt", "ResourceObjectId", "Permissionship", "PartialCaveatInfo", "AfterResultCursor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.LookupSubjectsRequest), global::Authzed.Api.V1.LookupSubjectsRequest.Parser, new[]{ "Consistency", "Resource", "Permission", "SubjectObjectType", "OptionalSubjectRelation", "Context", "OptionalConcreteLimit", "OptionalCursor", "WildcardOption" }, null, new[]{ typeof(global::Authzed.Api.V1.LookupSubjectsRequest.Types.WildcardOption) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.LookupSubjectsResponse), global::Authzed.Api.V1.LookupSubjectsResponse.Parser, new[]{ "LookedUpAt", "SubjectObjectId", "ExcludedSubjectIds", "Permissionship", "PartialCaveatInfo", "Subject", "ExcludedSubjects", "AfterResultCursor" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.ResolvedSubject), global::Authzed.Api.V1.ResolvedSubject.Parser, new[]{ "SubjectObjectId", "Permissionship", "PartialCaveatInfo" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.ResolvedSubject), global::Authzed.Api.V1.ResolvedSubject.Parser, new[]{ "SubjectObjectId", "Permissionship", "PartialCaveatInfo" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.ImportBulkRelationshipsRequest), global::Authzed.Api.V1.ImportBulkRelationshipsRequest.Parser, new[]{ "Relationships" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.ImportBulkRelationshipsResponse), global::Authzed.Api.V1.ImportBulkRelationshipsResponse.Parser, new[]{ "NumLoaded" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.ExportBulkRelationshipsRequest), global::Authzed.Api.V1.ExportBulkRelationshipsRequest.Parser, new[]{ "Consistency", "OptionalLimit", "OptionalCursor", "OptionalRelationshipFilter" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.ExportBulkRelationshipsResponse), global::Authzed.Api.V1.ExportBulkRelationshipsResponse.Parser, new[]{ "AfterResultCursor", "Relationships" }, null, null, null, null)
           }));
     }
     #endregion
@@ -8342,6 +8369,959 @@ namespace Authzed.Api.V1 {
               PartialCaveatInfo = new global::Authzed.Api.V1.PartialCaveatInfo();
             }
             input.ReadMessage(PartialCaveatInfo);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// ImportBulkRelationshipsRequest represents one batch of the streaming
+  /// ImportBulkRelationships API. The maximum size is only limited by the backing
+  /// datastore, and optimal size should be determined by the calling client
+  /// experimentally.
+  /// </summary>
+  public sealed partial class ImportBulkRelationshipsRequest : pb::IMessage<ImportBulkRelationshipsRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ImportBulkRelationshipsRequest> _parser = new pb::MessageParser<ImportBulkRelationshipsRequest>(() => new ImportBulkRelationshipsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ImportBulkRelationshipsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Authzed.Api.V1.PermissionServiceReflection.Descriptor.MessageTypes[24]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ImportBulkRelationshipsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ImportBulkRelationshipsRequest(ImportBulkRelationshipsRequest other) : this() {
+      relationships_ = other.relationships_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ImportBulkRelationshipsRequest Clone() {
+      return new ImportBulkRelationshipsRequest(this);
+    }
+
+    /// <summary>Field number for the "relationships" field.</summary>
+    public const int RelationshipsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Authzed.Api.V1.Relationship> _repeated_relationships_codec
+        = pb::FieldCodec.ForMessage(10, global::Authzed.Api.V1.Relationship.Parser);
+    private readonly pbc::RepeatedField<global::Authzed.Api.V1.Relationship> relationships_ = new pbc::RepeatedField<global::Authzed.Api.V1.Relationship>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Authzed.Api.V1.Relationship> Relationships {
+      get { return relationships_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ImportBulkRelationshipsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ImportBulkRelationshipsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!relationships_.Equals(other.relationships_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= relationships_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      relationships_.WriteTo(output, _repeated_relationships_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      relationships_.WriteTo(ref output, _repeated_relationships_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      size += relationships_.CalculateSize(_repeated_relationships_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ImportBulkRelationshipsRequest other) {
+      if (other == null) {
+        return;
+      }
+      relationships_.Add(other.relationships_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            relationships_.AddEntriesFrom(input, _repeated_relationships_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            relationships_.AddEntriesFrom(ref input, _repeated_relationships_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// ImportBulkRelationshipsResponse is returned on successful completion of the
+  /// bulk load stream, and contains the total number of relationships loaded.
+  /// </summary>
+  public sealed partial class ImportBulkRelationshipsResponse : pb::IMessage<ImportBulkRelationshipsResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ImportBulkRelationshipsResponse> _parser = new pb::MessageParser<ImportBulkRelationshipsResponse>(() => new ImportBulkRelationshipsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ImportBulkRelationshipsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Authzed.Api.V1.PermissionServiceReflection.Descriptor.MessageTypes[25]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ImportBulkRelationshipsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ImportBulkRelationshipsResponse(ImportBulkRelationshipsResponse other) : this() {
+      numLoaded_ = other.numLoaded_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ImportBulkRelationshipsResponse Clone() {
+      return new ImportBulkRelationshipsResponse(this);
+    }
+
+    /// <summary>Field number for the "num_loaded" field.</summary>
+    public const int NumLoadedFieldNumber = 1;
+    private ulong numLoaded_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ulong NumLoaded {
+      get { return numLoaded_; }
+      set {
+        numLoaded_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ImportBulkRelationshipsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ImportBulkRelationshipsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (NumLoaded != other.NumLoaded) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (NumLoaded != 0UL) hash ^= NumLoaded.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (NumLoaded != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(NumLoaded);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (NumLoaded != 0UL) {
+        output.WriteRawTag(8);
+        output.WriteUInt64(NumLoaded);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (NumLoaded != 0UL) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(NumLoaded);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ImportBulkRelationshipsResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.NumLoaded != 0UL) {
+        NumLoaded = other.NumLoaded;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            NumLoaded = input.ReadUInt64();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            NumLoaded = input.ReadUInt64();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// ExportBulkRelationshipsRequest represents a resumable request for
+  /// all relationships from the server.
+  /// </summary>
+  public sealed partial class ExportBulkRelationshipsRequest : pb::IMessage<ExportBulkRelationshipsRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ExportBulkRelationshipsRequest> _parser = new pb::MessageParser<ExportBulkRelationshipsRequest>(() => new ExportBulkRelationshipsRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ExportBulkRelationshipsRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Authzed.Api.V1.PermissionServiceReflection.Descriptor.MessageTypes[26]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExportBulkRelationshipsRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExportBulkRelationshipsRequest(ExportBulkRelationshipsRequest other) : this() {
+      consistency_ = other.consistency_ != null ? other.consistency_.Clone() : null;
+      optionalLimit_ = other.optionalLimit_;
+      optionalCursor_ = other.optionalCursor_ != null ? other.optionalCursor_.Clone() : null;
+      optionalRelationshipFilter_ = other.optionalRelationshipFilter_ != null ? other.optionalRelationshipFilter_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExportBulkRelationshipsRequest Clone() {
+      return new ExportBulkRelationshipsRequest(this);
+    }
+
+    /// <summary>Field number for the "consistency" field.</summary>
+    public const int ConsistencyFieldNumber = 1;
+    private global::Authzed.Api.V1.Consistency consistency_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.Consistency Consistency {
+      get { return consistency_; }
+      set {
+        consistency_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "optional_limit" field.</summary>
+    public const int OptionalLimitFieldNumber = 2;
+    private uint optionalLimit_;
+    /// <summary>
+    /// optional_limit, if non-zero, specifies the limit on the number of
+    /// relationships the server can return in one page. By default, the server
+    /// will pick a page size, and the server is free to choose a smaller size
+    /// at will.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint OptionalLimit {
+      get { return optionalLimit_; }
+      set {
+        optionalLimit_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "optional_cursor" field.</summary>
+    public const int OptionalCursorFieldNumber = 3;
+    private global::Authzed.Api.V1.Cursor optionalCursor_;
+    /// <summary>
+    /// optional_cursor, if specified, indicates the cursor after which results
+    /// should resume being returned. The cursor can be found on the
+    /// BulkExportRelationshipsResponse object.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.Cursor OptionalCursor {
+      get { return optionalCursor_; }
+      set {
+        optionalCursor_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "optional_relationship_filter" field.</summary>
+    public const int OptionalRelationshipFilterFieldNumber = 4;
+    private global::Authzed.Api.V1.RelationshipFilter optionalRelationshipFilter_;
+    /// <summary>
+    /// optional_relationship_filter, if specified, indicates the
+    /// filter to apply to each relationship to be exported.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.RelationshipFilter OptionalRelationshipFilter {
+      get { return optionalRelationshipFilter_; }
+      set {
+        optionalRelationshipFilter_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ExportBulkRelationshipsRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ExportBulkRelationshipsRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Consistency, other.Consistency)) return false;
+      if (OptionalLimit != other.OptionalLimit) return false;
+      if (!object.Equals(OptionalCursor, other.OptionalCursor)) return false;
+      if (!object.Equals(OptionalRelationshipFilter, other.OptionalRelationshipFilter)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (consistency_ != null) hash ^= Consistency.GetHashCode();
+      if (OptionalLimit != 0) hash ^= OptionalLimit.GetHashCode();
+      if (optionalCursor_ != null) hash ^= OptionalCursor.GetHashCode();
+      if (optionalRelationshipFilter_ != null) hash ^= OptionalRelationshipFilter.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (consistency_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Consistency);
+      }
+      if (OptionalLimit != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(OptionalLimit);
+      }
+      if (optionalCursor_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(OptionalCursor);
+      }
+      if (optionalRelationshipFilter_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(OptionalRelationshipFilter);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (consistency_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Consistency);
+      }
+      if (OptionalLimit != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(OptionalLimit);
+      }
+      if (optionalCursor_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(OptionalCursor);
+      }
+      if (optionalRelationshipFilter_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(OptionalRelationshipFilter);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (consistency_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Consistency);
+      }
+      if (OptionalLimit != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(OptionalLimit);
+      }
+      if (optionalCursor_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OptionalCursor);
+      }
+      if (optionalRelationshipFilter_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OptionalRelationshipFilter);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ExportBulkRelationshipsRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.consistency_ != null) {
+        if (consistency_ == null) {
+          Consistency = new global::Authzed.Api.V1.Consistency();
+        }
+        Consistency.MergeFrom(other.Consistency);
+      }
+      if (other.OptionalLimit != 0) {
+        OptionalLimit = other.OptionalLimit;
+      }
+      if (other.optionalCursor_ != null) {
+        if (optionalCursor_ == null) {
+          OptionalCursor = new global::Authzed.Api.V1.Cursor();
+        }
+        OptionalCursor.MergeFrom(other.OptionalCursor);
+      }
+      if (other.optionalRelationshipFilter_ != null) {
+        if (optionalRelationshipFilter_ == null) {
+          OptionalRelationshipFilter = new global::Authzed.Api.V1.RelationshipFilter();
+        }
+        OptionalRelationshipFilter.MergeFrom(other.OptionalRelationshipFilter);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (consistency_ == null) {
+              Consistency = new global::Authzed.Api.V1.Consistency();
+            }
+            input.ReadMessage(Consistency);
+            break;
+          }
+          case 16: {
+            OptionalLimit = input.ReadUInt32();
+            break;
+          }
+          case 26: {
+            if (optionalCursor_ == null) {
+              OptionalCursor = new global::Authzed.Api.V1.Cursor();
+            }
+            input.ReadMessage(OptionalCursor);
+            break;
+          }
+          case 34: {
+            if (optionalRelationshipFilter_ == null) {
+              OptionalRelationshipFilter = new global::Authzed.Api.V1.RelationshipFilter();
+            }
+            input.ReadMessage(OptionalRelationshipFilter);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (consistency_ == null) {
+              Consistency = new global::Authzed.Api.V1.Consistency();
+            }
+            input.ReadMessage(Consistency);
+            break;
+          }
+          case 16: {
+            OptionalLimit = input.ReadUInt32();
+            break;
+          }
+          case 26: {
+            if (optionalCursor_ == null) {
+              OptionalCursor = new global::Authzed.Api.V1.Cursor();
+            }
+            input.ReadMessage(OptionalCursor);
+            break;
+          }
+          case 34: {
+            if (optionalRelationshipFilter_ == null) {
+              OptionalRelationshipFilter = new global::Authzed.Api.V1.RelationshipFilter();
+            }
+            input.ReadMessage(OptionalRelationshipFilter);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  /// <summary>
+  /// ExportBulkRelationshipsResponse is one page in a stream of relationship
+  /// groups that meet the criteria specified by the originating request. The
+  /// server will continue to stream back relationship groups as quickly as it can
+  /// until all relationships have been transmitted back.
+  /// </summary>
+  public sealed partial class ExportBulkRelationshipsResponse : pb::IMessage<ExportBulkRelationshipsResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ExportBulkRelationshipsResponse> _parser = new pb::MessageParser<ExportBulkRelationshipsResponse>(() => new ExportBulkRelationshipsResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ExportBulkRelationshipsResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Authzed.Api.V1.PermissionServiceReflection.Descriptor.MessageTypes[27]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExportBulkRelationshipsResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExportBulkRelationshipsResponse(ExportBulkRelationshipsResponse other) : this() {
+      afterResultCursor_ = other.afterResultCursor_ != null ? other.afterResultCursor_.Clone() : null;
+      relationships_ = other.relationships_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ExportBulkRelationshipsResponse Clone() {
+      return new ExportBulkRelationshipsResponse(this);
+    }
+
+    /// <summary>Field number for the "after_result_cursor" field.</summary>
+    public const int AfterResultCursorFieldNumber = 1;
+    private global::Authzed.Api.V1.Cursor afterResultCursor_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.Cursor AfterResultCursor {
+      get { return afterResultCursor_; }
+      set {
+        afterResultCursor_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "relationships" field.</summary>
+    public const int RelationshipsFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Authzed.Api.V1.Relationship> _repeated_relationships_codec
+        = pb::FieldCodec.ForMessage(18, global::Authzed.Api.V1.Relationship.Parser);
+    private readonly pbc::RepeatedField<global::Authzed.Api.V1.Relationship> relationships_ = new pbc::RepeatedField<global::Authzed.Api.V1.Relationship>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Authzed.Api.V1.Relationship> Relationships {
+      get { return relationships_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ExportBulkRelationshipsResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ExportBulkRelationshipsResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(AfterResultCursor, other.AfterResultCursor)) return false;
+      if(!relationships_.Equals(other.relationships_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (afterResultCursor_ != null) hash ^= AfterResultCursor.GetHashCode();
+      hash ^= relationships_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (afterResultCursor_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(AfterResultCursor);
+      }
+      relationships_.WriteTo(output, _repeated_relationships_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (afterResultCursor_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(AfterResultCursor);
+      }
+      relationships_.WriteTo(ref output, _repeated_relationships_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (afterResultCursor_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AfterResultCursor);
+      }
+      size += relationships_.CalculateSize(_repeated_relationships_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ExportBulkRelationshipsResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.afterResultCursor_ != null) {
+        if (afterResultCursor_ == null) {
+          AfterResultCursor = new global::Authzed.Api.V1.Cursor();
+        }
+        AfterResultCursor.MergeFrom(other.AfterResultCursor);
+      }
+      relationships_.Add(other.relationships_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (afterResultCursor_ == null) {
+              AfterResultCursor = new global::Authzed.Api.V1.Cursor();
+            }
+            input.ReadMessage(AfterResultCursor);
+            break;
+          }
+          case 18: {
+            relationships_.AddEntriesFrom(input, _repeated_relationships_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (afterResultCursor_ == null) {
+              AfterResultCursor = new global::Authzed.Api.V1.Cursor();
+            }
+            input.ReadMessage(AfterResultCursor);
+            break;
+          }
+          case 18: {
+            relationships_.AddEntriesFrom(ref input, _repeated_relationships_codec);
             break;
           }
         }

@@ -16,4 +16,4 @@ plugins:
       - "base_namespace="
       - "no_server=on"
 inputs:
-  - module: buf.build/authzed/api:v1.35.0
+  - module: buf.build/authzed/api:v1.37.0

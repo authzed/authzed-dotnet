@@ -1,5 +1,5 @@
 # Authzed.Net
-[![Nuget](https://img.shields.io/nuget/v/Authzed.Api?color=%23006dad)](https://www.nuget.org/packages/Authzed.Net)
+[![Nuget](https://img.shields.io/nuget/v/Authzed.Net?color=%23006dad)](https://www.nuget.org/packages/Authzed.Net)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![Build Status](https://github.com/authzed/authzed-dotnet/workflows/Test/badge.svg)](https://github.com/authzed/authzed-dotnet/actions)
 [![Mailing List](https://img.shields.io/badge/email-google%20groups-4285F4)](https://groups.google.com/g/authzed-oss)

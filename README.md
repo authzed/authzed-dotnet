@@ -9,7 +9,7 @@
 
 This repository houses the official .NET (generated in C#) client library for Authzed and SpiceDB.
 
-[Authzed] is a database and service that stores, computes, and validates your application's permissions.
+[SpiceDB] is a database and service that stores, computes, and validates your application's permissions.
 
 Developers create a schema that models their permissions requirements and use a client library, such as this one, to apply the schema to the database, insert data into the database, and query the data to efficiently check permissions in their applications.
 
@@ -22,7 +22,7 @@ Additionally, Protobuf API documentation can be found on the [Buf Registry Authz
 
 See [CONTRIBUTING.md] for instructions on how to contribute and perform common tasks like building the project and running tests.
 
-[Authzed]: https://authzed.com
+[SpiceDB]: https://github.com/authzed/spicedb
 [Authzed API Reference documentation]: https://docs.authzed.com/reference/api
 [Buf Registry Authzed API repository]: https://buf.build/authzed/api/docs/main
 [CONTRIBUTING.md]: CONTRIBUTING.md

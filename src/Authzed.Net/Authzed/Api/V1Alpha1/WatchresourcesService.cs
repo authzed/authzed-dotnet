@@ -51,8 +51,8 @@ namespace Authzed.Api.V1Alpha1 {
             "emVkLmFwaS52MS5aZWRUb2tlblIOY2hhbmdlc1Rocm91Z2gyqQEKFVdhdGNo",
             "UmVzb3VyY2VzU2VydmljZRKPAQoOV2F0Y2hSZXNvdXJjZXMSKy5hdXRoemVk",
             "LmFwaS52MWFscGhhMS5XYXRjaFJlc291cmNlc1JlcXVlc3QaLC5hdXRoemVk",
-            "LmFwaS52MWFscGhhMS5XYXRjaFJlc291cmNlc1Jlc3BvbnNlIiCC0+STAho6",
-            "ASoiFS92MWFscGhhMS9sb29rdXB3YXRjaDABQlQKGGNvbS5hdXRoemVkLmFw",
+            "LmFwaS52MWFscGhhMS5XYXRjaFJlc291cmNlc1Jlc3BvbnNlIiCC0+STAhoi",
+            "FS92MWFscGhhMS9sb29rdXB3YXRjaDoBKjABQlQKGGNvbS5hdXRoemVkLmFw",
             "aS52MWFscGhhMVo4Z2l0aHViLmNvbS9hdXRoemVkL2F1dGh6ZWQtZ28vcHJv",
             "dG8vYXV0aHplZC9hcGkvdjFhbHBoYTFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
@@ -71,6 +71,7 @@ namespace Authzed.Api.V1Alpha1 {
   /// WatchResourcesRequest starts a watch for specific permission updates
   /// for the given resource and subject types.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WatchResourcesRequest : pb::IMessage<WatchResourcesRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -361,7 +362,11 @@ namespace Authzed.Api.V1Alpha1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -399,7 +404,11 @@ namespace Authzed.Api.V1Alpha1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -437,6 +446,7 @@ namespace Authzed.Api.V1Alpha1 {
   /// PermissionUpdate represents a single permission update for a specific
   /// subject's permissions.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class PermissionUpdate : pb::IMessage<PermissionUpdate>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -691,7 +701,11 @@ namespace Authzed.Api.V1Alpha1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -728,7 +742,11 @@ namespace Authzed.Api.V1Alpha1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -783,6 +801,7 @@ namespace Authzed.Api.V1Alpha1 {
   /// WatchResourcesResponse enumerates the list of permission updates that have
   /// occurred as a result of one or more relationship updates.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WatchResourcesResponse : pb::IMessage<WatchResourcesResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -959,7 +978,11 @@ namespace Authzed.Api.V1Alpha1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -985,7 +1008,11 @@ namespace Authzed.Api.V1Alpha1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

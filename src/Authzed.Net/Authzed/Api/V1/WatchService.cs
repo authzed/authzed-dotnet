@@ -25,29 +25,32 @@ namespace Authzed.Api.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiJhdXRoemVkL2FwaS92MS93YXRjaF9zZXJ2aWNlLnByb3RvEg5hdXRoemVk",
-            "LmFwaS52MRocZ29vZ2xlL2FwaS9hbm5vdGF0aW9ucy5wcm90bxoXdmFsaWRh",
-            "dGUvdmFsaWRhdGUucHJvdG8aGWF1dGh6ZWQvYXBpL3YxL2NvcmUucHJvdG8a",
-            "J2F1dGh6ZWQvYXBpL3YxL3Blcm1pc3Npb25fc2VydmljZS5wcm90byLKAgoM",
-            "V2F0Y2hSZXF1ZXN0EoMBChVvcHRpb25hbF9vYmplY3RfdHlwZXMYASADKAlC",
-            "T/pCTJIBSQgAIkVyQyiAATI+XihbYS16XVthLXowLTlfXXsxLDYyfVthLXow",
-            "LTldLykqW2Etel1bYS16MC05X117MSw2Mn1bYS16MC05XSRSE29wdGlvbmFs",
-            "T2JqZWN0VHlwZXMSTAoVb3B0aW9uYWxfc3RhcnRfY3Vyc29yGAIgASgLMhgu",
-            "YXV0aHplZC5hcGkudjEuWmVkVG9rZW5SE29wdGlvbmFsU3RhcnRDdXJzb3IS",
-            "Zgodb3B0aW9uYWxfcmVsYXRpb25zaGlwX2ZpbHRlcnMYAyADKAsyIi5hdXRo",
-            "emVkLmFwaS52MS5SZWxhdGlvbnNoaXBGaWx0ZXJSG29wdGlvbmFsUmVsYXRp",
-            "b25zaGlwRmlsdGVycyKQAQoNV2F0Y2hSZXNwb25zZRI8Cgd1cGRhdGVzGAEg",
-            "AygLMiIuYXV0aHplZC5hcGkudjEuUmVsYXRpb25zaGlwVXBkYXRlUgd1cGRh",
-            "dGVzEkEKD2NoYW5nZXNfdGhyb3VnaBgCIAEoCzIYLmF1dGh6ZWQuYXBpLnYx",
-            "LlplZFRva2VuUg5jaGFuZ2VzVGhyb3VnaDJsCgxXYXRjaFNlcnZpY2USXAoF",
-            "V2F0Y2gSHC5hdXRoemVkLmFwaS52MS5XYXRjaFJlcXVlc3QaHS5hdXRoemVk",
-            "LmFwaS52MS5XYXRjaFJlc3BvbnNlIhSC0+STAg46ASoiCS92MS93YXRjaDAB",
-            "QkoKEmNvbS5hdXRoemVkLmFwaS52MVABWjJnaXRodWIuY29tL2F1dGh6ZWQv",
-            "YXV0aHplZC1nby9wcm90by9hdXRoemVkL2FwaS92MWIGcHJvdG8z"));
+            "LmFwaS52MRocZ29vZ2xlL2FwaS9hbm5vdGF0aW9ucy5wcm90bxocZ29vZ2xl",
+            "L3Byb3RvYnVmL3N0cnVjdC5wcm90bxoXdmFsaWRhdGUvdmFsaWRhdGUucHJv",
+            "dG8aGWF1dGh6ZWQvYXBpL3YxL2NvcmUucHJvdG8aJ2F1dGh6ZWQvYXBpL3Yx",
+            "L3Blcm1pc3Npb25fc2VydmljZS5wcm90byLKAgoMV2F0Y2hSZXF1ZXN0EoMB",
+            "ChVvcHRpb25hbF9vYmplY3RfdHlwZXMYASADKAlCT/pCTJIBSQgAIkVyQyiA",
+            "ATI+XihbYS16XVthLXowLTlfXXsxLDYyfVthLXowLTldLykqW2Etel1bYS16",
+            "MC05X117MSw2Mn1bYS16MC05XSRSE29wdGlvbmFsT2JqZWN0VHlwZXMSTAoV",
+            "b3B0aW9uYWxfc3RhcnRfY3Vyc29yGAIgASgLMhguYXV0aHplZC5hcGkudjEu",
+            "WmVkVG9rZW5SE29wdGlvbmFsU3RhcnRDdXJzb3ISZgodb3B0aW9uYWxfcmVs",
+            "YXRpb25zaGlwX2ZpbHRlcnMYAyADKAsyIi5hdXRoemVkLmFwaS52MS5SZWxh",
+            "dGlvbnNoaXBGaWx0ZXJSG29wdGlvbmFsUmVsYXRpb25zaGlwRmlsdGVycyLt",
+            "AQoNV2F0Y2hSZXNwb25zZRI8Cgd1cGRhdGVzGAEgAygLMiIuYXV0aHplZC5h",
+            "cGkudjEuUmVsYXRpb25zaGlwVXBkYXRlUgd1cGRhdGVzEkEKD2NoYW5nZXNf",
+            "dGhyb3VnaBgCIAEoCzIYLmF1dGh6ZWQuYXBpLnYxLlplZFRva2VuUg5jaGFu",
+            "Z2VzVGhyb3VnaBJbCh1vcHRpb25hbF90cmFuc2FjdGlvbl9tZXRhZGF0YRgD",
+            "IAEoCzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3RSG29wdGlvbmFsVHJhbnNh",
+            "Y3Rpb25NZXRhZGF0YTJsCgxXYXRjaFNlcnZpY2USXAoFV2F0Y2gSHC5hdXRo",
+            "emVkLmFwaS52MS5XYXRjaFJlcXVlc3QaHS5hdXRoemVkLmFwaS52MS5XYXRj",
+            "aFJlc3BvbnNlIhSC0+STAg4iCS92MS93YXRjaDoBKjABQkoKEmNvbS5hdXRo",
+            "emVkLmFwaS52MVABWjJnaXRodWIuY29tL2F1dGh6ZWQvYXV0aHplZC1nby9w",
+            "cm90by9hdXRoemVkL2FwaS92MWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Authzed.Api.V1.CoreReflection.Descriptor, global::Authzed.Api.V1.PermissionServiceReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Authzed.Api.V1.CoreReflection.Descriptor, global::Authzed.Api.V1.PermissionServiceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.WatchRequest), global::Authzed.Api.V1.WatchRequest.Parser, new[]{ "OptionalObjectTypes", "OptionalStartCursor", "OptionalRelationshipFilters" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.WatchResponse), global::Authzed.Api.V1.WatchResponse.Parser, new[]{ "Updates", "ChangesThrough" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.WatchResponse), global::Authzed.Api.V1.WatchResponse.Parser, new[]{ "Updates", "ChangesThrough", "OptionalTransactionMetadata" }, null, null, null, null)
           }));
     }
     #endregion
@@ -59,6 +62,7 @@ namespace Authzed.Api.V1 {
   /// watching mutations, and an optional start snapshot for when to start
   /// watching.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WatchRequest : pb::IMessage<WatchRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -274,7 +278,11 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -304,7 +312,11 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -336,6 +348,7 @@ namespace Authzed.Api.V1 {
   /// encoded in the watch response. The client can use the snapshot to resume
   /// watching where the previous watch response left off.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WatchResponse : pb::IMessage<WatchResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -372,6 +385,7 @@ namespace Authzed.Api.V1 {
     public WatchResponse(WatchResponse other) : this() {
       updates_ = other.updates_.Clone();
       changesThrough_ = other.changesThrough_ != null ? other.changesThrough_.Clone() : null;
+      optionalTransactionMetadata_ = other.optionalTransactionMetadata_ != null ? other.optionalTransactionMetadata_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -386,6 +400,10 @@ namespace Authzed.Api.V1 {
     private static readonly pb::FieldCodec<global::Authzed.Api.V1.RelationshipUpdate> _repeated_updates_codec
         = pb::FieldCodec.ForMessage(10, global::Authzed.Api.V1.RelationshipUpdate.Parser);
     private readonly pbc::RepeatedField<global::Authzed.Api.V1.RelationshipUpdate> updates_ = new pbc::RepeatedField<global::Authzed.Api.V1.RelationshipUpdate>();
+    /// <summary>
+    /// updates are the RelationshipUpdate events that have occurred since the
+    /// last watch response.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::Authzed.Api.V1.RelationshipUpdate> Updates {
@@ -395,12 +413,34 @@ namespace Authzed.Api.V1 {
     /// <summary>Field number for the "changes_through" field.</summary>
     public const int ChangesThroughFieldNumber = 2;
     private global::Authzed.Api.V1.ZedToken changesThrough_;
+    /// <summary>
+    /// changes_through is the ZedToken that represents the point in time
+    /// that the watch response is current through. This token can be used
+    /// in a subsequent WatchRequest to resume watching from this point.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Authzed.Api.V1.ZedToken ChangesThrough {
       get { return changesThrough_; }
       set {
         changesThrough_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "optional_transaction_metadata" field.</summary>
+    public const int OptionalTransactionMetadataFieldNumber = 3;
+    private global::Google.Protobuf.WellKnownTypes.Struct optionalTransactionMetadata_;
+    /// <summary>
+    /// optional_transaction_metadata is an optional field that returns the transaction metadata
+    /// given to SpiceDB during the transaction that produced the changes in this response.
+    /// This field may not exist if no transaction metadata was provided.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Struct OptionalTransactionMetadata {
+      get { return optionalTransactionMetadata_; }
+      set {
+        optionalTransactionMetadata_ = value;
       }
     }
 
@@ -421,6 +461,7 @@ namespace Authzed.Api.V1 {
       }
       if(!updates_.Equals(other.updates_)) return false;
       if (!object.Equals(ChangesThrough, other.ChangesThrough)) return false;
+      if (!object.Equals(OptionalTransactionMetadata, other.OptionalTransactionMetadata)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -430,6 +471,7 @@ namespace Authzed.Api.V1 {
       int hash = 1;
       hash ^= updates_.GetHashCode();
       if (changesThrough_ != null) hash ^= ChangesThrough.GetHashCode();
+      if (optionalTransactionMetadata_ != null) hash ^= OptionalTransactionMetadata.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -453,6 +495,10 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(18);
         output.WriteMessage(ChangesThrough);
       }
+      if (optionalTransactionMetadata_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(OptionalTransactionMetadata);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -468,6 +514,10 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(18);
         output.WriteMessage(ChangesThrough);
       }
+      if (optionalTransactionMetadata_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(OptionalTransactionMetadata);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -481,6 +531,9 @@ namespace Authzed.Api.V1 {
       size += updates_.CalculateSize(_repeated_updates_codec);
       if (changesThrough_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ChangesThrough);
+      }
+      if (optionalTransactionMetadata_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OptionalTransactionMetadata);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -501,6 +554,12 @@ namespace Authzed.Api.V1 {
         }
         ChangesThrough.MergeFrom(other.ChangesThrough);
       }
+      if (other.optionalTransactionMetadata_ != null) {
+        if (optionalTransactionMetadata_ == null) {
+          OptionalTransactionMetadata = new global::Google.Protobuf.WellKnownTypes.Struct();
+        }
+        OptionalTransactionMetadata.MergeFrom(other.OptionalTransactionMetadata);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -512,7 +571,11 @@ namespace Authzed.Api.V1 {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -527,6 +590,13 @@ namespace Authzed.Api.V1 {
             input.ReadMessage(ChangesThrough);
             break;
           }
+          case 26: {
+            if (optionalTransactionMetadata_ == null) {
+              OptionalTransactionMetadata = new global::Google.Protobuf.WellKnownTypes.Struct();
+            }
+            input.ReadMessage(OptionalTransactionMetadata);
+            break;
+          }
         }
       }
     #endif
@@ -538,7 +608,11 @@ namespace Authzed.Api.V1 {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -551,6 +625,13 @@ namespace Authzed.Api.V1 {
               ChangesThrough = new global::Authzed.Api.V1.ZedToken();
             }
             input.ReadMessage(ChangesThrough);
+            break;
+          }
+          case 26: {
+            if (optionalTransactionMetadata_ == null) {
+              OptionalTransactionMetadata = new global::Google.Protobuf.WellKnownTypes.Struct();
+            }
+            input.ReadMessage(OptionalTransactionMetadata);
             break;
           }
         }

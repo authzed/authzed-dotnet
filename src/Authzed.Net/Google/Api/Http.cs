@@ -57,6 +57,7 @@ namespace Google.Api {
   /// [HttpRule][google.api.HttpRule], each specifying the mapping of an RPC method
   /// to one or more HTTP REST API methods.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Http : pb::IMessage<Http>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -243,7 +244,11 @@ namespace Google.Api {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -266,7 +271,11 @@ namespace Google.Api {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -555,6 +564,7 @@ namespace Google.Api {
   /// the request or response body to a repeated field. However, some gRPC
   /// Transcoding implementations may not support this feature.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class HttpRule : pb::IMessage<HttpRule>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -649,10 +659,24 @@ namespace Google.Api {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Get {
-      get { return patternCase_ == PatternOneofCase.Get ? (string) pattern_ : ""; }
+      get { return HasGet ? (string) pattern_ : ""; }
       set {
         pattern_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         patternCase_ = PatternOneofCase.Get;
+      }
+    }
+    /// <summary>Gets whether the "get" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasGet {
+      get { return patternCase_ == PatternOneofCase.Get; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "get" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearGet() {
+      if (HasGet) {
+        ClearPattern();
       }
     }
 
@@ -664,10 +688,24 @@ namespace Google.Api {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Put {
-      get { return patternCase_ == PatternOneofCase.Put ? (string) pattern_ : ""; }
+      get { return HasPut ? (string) pattern_ : ""; }
       set {
         pattern_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         patternCase_ = PatternOneofCase.Put;
+      }
+    }
+    /// <summary>Gets whether the "put" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPut {
+      get { return patternCase_ == PatternOneofCase.Put; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "put" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPut() {
+      if (HasPut) {
+        ClearPattern();
       }
     }
 
@@ -679,10 +717,24 @@ namespace Google.Api {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Post {
-      get { return patternCase_ == PatternOneofCase.Post ? (string) pattern_ : ""; }
+      get { return HasPost ? (string) pattern_ : ""; }
       set {
         pattern_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         patternCase_ = PatternOneofCase.Post;
+      }
+    }
+    /// <summary>Gets whether the "post" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPost {
+      get { return patternCase_ == PatternOneofCase.Post; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "post" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPost() {
+      if (HasPost) {
+        ClearPattern();
       }
     }
 
@@ -694,10 +746,24 @@ namespace Google.Api {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Delete {
-      get { return patternCase_ == PatternOneofCase.Delete ? (string) pattern_ : ""; }
+      get { return HasDelete ? (string) pattern_ : ""; }
       set {
         pattern_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         patternCase_ = PatternOneofCase.Delete;
+      }
+    }
+    /// <summary>Gets whether the "delete" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasDelete {
+      get { return patternCase_ == PatternOneofCase.Delete; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "delete" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearDelete() {
+      if (HasDelete) {
+        ClearPattern();
       }
     }
 
@@ -709,10 +775,24 @@ namespace Google.Api {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string Patch {
-      get { return patternCase_ == PatternOneofCase.Patch ? (string) pattern_ : ""; }
+      get { return HasPatch ? (string) pattern_ : ""; }
       set {
         pattern_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
         patternCase_ = PatternOneofCase.Patch;
+      }
+    }
+    /// <summary>Gets whether the "patch" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPatch {
+      get { return patternCase_ == PatternOneofCase.Patch; }
+    }
+    /// <summary> Clears the value of the oneof if it's currently set to "patch" </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPatch() {
+      if (HasPatch) {
+        ClearPattern();
       }
     }
 
@@ -849,11 +929,11 @@ namespace Google.Api {
     public override int GetHashCode() {
       int hash = 1;
       if (Selector.Length != 0) hash ^= Selector.GetHashCode();
-      if (patternCase_ == PatternOneofCase.Get) hash ^= Get.GetHashCode();
-      if (patternCase_ == PatternOneofCase.Put) hash ^= Put.GetHashCode();
-      if (patternCase_ == PatternOneofCase.Post) hash ^= Post.GetHashCode();
-      if (patternCase_ == PatternOneofCase.Delete) hash ^= Delete.GetHashCode();
-      if (patternCase_ == PatternOneofCase.Patch) hash ^= Patch.GetHashCode();
+      if (HasGet) hash ^= Get.GetHashCode();
+      if (HasPut) hash ^= Put.GetHashCode();
+      if (HasPost) hash ^= Post.GetHashCode();
+      if (HasDelete) hash ^= Delete.GetHashCode();
+      if (HasPatch) hash ^= Patch.GetHashCode();
       if (patternCase_ == PatternOneofCase.Custom) hash ^= Custom.GetHashCode();
       if (Body.Length != 0) hash ^= Body.GetHashCode();
       if (ResponseBody.Length != 0) hash ^= ResponseBody.GetHashCode();
@@ -881,23 +961,23 @@ namespace Google.Api {
         output.WriteRawTag(10);
         output.WriteString(Selector);
       }
-      if (patternCase_ == PatternOneofCase.Get) {
+      if (HasGet) {
         output.WriteRawTag(18);
         output.WriteString(Get);
       }
-      if (patternCase_ == PatternOneofCase.Put) {
+      if (HasPut) {
         output.WriteRawTag(26);
         output.WriteString(Put);
       }
-      if (patternCase_ == PatternOneofCase.Post) {
+      if (HasPost) {
         output.WriteRawTag(34);
         output.WriteString(Post);
       }
-      if (patternCase_ == PatternOneofCase.Delete) {
+      if (HasDelete) {
         output.WriteRawTag(42);
         output.WriteString(Delete);
       }
-      if (patternCase_ == PatternOneofCase.Patch) {
+      if (HasPatch) {
         output.WriteRawTag(50);
         output.WriteString(Patch);
       }
@@ -928,23 +1008,23 @@ namespace Google.Api {
         output.WriteRawTag(10);
         output.WriteString(Selector);
       }
-      if (patternCase_ == PatternOneofCase.Get) {
+      if (HasGet) {
         output.WriteRawTag(18);
         output.WriteString(Get);
       }
-      if (patternCase_ == PatternOneofCase.Put) {
+      if (HasPut) {
         output.WriteRawTag(26);
         output.WriteString(Put);
       }
-      if (patternCase_ == PatternOneofCase.Post) {
+      if (HasPost) {
         output.WriteRawTag(34);
         output.WriteString(Post);
       }
-      if (patternCase_ == PatternOneofCase.Delete) {
+      if (HasDelete) {
         output.WriteRawTag(42);
         output.WriteString(Delete);
       }
-      if (patternCase_ == PatternOneofCase.Patch) {
+      if (HasPatch) {
         output.WriteRawTag(50);
         output.WriteString(Patch);
       }
@@ -974,19 +1054,19 @@ namespace Google.Api {
       if (Selector.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Selector);
       }
-      if (patternCase_ == PatternOneofCase.Get) {
+      if (HasGet) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Get);
       }
-      if (patternCase_ == PatternOneofCase.Put) {
+      if (HasPut) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Put);
       }
-      if (patternCase_ == PatternOneofCase.Post) {
+      if (HasPost) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Post);
       }
-      if (patternCase_ == PatternOneofCase.Delete) {
+      if (HasDelete) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Delete);
       }
-      if (patternCase_ == PatternOneofCase.Patch) {
+      if (HasPatch) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Patch);
       }
       if (patternCase_ == PatternOneofCase.Custom) {
@@ -1056,7 +1136,11 @@ namespace Google.Api {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1116,7 +1200,11 @@ namespace Google.Api {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1175,6 +1263,7 @@ namespace Google.Api {
   /// <summary>
   /// A custom pattern is used for defining custom HTTP verb.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CustomHttpPattern : pb::IMessage<CustomHttpPattern>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1365,7 +1454,11 @@ namespace Google.Api {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1388,7 +1481,11 @@ namespace Google.Api {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

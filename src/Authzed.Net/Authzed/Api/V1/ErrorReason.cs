@@ -25,7 +25,7 @@ namespace Authzed.Api.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiFhdXRoemVkL2FwaS92MS9lcnJvcl9yZWFzb24ucHJvdG8SDmF1dGh6ZWQu",
-            "YXBpLnYxKvEJCgtFcnJvclJlYXNvbhIcChhFUlJPUl9SRUFTT05fVU5TUEVD",
+            "YXBpLnYxKqIKCgtFcnJvclJlYXNvbhIcChhFUlJPUl9SRUFTT05fVU5TUEVD",
             "SUZJRUQQABIjCh9FUlJPUl9SRUFTT05fU0NIRU1BX1BBUlNFX0VSUk9SEAES",
             "IgoeRVJST1JfUkVBU09OX1NDSEVNQV9UWVBFX0VSUk9SEAISIwofRVJST1Jf",
             "UkVBU09OX1VOS05PV05fREVGSU5JVElPThADEi8KK0VSUk9SX1JFQVNPTl9V",
@@ -53,9 +53,10 @@ namespace Authzed.Api.V1 {
             "U09OX0VNUFRZX1BSRUNPTkRJVElPThAZEisKJ0VSUk9SX1JFQVNPTl9DT1VO",
             "VEVSX0FMUkVBRFlfUkVHSVNURVJFRBAaEicKI0VSUk9SX1JFQVNPTl9DT1VO",
             "VEVSX05PVF9SRUdJU1RFUkVEEBsSJQohRVJST1JfUkVBU09OX1dJTERDQVJE",
-            "X05PVF9BTExPV0VEEBxCSgoSY29tLmF1dGh6ZWQuYXBpLnYxUAFaMmdpdGh1",
-            "Yi5jb20vYXV0aHplZC9hdXRoemVkLWdvL3Byb3RvL2F1dGh6ZWQvYXBpL3Yx",
-            "YgZwcm90bzM="));
+            "X05PVF9BTExPV0VEEBwSLworRVJST1JfUkVBU09OX1RSQU5TQUNUSU9OX01F",
+            "VEFEQVRBX1RPT19MQVJHRRAdQkoKEmNvbS5hdXRoemVkLmFwaS52MVABWjJn",
+            "aXRodWIuY29tL2F1dGh6ZWQvYXV0aHplZC1nby9wcm90by9hdXRoemVkL2Fw",
+            "aS92MWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Authzed.Api.V1.ErrorReason), }, null, null));
@@ -490,6 +491,21 @@ namespace Authzed.Api.V1 {
     ///     }
     /// </summary>
     [pbr::OriginalName("ERROR_REASON_WILDCARD_NOT_ALLOWED")] WildcardNotAllowed = 28,
+    /// <summary>
+    /// The request failed because the transaction metadata was too large.
+    ///
+    /// Example of an ErrorInfo:
+    ///
+    ///     {
+    ///       "reason": "ERROR_REASON_TRANSACTION_METADATA_TOO_LARGE",
+    ///       "domain": "authzed.com",
+    ///       "metadata": {
+    ///         "metadata_byte_size": "1024",
+    ///         "maximum_allowed_metadata_byte_size": "512",
+    ///       }
+    ///     }
+    /// </summary>
+    [pbr::OriginalName("ERROR_REASON_TRANSACTION_METADATA_TOO_LARGE")] TransactionMetadataTooLarge = 29,
   }
 
   #endregion

@@ -253,6 +253,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///    produces: "application/json";
   ///  };
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Swagger : pb::IMessage<Swagger>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -701,7 +702,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       schemes_.Add(other.schemes_);
       consumes_.Add(other.consumes_);
       produces_.Add(other.produces_);
-      responses_.Add(other.responses_);
+      responses_.MergeFrom(other.responses_);
       if (other.securityDefinitions_ != null) {
         if (securityDefinitions_ == null) {
           SecurityDefinitions = new global::Grpc.Gateway.ProtocGenOpenapiv2.Options.SecurityDefinitions();
@@ -715,7 +716,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         }
         ExternalDocs.MergeFrom(other.ExternalDocs);
       }
-      extensions_.Add(other.extensions_);
+      extensions_.MergeFrom(other.extensions_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -727,7 +728,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -800,7 +805,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -896,6 +905,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///    }
   ///  }
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Operation : pb::IMessage<Operation>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1329,13 +1339,13 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       }
       consumes_.Add(other.consumes_);
       produces_.Add(other.produces_);
-      responses_.Add(other.responses_);
+      responses_.MergeFrom(other.responses_);
       schemes_.Add(other.schemes_);
       if (other.Deprecated != false) {
         Deprecated = other.Deprecated;
       }
       security_.Add(other.security_);
-      extensions_.Add(other.extensions_);
+      extensions_.MergeFrom(other.extensions_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1347,7 +1357,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1414,7 +1428,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1482,6 +1500,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///
   /// See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#headerObject
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Header : pb::IMessage<Header>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1770,7 +1789,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -1805,7 +1828,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -1841,6 +1868,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///
   /// See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#responseObject
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Response : pb::IMessage<Response>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2085,9 +2113,9 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         }
         Schema.MergeFrom(other.Schema);
       }
-      headers_.Add(other.headers_);
-      examples_.Add(other.examples_);
-      extensions_.Add(other.extensions_);
+      headers_.MergeFrom(other.headers_);
+      examples_.MergeFrom(other.examples_);
+      extensions_.MergeFrom(other.extensions_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2099,7 +2127,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2137,7 +2169,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2196,6 +2232,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///    ...
   ///  };
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Info : pb::IMessage<Info>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2528,7 +2565,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       if (other.Version.Length != 0) {
         Version = other.Version;
       }
-      extensions_.Add(other.extensions_);
+      extensions_.MergeFrom(other.extensions_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2540,7 +2577,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2589,7 +2630,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2654,6 +2699,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///    ...
   ///  };
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Contact : pb::IMessage<Contact>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2878,7 +2924,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -2905,7 +2955,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -2947,6 +3001,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///    ...
   ///  };
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class License : pb::IMessage<License>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3137,7 +3192,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3160,7 +3219,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3196,6 +3259,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///    ...
   ///  };
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ExternalDocumentation : pb::IMessage<ExternalDocumentation>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3388,7 +3452,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3411,7 +3479,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3435,6 +3507,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///
   /// See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#schemaObject
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Schema : pb::IMessage<Schema>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -3733,7 +3806,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -3774,7 +3851,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -3840,6 +3921,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///        }];
   ///  }
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class JSONSchema : pb::IMessage<JSONSchema>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -4695,7 +4777,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         }
         FieldConfiguration.MergeFrom(other.FieldConfiguration);
       }
-      extensions_.Add(other.extensions_);
+      extensions_.MergeFrom(other.extensions_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -4707,7 +4789,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -4830,7 +4916,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -4967,6 +5057,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       /// 'FieldConfiguration' provides additional field level properties used when generating the OpenAPI v2 file.
       /// These properties are not defined by OpenAPIv2, but they are used to control the generation.
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class FieldConfiguration : pb::IMessage<FieldConfiguration>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -5128,7 +5219,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         #else
           uint tag;
           while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
               default:
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
                 break;
@@ -5147,7 +5242,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
           uint tag;
           while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
               default:
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
                 break;
@@ -5172,6 +5271,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///
   /// See: https://github.com/OAI/OpenAPI-Specification/blob/3.0.0/versions/2.0.md#tagObject
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Tag : pb::IMessage<Tag>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5366,7 +5466,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5392,7 +5496,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5424,6 +5532,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   /// specification. This does not enforce the security schemes on the operations
   /// and only serves to provide the relevant details for each scheme.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SecurityDefinitions : pb::IMessage<SecurityDefinitions>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -5560,7 +5669,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       if (other == null) {
         return;
       }
-      security_.Add(other.security_);
+      security_.MergeFrom(other.security_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -5572,7 +5681,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -5591,7 +5704,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -5617,6 +5734,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   /// a header or as a query parameter) and OAuth2's common flows (implicit,
   /// password, application and access code).
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SecurityScheme : pb::IMessage<SecurityScheme>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6019,7 +6137,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         }
         Scopes.MergeFrom(other.Scopes);
       }
-      extensions_.Add(other.extensions_);
+      extensions_.MergeFrom(other.extensions_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -6031,7 +6149,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6085,7 +6207,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6188,6 +6314,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   /// The name used for each property MUST correspond to a security scheme
   /// declared in the Security Definitions.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SecurityRequirement : pb::IMessage<SecurityRequirement>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6326,7 +6453,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       if (other == null) {
         return;
       }
-      securityRequirement_.Add(other.securityRequirement_);
+      securityRequirement_.MergeFrom(other.securityRequirement_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -6338,7 +6465,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6357,7 +6488,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
@@ -6380,6 +6515,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       /// scope names required for the execution. For other security scheme types,
       /// the array MUST be empty.
       /// </summary>
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class SecurityRequirementValue : pb::IMessage<SecurityRequirementValue>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -6524,7 +6660,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         #else
           uint tag;
           while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
               default:
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
                 break;
@@ -6543,7 +6683,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
         void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
           uint tag;
           while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
+          if ((tag & 7) == 4) {
+            // Abort on any end group tag.
+            return;
+          }
+          switch(tag) {
               default:
                 _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
                 break;
@@ -6570,6 +6714,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
   ///
   /// Lists the available scopes for an OAuth2 security scheme.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Scopes : pb::IMessage<Scopes>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6706,7 +6851,7 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
       if (other == null) {
         return;
       }
-      scope_.Add(other.scope_);
+      scope_.MergeFrom(other.scope_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -6718,7 +6863,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     #else
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
@@ -6737,7 +6886,11 @@ namespace Grpc.Gateway.ProtocGenOpenapiv2.Options {
     void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
       uint tag;
       while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;

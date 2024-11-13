@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <PackageReference Include="Grpc.Core" Version="2.46.6" />
-    <PackageReference Include="Grpc.Net.ClientFactory" Version="2.66.0" />
   </ItemGroup>
 
   <PropertyGroup>

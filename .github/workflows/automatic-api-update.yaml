@@ -1,3 +1,4 @@
+---
 name: "Called update for API change"
 on:
   repository_dispatch:
@@ -36,6 +37,9 @@ jobs:
         with:
           delete-branch: "true"
           title: "Update API to ${{ github.event.client_payload.BUFTAG }}"
+          # https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#triggering-further-workflow-runs
+          # This is how we ensure that workflows run
+          draft: "always-true"
           branch: "api-change/${{ github.event.client_payload.BUFTAG }}"
           base: "main"
           token: ${{ secrets.GITHUB_TOKEN }}

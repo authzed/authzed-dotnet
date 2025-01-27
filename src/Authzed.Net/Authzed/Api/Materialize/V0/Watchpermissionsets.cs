@@ -38,58 +38,58 @@ namespace Authzed.Api.Materialize.V0 {
             "UmVxdWlyZWRIAFIcbG9va3VwUGVybWlzc2lvblNldHNSZXF1aXJlZBJoChZi",
             "cmVha2luZ19zY2hlbWFfY2hhbmdlGAQgASgLMjAuYXV0aHplZC5hcGkubWF0",
             "ZXJpYWxpemUudjAuQnJlYWtpbmdTY2hlbWFDaGFuZ2VIAFIUYnJlYWtpbmdT",
-            "Y2hlbWFDaGFuZ2VCCgoIcmVzcG9uc2UixQEKBkN1cnNvchIUCgVsaW1pdBgB",
+            "Y2hlbWFDaGFuZ2VCCgoIcmVzcG9uc2Ui3QEKBkN1cnNvchIUCgVsaW1pdBgB",
             "IAEoDVIFbGltaXQSLgoFdG9rZW4YBCABKAsyGC5hdXRoemVkLmFwaS52MS5a",
             "ZWRUb2tlblIFdG9rZW4SJQoOc3RhcnRpbmdfaW5kZXgYBSABKA1SDXN0YXJ0",
             "aW5nSW5kZXgSKwoRY29tcGxldGVkX21lbWJlcnMYBiABKAhSEGNvbXBsZXRl",
-            "ZE1lbWJlcnMSIQoMc3RhcnRpbmdfa2V5GAcgASgJUgtzdGFydGluZ0tleSLo",
-            "AQobTG9va3VwUGVybWlzc2lvblNldHNSZXF1ZXN0EhQKBWxpbWl0GAEgASgN",
-            "UgVsaW1pdBJKChRvcHRpb25hbF9hdF9yZXZpc2lvbhgCIAEoCzIYLmF1dGh6",
-            "ZWQuYXBpLnYxLlplZFRva2VuUhJvcHRpb25hbEF0UmV2aXNpb24SZwoeb3B0",
-            "aW9uYWxfc3RhcnRpbmdfYWZ0ZXJfY3Vyc29yGAQgASgLMiIuYXV0aHplZC5h",
-            "cGkubWF0ZXJpYWxpemUudjAuQ3Vyc29yUhtvcHRpb25hbFN0YXJ0aW5nQWZ0",
-            "ZXJDdXJzb3IiowEKHExvb2t1cFBlcm1pc3Npb25TZXRzUmVzcG9uc2USRwoG",
-            "Y2hhbmdlGAEgASgLMi8uYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuUGVy",
-            "bWlzc2lvblNldENoYW5nZVIGY2hhbmdlEjoKBmN1cnNvchgCIAEoCzIiLmF1",
-            "dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLkN1cnNvclIGY3Vyc29yIvwDChNQ",
-            "ZXJtaXNzaW9uU2V0Q2hhbmdlEjkKC2F0X3JldmlzaW9uGAEgASgLMhguYXV0",
-            "aHplZC5hcGkudjEuWmVkVG9rZW5SCmF0UmV2aXNpb24SWgoJb3BlcmF0aW9u",
-            "GAIgASgOMjwuYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuUGVybWlzc2lv",
-            "blNldENoYW5nZS5TZXRPcGVyYXRpb25SCW9wZXJhdGlvbhJHCgpwYXJlbnRf",
-            "c2V0GAMgASgLMiguYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuU2V0UmVm",
-            "ZXJlbmNlUglwYXJlbnRTZXQSRwoJY2hpbGRfc2V0GAQgASgLMiguYXV0aHpl",
-            "ZC5hcGkubWF0ZXJpYWxpemUudjAuU2V0UmVmZXJlbmNlSABSCGNoaWxkU2V0",
-            "ElAKDGNoaWxkX21lbWJlchgFIAEoCzIrLmF1dGh6ZWQuYXBpLm1hdGVyaWFs",
-            "aXplLnYwLk1lbWJlclJlZmVyZW5jZUgAUgtjaGlsZE1lbWJlciJhCgxTZXRP",
-            "cGVyYXRpb24SHQoZU0VUX09QRVJBVElPTl9VTlNQRUNJRklFRBAAEhcKE1NF",
-            "VF9PUEVSQVRJT05fQURERUQQARIZChVTRVRfT1BFUkFUSU9OX1JFTU9WRUQQ",
-            "AkIHCgVjaGlsZCKCAQoMU2V0UmVmZXJlbmNlEh8KC29iamVjdF90eXBlGAEg",
-            "ASgJUgpvYmplY3RUeXBlEhsKCW9iamVjdF9pZBgCIAEoCVIIb2JqZWN0SWQS",
-            "NAoWcGVybWlzc2lvbl9vcl9yZWxhdGlvbhgDIAEoCVIUcGVybWlzc2lvbk9y",
-            "UmVsYXRpb24ilgEKD01lbWJlclJlZmVyZW5jZRIfCgtvYmplY3RfdHlwZRgB",
-            "IAEoCVIKb2JqZWN0VHlwZRIbCglvYmplY3RfaWQYAiABKAlSCG9iamVjdElk",
-            "EkUKH29wdGlvbmFsX3Blcm1pc3Npb25fb3JfcmVsYXRpb24YAyABKAlSHG9w",
-            "dGlvbmFsUGVybWlzc2lvbk9yUmVsYXRpb24iZgocTG9va3VwUGVybWlzc2lv",
-            "blNldHNSZXF1aXJlZBJGChJyZXF1aXJlZF9sb29rdXBfYXQYASABKAsyGC5h",
-            "dXRoemVkLmFwaS52MS5aZWRUb2tlblIQcmVxdWlyZWRMb29rdXBBdCJNChRC",
-            "cmVha2luZ1NjaGVtYUNoYW5nZRI1CgljaGFuZ2VfYXQYASABKAsyGC5hdXRo",
-            "emVkLmFwaS52MS5aZWRUb2tlblIIY2hhbmdlQXQyuQIKGldhdGNoUGVybWlz",
-            "c2lvblNldHNTZXJ2aWNlEooBChNXYXRjaFBlcm1pc3Npb25TZXRzEjYuYXV0",
-            "aHplZC5hcGkubWF0ZXJpYWxpemUudjAuV2F0Y2hQZXJtaXNzaW9uU2V0c1Jl",
-            "cXVlc3QaNy5hdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MC5XYXRjaFBlcm1p",
-            "c3Npb25TZXRzUmVzcG9uc2UiADABEo0BChRMb29rdXBQZXJtaXNzaW9uU2V0",
-            "cxI3LmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLkxvb2t1cFBlcm1pc3Np",
-            "b25TZXRzUmVxdWVzdBo4LmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLkxv",
-            "b2t1cFBlcm1pc3Npb25TZXRzUmVzcG9uc2UiADABQmIKHmNvbS5hdXRoemVk",
-            "LmFwaS5tYXRlcmlhbGl6ZS52MFABWj5naXRodWIuY29tL2F1dGh6ZWQvYXV0",
-            "aHplZC1nby9wcm90by9hdXRoemVkL2FwaS9tYXRlcmlhbGl6ZS92MGIGcHJv",
-            "dG8z"));
+            "ZE1lbWJlcnMSIQoMc3RhcnRpbmdfa2V5GAcgASgJUgtzdGFydGluZ0tleRIW",
+            "CgZjdXJzb3IYCCABKAlSBmN1cnNvciLoAQobTG9va3VwUGVybWlzc2lvblNl",
+            "dHNSZXF1ZXN0EhQKBWxpbWl0GAEgASgNUgVsaW1pdBJKChRvcHRpb25hbF9h",
+            "dF9yZXZpc2lvbhgCIAEoCzIYLmF1dGh6ZWQuYXBpLnYxLlplZFRva2VuUhJv",
+            "cHRpb25hbEF0UmV2aXNpb24SZwoeb3B0aW9uYWxfc3RhcnRpbmdfYWZ0ZXJf",
+            "Y3Vyc29yGAQgASgLMiIuYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuQ3Vy",
+            "c29yUhtvcHRpb25hbFN0YXJ0aW5nQWZ0ZXJDdXJzb3IiowEKHExvb2t1cFBl",
+            "cm1pc3Npb25TZXRzUmVzcG9uc2USRwoGY2hhbmdlGAEgASgLMi8uYXV0aHpl",
+            "ZC5hcGkubWF0ZXJpYWxpemUudjAuUGVybWlzc2lvblNldENoYW5nZVIGY2hh",
+            "bmdlEjoKBmN1cnNvchgCIAEoCzIiLmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXpl",
+            "LnYwLkN1cnNvclIGY3Vyc29yIvwDChNQZXJtaXNzaW9uU2V0Q2hhbmdlEjkK",
+            "C2F0X3JldmlzaW9uGAEgASgLMhguYXV0aHplZC5hcGkudjEuWmVkVG9rZW5S",
+            "CmF0UmV2aXNpb24SWgoJb3BlcmF0aW9uGAIgASgOMjwuYXV0aHplZC5hcGku",
+            "bWF0ZXJpYWxpemUudjAuUGVybWlzc2lvblNldENoYW5nZS5TZXRPcGVyYXRp",
+            "b25SCW9wZXJhdGlvbhJHCgpwYXJlbnRfc2V0GAMgASgLMiguYXV0aHplZC5h",
+            "cGkubWF0ZXJpYWxpemUudjAuU2V0UmVmZXJlbmNlUglwYXJlbnRTZXQSRwoJ",
+            "Y2hpbGRfc2V0GAQgASgLMiguYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAu",
+            "U2V0UmVmZXJlbmNlSABSCGNoaWxkU2V0ElAKDGNoaWxkX21lbWJlchgFIAEo",
+            "CzIrLmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLk1lbWJlclJlZmVyZW5j",
+            "ZUgAUgtjaGlsZE1lbWJlciJhCgxTZXRPcGVyYXRpb24SHQoZU0VUX09QRVJB",
+            "VElPTl9VTlNQRUNJRklFRBAAEhcKE1NFVF9PUEVSQVRJT05fQURERUQQARIZ",
+            "ChVTRVRfT1BFUkFUSU9OX1JFTU9WRUQQAkIHCgVjaGlsZCKCAQoMU2V0UmVm",
+            "ZXJlbmNlEh8KC29iamVjdF90eXBlGAEgASgJUgpvYmplY3RUeXBlEhsKCW9i",
+            "amVjdF9pZBgCIAEoCVIIb2JqZWN0SWQSNAoWcGVybWlzc2lvbl9vcl9yZWxh",
+            "dGlvbhgDIAEoCVIUcGVybWlzc2lvbk9yUmVsYXRpb24ilgEKD01lbWJlclJl",
+            "ZmVyZW5jZRIfCgtvYmplY3RfdHlwZRgBIAEoCVIKb2JqZWN0VHlwZRIbCglv",
+            "YmplY3RfaWQYAiABKAlSCG9iamVjdElkEkUKH29wdGlvbmFsX3Blcm1pc3Np",
+            "b25fb3JfcmVsYXRpb24YAyABKAlSHG9wdGlvbmFsUGVybWlzc2lvbk9yUmVs",
+            "YXRpb24iZgocTG9va3VwUGVybWlzc2lvblNldHNSZXF1aXJlZBJGChJyZXF1",
+            "aXJlZF9sb29rdXBfYXQYASABKAsyGC5hdXRoemVkLmFwaS52MS5aZWRUb2tl",
+            "blIQcmVxdWlyZWRMb29rdXBBdCJNChRCcmVha2luZ1NjaGVtYUNoYW5nZRI1",
+            "CgljaGFuZ2VfYXQYASABKAsyGC5hdXRoemVkLmFwaS52MS5aZWRUb2tlblII",
+            "Y2hhbmdlQXQyuQIKGldhdGNoUGVybWlzc2lvblNldHNTZXJ2aWNlEooBChNX",
+            "YXRjaFBlcm1pc3Npb25TZXRzEjYuYXV0aHplZC5hcGkubWF0ZXJpYWxpemUu",
+            "djAuV2F0Y2hQZXJtaXNzaW9uU2V0c1JlcXVlc3QaNy5hdXRoemVkLmFwaS5t",
+            "YXRlcmlhbGl6ZS52MC5XYXRjaFBlcm1pc3Npb25TZXRzUmVzcG9uc2UiADAB",
+            "Eo0BChRMb29rdXBQZXJtaXNzaW9uU2V0cxI3LmF1dGh6ZWQuYXBpLm1hdGVy",
+            "aWFsaXplLnYwLkxvb2t1cFBlcm1pc3Npb25TZXRzUmVxdWVzdBo4LmF1dGh6",
+            "ZWQuYXBpLm1hdGVyaWFsaXplLnYwLkxvb2t1cFBlcm1pc3Npb25TZXRzUmVz",
+            "cG9uc2UiADABQmIKHmNvbS5hdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MFAB",
+            "Wj5naXRodWIuY29tL2F1dGh6ZWQvYXV0aHplZC1nby9wcm90by9hdXRoemVk",
+            "L2FwaS9tYXRlcmlhbGl6ZS92MGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Authzed.Api.V1.CoreReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.WatchPermissionSetsRequest), global::Authzed.Api.Materialize.V0.WatchPermissionSetsRequest.Parser, new[]{ "OptionalStartingAfter" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse), global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse.Parser, new[]{ "Change", "CompletedRevision", "LookupPermissionSetsRequired", "BreakingSchemaChange" }, new[]{ "Response" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.Cursor), global::Authzed.Api.Materialize.V0.Cursor.Parser, new[]{ "Limit", "Token", "StartingIndex", "CompletedMembers", "StartingKey" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.Cursor), global::Authzed.Api.Materialize.V0.Cursor.Parser, new[]{ "Limit", "Token", "StartingIndex", "CompletedMembers", "StartingKey", "Cursor_" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequest), global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequest.Parser, new[]{ "Limit", "OptionalAtRevision", "OptionalStartingAfterCursor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.LookupPermissionSetsResponse), global::Authzed.Api.Materialize.V0.LookupPermissionSetsResponse.Parser, new[]{ "Change", "Cursor" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.PermissionSetChange), global::Authzed.Api.Materialize.V0.PermissionSetChange.Parser, new[]{ "AtRevision", "Operation", "ParentSet", "ChildSet", "ChildMember" }, new[]{ "Child" }, new[]{ typeof(global::Authzed.Api.Materialize.V0.PermissionSetChange.Types.SetOperation) }, null, null),
@@ -778,6 +778,7 @@ namespace Authzed.Api.Materialize.V0 {
       startingIndex_ = other.startingIndex_;
       completedMembers_ = other.completedMembers_;
       startingKey_ = other.startingKey_;
+      cursor_ = other.cursor_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -862,6 +863,21 @@ namespace Authzed.Api.Materialize.V0 {
       }
     }
 
+    /// <summary>Field number for the "cursor" field.</summary>
+    public const int Cursor_FieldNumber = 8;
+    private string cursor_ = "";
+    /// <summary>
+    /// cursor is a string-encoded internal materialize cursor.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Cursor_ {
+      get { return cursor_; }
+      set {
+        cursor_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -882,6 +898,7 @@ namespace Authzed.Api.Materialize.V0 {
       if (StartingIndex != other.StartingIndex) return false;
       if (CompletedMembers != other.CompletedMembers) return false;
       if (StartingKey != other.StartingKey) return false;
+      if (Cursor_ != other.Cursor_) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -894,6 +911,7 @@ namespace Authzed.Api.Materialize.V0 {
       if (StartingIndex != 0) hash ^= StartingIndex.GetHashCode();
       if (CompletedMembers != false) hash ^= CompletedMembers.GetHashCode();
       if (StartingKey.Length != 0) hash ^= StartingKey.GetHashCode();
+      if (Cursor_.Length != 0) hash ^= Cursor_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -932,6 +950,10 @@ namespace Authzed.Api.Materialize.V0 {
         output.WriteRawTag(58);
         output.WriteString(StartingKey);
       }
+      if (Cursor_.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Cursor_);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -962,6 +984,10 @@ namespace Authzed.Api.Materialize.V0 {
         output.WriteRawTag(58);
         output.WriteString(StartingKey);
       }
+      if (Cursor_.Length != 0) {
+        output.WriteRawTag(66);
+        output.WriteString(Cursor_);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -986,6 +1012,9 @@ namespace Authzed.Api.Materialize.V0 {
       }
       if (StartingKey.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(StartingKey);
+      }
+      if (Cursor_.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Cursor_);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1016,6 +1045,9 @@ namespace Authzed.Api.Materialize.V0 {
       }
       if (other.StartingKey.Length != 0) {
         StartingKey = other.StartingKey;
+      }
+      if (other.Cursor_.Length != 0) {
+        Cursor_ = other.Cursor_;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1059,6 +1091,10 @@ namespace Authzed.Api.Materialize.V0 {
             StartingKey = input.ReadString();
             break;
           }
+          case 66: {
+            Cursor_ = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -1099,6 +1135,10 @@ namespace Authzed.Api.Materialize.V0 {
           }
           case 58: {
             StartingKey = input.ReadString();
+            break;
+          }
+          case 66: {
+            Cursor_ = input.ReadString();
             break;
           }
         }

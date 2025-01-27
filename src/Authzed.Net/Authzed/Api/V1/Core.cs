@@ -25,59 +25,61 @@ namespace Authzed.Api.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChlhdXRoemVkL2FwaS92MS9jb3JlLnByb3RvEg5hdXRoemVkLmFwaS52MRoc",
-            "Z29vZ2xlL3Byb3RvYnVmL3N0cnVjdC5wcm90bxoXdmFsaWRhdGUvdmFsaWRh",
-            "dGUucHJvdG8iuQIKDFJlbGF0aW9uc2hpcBJFCghyZXNvdXJjZRgBIAEoCzIf",
-            "LmF1dGh6ZWQuYXBpLnYxLk9iamVjdFJlZmVyZW5jZUII+kIFigECEAFSCHJl",
-            "c291cmNlEkMKCHJlbGF0aW9uGAIgASgJQif6QiRyIihAMh5eW2Etel1bYS16",
-            "MC05X117MSw2Mn1bYS16MC05XSRSCHJlbGF0aW9uEkQKB3N1YmplY3QYAyAB",
-            "KAsyIC5hdXRoemVkLmFwaS52MS5TdWJqZWN0UmVmZXJlbmNlQgj6QgWKAQIQ",
-            "AVIHc3ViamVjdBJXCg9vcHRpb25hbF9jYXZlYXQYBCABKAsyJC5hdXRoemVk",
-            "LmFwaS52MS5Db250ZXh0dWFsaXplZENhdmVhdEII+kIFigECEABSDm9wdGlv",
-            "bmFsQ2F2ZWF0IqYBChRDb250ZXh0dWFsaXplZENhdmVhdBJRCgtjYXZlYXRf",
-            "bmFtZRgBIAEoCUIw+kItcisogAEyJl4oW2EtekEtWjAtOV9dW2EtekEtWjAt",
-            "OS9ffC1dezAsMTI3fSkkUgpjYXZlYXROYW1lEjsKB2NvbnRleHQYAiABKAsy",
-            "Fy5nb29nbGUucHJvdG9idWYuU3RydWN0Qgj6QgWKAQIQAFIHY29udGV4dCKu",
-            "AQoQU3ViamVjdFJlZmVyZW5jZRJBCgZvYmplY3QYASABKAsyHy5hdXRoemVk",
-            "LmFwaS52MS5PYmplY3RSZWZlcmVuY2VCCPpCBYoBAhABUgZvYmplY3QSVwoR",
-            "b3B0aW9uYWxfcmVsYXRpb24YAiABKAlCKvpCJ3IlKEAyIV4oW2Etel1bYS16",
-            "MC05X117MSw2Mn1bYS16MC05XSk/JFIQb3B0aW9uYWxSZWxhdGlvbiLEAQoP",
-            "T2JqZWN0UmVmZXJlbmNlEmkKC29iamVjdF90eXBlGAEgASgJQkj6QkVyQyiA",
-            "ATI+XihbYS16XVthLXowLTlfXXsxLDYxfVthLXowLTldLykqW2Etel1bYS16",
-            "MC05X117MSw2Mn1bYS16MC05XSRSCm9iamVjdFR5cGUSRgoJb2JqZWN0X2lk",
-            "GAIgASgJQin6QiZyJCiACDIfXigoW2EtekEtWjAtOS9ffFwtPStdezEsfSl8",
-            "XCopJFIIb2JqZWN0SWQiKQoIWmVkVG9rZW4SHQoFdG9rZW4YASABKAlCB/pC",
-            "BHICIAFSBXRva2VuIisKBkN1cnNvchIhCgV0b2tlbhgBIAEoCUIL+kIIcgYg",
-            "ASiAoAZSBXRva2VuIqECChJSZWxhdGlvbnNoaXBVcGRhdGUSVgoJb3BlcmF0",
-            "aW9uGAEgASgOMiwuYXV0aHplZC5hcGkudjEuUmVsYXRpb25zaGlwVXBkYXRl",
-            "Lk9wZXJhdGlvbkIK+kIHggEEEAEgAFIJb3BlcmF0aW9uEkoKDHJlbGF0aW9u",
-            "c2hpcBgCIAEoCzIcLmF1dGh6ZWQuYXBpLnYxLlJlbGF0aW9uc2hpcEII+kIF",
-            "igECEAFSDHJlbGF0aW9uc2hpcCJnCglPcGVyYXRpb24SGQoVT1BFUkFUSU9O",
-            "X1VOU1BFQ0lGSUVEEAASFAoQT1BFUkFUSU9OX0NSRUFURRABEhMKD09QRVJB",
-            "VElPTl9UT1VDSBACEhQKEE9QRVJBVElPTl9ERUxFVEUQAyKoAgoaUGVybWlz",
-            "c2lvblJlbGF0aW9uc2hpcFRyZWUSSQoMaW50ZXJtZWRpYXRlGAEgASgLMiMu",
-            "YXV0aHplZC5hcGkudjEuQWxnZWJyYWljU3ViamVjdFNldEgAUgxpbnRlcm1l",
-            "ZGlhdGUSNgoEbGVhZhgCIAEoCzIgLmF1dGh6ZWQuYXBpLnYxLkRpcmVjdFN1",
-            "YmplY3RTZXRIAFIEbGVhZhJICg9leHBhbmRlZF9vYmplY3QYAyABKAsyHy5h",
-            "dXRoemVkLmFwaS52MS5PYmplY3RSZWZlcmVuY2VSDmV4cGFuZGVkT2JqZWN0",
-            "EisKEWV4cGFuZGVkX3JlbGF0aW9uGAQgASgJUhBleHBhbmRlZFJlbGF0aW9u",
-            "QhAKCXRyZWVfdHlwZRID+EIBIrcCChNBbGdlYnJhaWNTdWJqZWN0U2V0ElcK",
-            "CW9wZXJhdGlvbhgBIAEoDjItLmF1dGh6ZWQuYXBpLnYxLkFsZ2VicmFpY1N1",
-            "YmplY3RTZXQuT3BlcmF0aW9uQgr6QgeCAQQQASAAUglvcGVyYXRpb24SVQoI",
-            "Y2hpbGRyZW4YAiADKAsyKi5hdXRoemVkLmFwaS52MS5QZXJtaXNzaW9uUmVs",
-            "YXRpb25zaGlwVHJlZUIN+kIKkgEHIgWKAQIQAVIIY2hpbGRyZW4icAoJT3Bl",
-            "cmF0aW9uEhkKFU9QRVJBVElPTl9VTlNQRUNJRklFRBAAEhMKD09QRVJBVElP",
-            "Tl9VTklPThABEhoKFk9QRVJBVElPTl9JTlRFUlNFQ1RJT04QAhIXChNPUEVS",
-            "QVRJT05fRVhDTFVTSU9OEAMiUAoQRGlyZWN0U3ViamVjdFNldBI8CghzdWJq",
-            "ZWN0cxgBIAMoCzIgLmF1dGh6ZWQuYXBpLnYxLlN1YmplY3RSZWZlcmVuY2VS",
-            "CHN1YmplY3RzIlcKEVBhcnRpYWxDYXZlYXRJbmZvEkIKGG1pc3NpbmdfcmVx",
-            "dWlyZWRfY29udGV4dBgBIAMoCUII+kIFkgECCAFSFm1pc3NpbmdSZXF1aXJl",
-            "ZENvbnRleHRCSgoSY29tLmF1dGh6ZWQuYXBpLnYxUAFaMmdpdGh1Yi5jb20v",
-            "YXV0aHplZC9hdXRoemVkLWdvL3Byb3RvL2F1dGh6ZWQvYXBpL3YxYgZwcm90",
-            "bzM="));
+            "Z29vZ2xlL3Byb3RvYnVmL3N0cnVjdC5wcm90bxofZ29vZ2xlL3Byb3RvYnVm",
+            "L3RpbWVzdGFtcC5wcm90bxoXdmFsaWRhdGUvdmFsaWRhdGUucHJvdG8ihQMK",
+            "DFJlbGF0aW9uc2hpcBJFCghyZXNvdXJjZRgBIAEoCzIfLmF1dGh6ZWQuYXBp",
+            "LnYxLk9iamVjdFJlZmVyZW5jZUII+kIFigECEAFSCHJlc291cmNlEkMKCHJl",
+            "bGF0aW9uGAIgASgJQif6QiRyIihAMh5eW2Etel1bYS16MC05X117MSw2Mn1b",
+            "YS16MC05XSRSCHJlbGF0aW9uEkQKB3N1YmplY3QYAyABKAsyIC5hdXRoemVk",
+            "LmFwaS52MS5TdWJqZWN0UmVmZXJlbmNlQgj6QgWKAQIQAVIHc3ViamVjdBJX",
+            "Cg9vcHRpb25hbF9jYXZlYXQYBCABKAsyJC5hdXRoemVkLmFwaS52MS5Db250",
+            "ZXh0dWFsaXplZENhdmVhdEII+kIFigECEABSDm9wdGlvbmFsQ2F2ZWF0EkoK",
+            "E29wdGlvbmFsX2V4cGlyZXNfYXQYBSABKAsyGi5nb29nbGUucHJvdG9idWYu",
+            "VGltZXN0YW1wUhFvcHRpb25hbEV4cGlyZXNBdCKmAQoUQ29udGV4dHVhbGl6",
+            "ZWRDYXZlYXQSUQoLY2F2ZWF0X25hbWUYASABKAlCMPpCLXIrKIABMiZeKFth",
+            "LXpBLVowLTlfXVthLXpBLVowLTkvX3wtXXswLDEyN30pJFIKY2F2ZWF0TmFt",
+            "ZRI7Cgdjb250ZXh0GAIgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVjdEII",
+            "+kIFigECEABSB2NvbnRleHQirgEKEFN1YmplY3RSZWZlcmVuY2USQQoGb2Jq",
+            "ZWN0GAEgASgLMh8uYXV0aHplZC5hcGkudjEuT2JqZWN0UmVmZXJlbmNlQgj6",
+            "QgWKAQIQAVIGb2JqZWN0ElcKEW9wdGlvbmFsX3JlbGF0aW9uGAIgASgJQir6",
+            "QidyJShAMiFeKFthLXpdW2EtejAtOV9dezEsNjJ9W2EtejAtOV0pPyRSEG9w",
+            "dGlvbmFsUmVsYXRpb24ixAEKD09iamVjdFJlZmVyZW5jZRJpCgtvYmplY3Rf",
+            "dHlwZRgBIAEoCUJI+kJFckMogAEyPl4oW2Etel1bYS16MC05X117MSw2MX1b",
+            "YS16MC05XS8pKlthLXpdW2EtejAtOV9dezEsNjJ9W2EtejAtOV0kUgpvYmpl",
+            "Y3RUeXBlEkYKCW9iamVjdF9pZBgCIAEoCUIp+kImciQogAgyH14oKFthLXpB",
+            "LVowLTkvX3xcLT0rXXsxLH0pfFwqKSRSCG9iamVjdElkIikKCFplZFRva2Vu",
+            "Eh0KBXRva2VuGAEgASgJQgf6QgRyAiABUgV0b2tlbiIrCgZDdXJzb3ISIQoF",
+            "dG9rZW4YASABKAlCC/pCCHIGIAEogKAGUgV0b2tlbiKhAgoSUmVsYXRpb25z",
+            "aGlwVXBkYXRlElYKCW9wZXJhdGlvbhgBIAEoDjIsLmF1dGh6ZWQuYXBpLnYx",
+            "LlJlbGF0aW9uc2hpcFVwZGF0ZS5PcGVyYXRpb25CCvpCB4IBBBABIABSCW9w",
+            "ZXJhdGlvbhJKCgxyZWxhdGlvbnNoaXAYAiABKAsyHC5hdXRoemVkLmFwaS52",
+            "MS5SZWxhdGlvbnNoaXBCCPpCBYoBAhABUgxyZWxhdGlvbnNoaXAiZwoJT3Bl",
+            "cmF0aW9uEhkKFU9QRVJBVElPTl9VTlNQRUNJRklFRBAAEhQKEE9QRVJBVElP",
+            "Tl9DUkVBVEUQARITCg9PUEVSQVRJT05fVE9VQ0gQAhIUChBPUEVSQVRJT05f",
+            "REVMRVRFEAMiqAIKGlBlcm1pc3Npb25SZWxhdGlvbnNoaXBUcmVlEkkKDGlu",
+            "dGVybWVkaWF0ZRgBIAEoCzIjLmF1dGh6ZWQuYXBpLnYxLkFsZ2VicmFpY1N1",
+            "YmplY3RTZXRIAFIMaW50ZXJtZWRpYXRlEjYKBGxlYWYYAiABKAsyIC5hdXRo",
+            "emVkLmFwaS52MS5EaXJlY3RTdWJqZWN0U2V0SABSBGxlYWYSSAoPZXhwYW5k",
+            "ZWRfb2JqZWN0GAMgASgLMh8uYXV0aHplZC5hcGkudjEuT2JqZWN0UmVmZXJl",
+            "bmNlUg5leHBhbmRlZE9iamVjdBIrChFleHBhbmRlZF9yZWxhdGlvbhgEIAEo",
+            "CVIQZXhwYW5kZWRSZWxhdGlvbkIQCgl0cmVlX3R5cGUSA/hCASK3AgoTQWxn",
+            "ZWJyYWljU3ViamVjdFNldBJXCglvcGVyYXRpb24YASABKA4yLS5hdXRoemVk",
+            "LmFwaS52MS5BbGdlYnJhaWNTdWJqZWN0U2V0Lk9wZXJhdGlvbkIK+kIHggEE",
+            "EAEgAFIJb3BlcmF0aW9uElUKCGNoaWxkcmVuGAIgAygLMiouYXV0aHplZC5h",
+            "cGkudjEuUGVybWlzc2lvblJlbGF0aW9uc2hpcFRyZWVCDfpCCpIBByIFigEC",
+            "EAFSCGNoaWxkcmVuInAKCU9wZXJhdGlvbhIZChVPUEVSQVRJT05fVU5TUEVD",
+            "SUZJRUQQABITCg9PUEVSQVRJT05fVU5JT04QARIaChZPUEVSQVRJT05fSU5U",
+            "RVJTRUNUSU9OEAISFwoTT1BFUkFUSU9OX0VYQ0xVU0lPThADIlAKEERpcmVj",
+            "dFN1YmplY3RTZXQSPAoIc3ViamVjdHMYASADKAsyIC5hdXRoemVkLmFwaS52",
+            "MS5TdWJqZWN0UmVmZXJlbmNlUghzdWJqZWN0cyJXChFQYXJ0aWFsQ2F2ZWF0",
+            "SW5mbxJCChhtaXNzaW5nX3JlcXVpcmVkX2NvbnRleHQYASADKAlCCPpCBZIB",
+            "AggBUhZtaXNzaW5nUmVxdWlyZWRDb250ZXh0QkoKEmNvbS5hdXRoemVkLmFw",
+            "aS52MVABWjJnaXRodWIuY29tL2F1dGh6ZWQvYXV0aHplZC1nby9wcm90by9h",
+            "dXRoemVkL2FwaS92MWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.Relationship), global::Authzed.Api.V1.Relationship.Parser, new[]{ "Resource", "Relation", "Subject", "OptionalCaveat" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.Relationship), global::Authzed.Api.V1.Relationship.Parser, new[]{ "Resource", "Relation", "Subject", "OptionalCaveat", "OptionalExpiresAt" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.ContextualizedCaveat), global::Authzed.Api.V1.ContextualizedCaveat.Parser, new[]{ "CaveatName", "Context" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.SubjectReference), global::Authzed.Api.V1.SubjectReference.Parser, new[]{ "Object", "OptionalRelation" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.ObjectReference), global::Authzed.Api.V1.ObjectReference.Parser, new[]{ "ObjectType", "ObjectId" }, null, null, null, null),
@@ -138,6 +140,7 @@ namespace Authzed.Api.V1 {
       relation_ = other.relation_;
       subject_ = other.subject_ != null ? other.subject_.Clone() : null;
       optionalCaveat_ = other.optionalCaveat_ != null ? other.optionalCaveat_.Clone() : null;
+      optionalExpiresAt_ = other.optionalExpiresAt_ != null ? other.optionalExpiresAt_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -196,7 +199,7 @@ namespace Authzed.Api.V1 {
     public const int OptionalCaveatFieldNumber = 4;
     private global::Authzed.Api.V1.ContextualizedCaveat optionalCaveat_;
     /// <summary>
-    /// optional_caveat is a reference to a the caveat that must be enforced over the relationship
+    /// optional_caveat is a reference to a the caveat that must be enforced over the relationship.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -204,6 +207,21 @@ namespace Authzed.Api.V1 {
       get { return optionalCaveat_; }
       set {
         optionalCaveat_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "optional_expires_at" field.</summary>
+    public const int OptionalExpiresAtFieldNumber = 5;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp optionalExpiresAt_;
+    /// <summary>
+    /// optional_expires_at is the time at which the relationship expires, if any.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp OptionalExpiresAt {
+      get { return optionalExpiresAt_; }
+      set {
+        optionalExpiresAt_ = value;
       }
     }
 
@@ -226,6 +244,7 @@ namespace Authzed.Api.V1 {
       if (Relation != other.Relation) return false;
       if (!object.Equals(Subject, other.Subject)) return false;
       if (!object.Equals(OptionalCaveat, other.OptionalCaveat)) return false;
+      if (!object.Equals(OptionalExpiresAt, other.OptionalExpiresAt)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -237,6 +256,7 @@ namespace Authzed.Api.V1 {
       if (Relation.Length != 0) hash ^= Relation.GetHashCode();
       if (subject_ != null) hash ^= Subject.GetHashCode();
       if (optionalCaveat_ != null) hash ^= OptionalCaveat.GetHashCode();
+      if (optionalExpiresAt_ != null) hash ^= OptionalExpiresAt.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -271,6 +291,10 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(34);
         output.WriteMessage(OptionalCaveat);
       }
+      if (optionalExpiresAt_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(OptionalExpiresAt);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -297,6 +321,10 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(34);
         output.WriteMessage(OptionalCaveat);
       }
+      if (optionalExpiresAt_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(OptionalExpiresAt);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -318,6 +346,9 @@ namespace Authzed.Api.V1 {
       }
       if (optionalCaveat_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(OptionalCaveat);
+      }
+      if (optionalExpiresAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OptionalExpiresAt);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -351,6 +382,12 @@ namespace Authzed.Api.V1 {
           OptionalCaveat = new global::Authzed.Api.V1.ContextualizedCaveat();
         }
         OptionalCaveat.MergeFrom(other.OptionalCaveat);
+      }
+      if (other.optionalExpiresAt_ != null) {
+        if (optionalExpiresAt_ == null) {
+          OptionalExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        OptionalExpiresAt.MergeFrom(other.OptionalExpiresAt);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -396,6 +433,13 @@ namespace Authzed.Api.V1 {
             input.ReadMessage(OptionalCaveat);
             break;
           }
+          case 42: {
+            if (optionalExpiresAt_ == null) {
+              OptionalExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(OptionalExpiresAt);
+            break;
+          }
         }
       }
     #endif
@@ -438,6 +482,13 @@ namespace Authzed.Api.V1 {
               OptionalCaveat = new global::Authzed.Api.V1.ContextualizedCaveat();
             }
             input.ReadMessage(OptionalCaveat);
+            break;
+          }
+          case 42: {
+            if (optionalExpiresAt_ == null) {
+              OptionalExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(OptionalExpiresAt);
             break;
           }
         }

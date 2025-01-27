@@ -27,48 +27,52 @@ namespace Authzed.Api.V1 {
             "ChphdXRoemVkL2FwaS92MS9kZWJ1Zy5wcm90bxIOYXV0aHplZC5hcGkudjEa",
             "GWF1dGh6ZWQvYXBpL3YxL2NvcmUucHJvdG8aF3ZhbGlkYXRlL3ZhbGlkYXRl",
             "LnByb3RvGhxnb29nbGUvcHJvdG9idWYvc3RydWN0LnByb3RvGh5nb29nbGUv",
-            "cHJvdG9idWYvZHVyYXRpb24ucHJvdG8iagoQRGVidWdJbmZvcm1hdGlvbhI1",
-            "CgVjaGVjaxgBIAEoCzIfLmF1dGh6ZWQuYXBpLnYxLkNoZWNrRGVidWdUcmFj",
-            "ZVIFY2hlY2sSHwoLc2NoZW1hX3VzZWQYAiABKAlSCnNjaGVtYVVzZWQi8wcK",
-            "D0NoZWNrRGVidWdUcmFjZRJFCghyZXNvdXJjZRgBIAEoCzIfLmF1dGh6ZWQu",
-            "YXBpLnYxLk9iamVjdFJlZmVyZW5jZUII+kIFigECEAFSCHJlc291cmNlEh4K",
-            "CnBlcm1pc3Npb24YAiABKAlSCnBlcm1pc3Npb24SYwoPcGVybWlzc2lvbl90",
-            "eXBlGAMgASgOMi4uYXV0aHplZC5hcGkudjEuQ2hlY2tEZWJ1Z1RyYWNlLlBl",
-            "cm1pc3Npb25UeXBlQgr6QgeCAQQQASAAUg5wZXJtaXNzaW9uVHlwZRJECgdz",
-            "dWJqZWN0GAQgASgLMiAuYXV0aHplZC5hcGkudjEuU3ViamVjdFJlZmVyZW5j",
-            "ZUII+kIFigECEAFSB3N1YmplY3QSUgoGcmVzdWx0GAUgASgOMi4uYXV0aHpl",
-            "ZC5hcGkudjEuQ2hlY2tEZWJ1Z1RyYWNlLlBlcm1pc3Npb25zaGlwQgr6QgeC",
-            "AQQQASAAUgZyZXN1bHQSVAoWY2F2ZWF0X2V2YWx1YXRpb25faW5mbxgIIAEo",
-            "CzIeLmF1dGh6ZWQuYXBpLnYxLkNhdmVhdEV2YWxJbmZvUhRjYXZlYXRFdmFs",
-            "dWF0aW9uSW5mbxI1CghkdXJhdGlvbhgJIAEoCzIZLmdvb2dsZS5wcm90b2J1",
-            "Zi5EdXJhdGlvblIIZHVyYXRpb24SLAoRd2FzX2NhY2hlZF9yZXN1bHQYBiAB",
-            "KAhIAFIPd2FzQ2FjaGVkUmVzdWx0ElAKDHN1Yl9wcm9ibGVtcxgHIAEoCzIr",
-            "LmF1dGh6ZWQuYXBpLnYxLkNoZWNrRGVidWdUcmFjZS5TdWJQcm9ibGVtc0gA",
-            "UgtzdWJQcm9ibGVtcxpGCgtTdWJQcm9ibGVtcxI3CgZ0cmFjZXMYASADKAsy",
-            "Hy5hdXRoemVkLmFwaS52MS5DaGVja0RlYnVnVHJhY2VSBnRyYWNlcyJvCg5Q",
-            "ZXJtaXNzaW9uVHlwZRIfChtQRVJNSVNTSU9OX1RZUEVfVU5TUEVDSUZJRUQQ",
-            "ABIcChhQRVJNSVNTSU9OX1RZUEVfUkVMQVRJT04QARIeChpQRVJNSVNTSU9O",
-            "X1RZUEVfUEVSTUlTU0lPThACIqABCg5QZXJtaXNzaW9uc2hpcBIeChpQRVJN",
-            "SVNTSU9OU0hJUF9VTlNQRUNJRklFRBAAEiAKHFBFUk1JU1NJT05TSElQX05P",
-            "X1BFUk1JU1NJT04QARIhCh1QRVJNSVNTSU9OU0hJUF9IQVNfUEVSTUlTU0lP",
-            "ThACEikKJVBFUk1JU1NJT05TSElQX0NPTkRJVElPTkFMX1BFUk1JU1NJT04Q",
-            "A0IRCgpyZXNvbHV0aW9uEgP4QgEilAMKDkNhdmVhdEV2YWxJbmZvEh4KCmV4",
-            "cHJlc3Npb24YASABKAlSCmV4cHJlc3Npb24SPQoGcmVzdWx0GAIgASgOMiUu",
-            "YXV0aHplZC5hcGkudjEuQ2F2ZWF0RXZhbEluZm8uUmVzdWx0UgZyZXN1bHQS",
-            "MQoHY29udGV4dBgDIAEoCzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3RSB2Nv",
-            "bnRleHQSUQoTcGFydGlhbF9jYXZlYXRfaW5mbxgEIAEoCzIhLmF1dGh6ZWQu",
-            "YXBpLnYxLlBhcnRpYWxDYXZlYXRJbmZvUhFwYXJ0aWFsQ2F2ZWF0SW5mbxIf",
-            "CgtjYXZlYXRfbmFtZRgFIAEoCVIKY2F2ZWF0TmFtZSJ8CgZSZXN1bHQSFgoS",
-            "UkVTVUxUX1VOU1BFQ0lGSUVEEAASFgoSUkVTVUxUX1VORVZBTFVBVEVEEAES",
-            "EAoMUkVTVUxUX0ZBTFNFEAISDwoLUkVTVUxUX1RSVUUQAxIfChtSRVNVTFRf",
-            "TUlTU0lOR19TT01FX0NPTlRFWFQQBEJKChJjb20uYXV0aHplZC5hcGkudjFQ",
-            "AVoyZ2l0aHViLmNvbS9hdXRoemVkL2F1dGh6ZWQtZ28vcHJvdG8vYXV0aHpl",
-            "ZC9hcGkvdjFiBnByb3RvMw=="));
+            "cHJvdG9idWYvZHVyYXRpb24ucHJvdG8aH2dvb2dsZS9wcm90b2J1Zi90aW1l",
+            "c3RhbXAucHJvdG8iagoQRGVidWdJbmZvcm1hdGlvbhI1CgVjaGVjaxgBIAEo",
+            "CzIfLmF1dGh6ZWQuYXBpLnYxLkNoZWNrRGVidWdUcmFjZVIFY2hlY2sSHwoL",
+            "c2NoZW1hX3VzZWQYAiABKAlSCnNjaGVtYVVzZWQihQkKD0NoZWNrRGVidWdU",
+            "cmFjZRJFCghyZXNvdXJjZRgBIAEoCzIfLmF1dGh6ZWQuYXBpLnYxLk9iamVj",
+            "dFJlZmVyZW5jZUII+kIFigECEAFSCHJlc291cmNlEh4KCnBlcm1pc3Npb24Y",
+            "AiABKAlSCnBlcm1pc3Npb24SYwoPcGVybWlzc2lvbl90eXBlGAMgASgOMi4u",
+            "YXV0aHplZC5hcGkudjEuQ2hlY2tEZWJ1Z1RyYWNlLlBlcm1pc3Npb25UeXBl",
+            "Qgr6QgeCAQQQASAAUg5wZXJtaXNzaW9uVHlwZRJECgdzdWJqZWN0GAQgASgL",
+            "MiAuYXV0aHplZC5hcGkudjEuU3ViamVjdFJlZmVyZW5jZUII+kIFigECEAFS",
+            "B3N1YmplY3QSUgoGcmVzdWx0GAUgASgOMi4uYXV0aHplZC5hcGkudjEuQ2hl",
+            "Y2tEZWJ1Z1RyYWNlLlBlcm1pc3Npb25zaGlwQgr6QgeCAQQQASAAUgZyZXN1",
+            "bHQSVAoWY2F2ZWF0X2V2YWx1YXRpb25faW5mbxgIIAEoCzIeLmF1dGh6ZWQu",
+            "YXBpLnYxLkNhdmVhdEV2YWxJbmZvUhRjYXZlYXRFdmFsdWF0aW9uSW5mbxI1",
+            "CghkdXJhdGlvbhgJIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvblII",
+            "ZHVyYXRpb24SLAoRd2FzX2NhY2hlZF9yZXN1bHQYBiABKAhIAFIPd2FzQ2Fj",
+            "aGVkUmVzdWx0ElAKDHN1Yl9wcm9ibGVtcxgHIAEoCzIrLmF1dGh6ZWQuYXBp",
+            "LnYxLkNoZWNrRGVidWdUcmFjZS5TdWJQcm9ibGVtc0gAUgtzdWJQcm9ibGVt",
+            "cxJKChNvcHRpb25hbF9leHBpcmVzX2F0GAogASgLMhouZ29vZ2xlLnByb3Rv",
+            "YnVmLlRpbWVzdGFtcFIRb3B0aW9uYWxFeHBpcmVzQXQSLAoSdHJhY2Vfb3Bl",
+            "cmF0aW9uX2lkGAsgASgJUhB0cmFjZU9wZXJhdGlvbklkEhYKBnNvdXJjZRgM",
+            "IAEoCVIGc291cmNlGkYKC1N1YlByb2JsZW1zEjcKBnRyYWNlcxgBIAMoCzIf",
+            "LmF1dGh6ZWQuYXBpLnYxLkNoZWNrRGVidWdUcmFjZVIGdHJhY2VzIm8KDlBl",
+            "cm1pc3Npb25UeXBlEh8KG1BFUk1JU1NJT05fVFlQRV9VTlNQRUNJRklFRBAA",
+            "EhwKGFBFUk1JU1NJT05fVFlQRV9SRUxBVElPThABEh4KGlBFUk1JU1NJT05f",
+            "VFlQRV9QRVJNSVNTSU9OEAIioAEKDlBlcm1pc3Npb25zaGlwEh4KGlBFUk1J",
+            "U1NJT05TSElQX1VOU1BFQ0lGSUVEEAASIAocUEVSTUlTU0lPTlNISVBfTk9f",
+            "UEVSTUlTU0lPThABEiEKHVBFUk1JU1NJT05TSElQX0hBU19QRVJNSVNTSU9O",
+            "EAISKQolUEVSTUlTU0lPTlNISVBfQ09ORElUSU9OQUxfUEVSTUlTU0lPThAD",
+            "QhEKCnJlc29sdXRpb24SA/hCASKUAwoOQ2F2ZWF0RXZhbEluZm8SHgoKZXhw",
+            "cmVzc2lvbhgBIAEoCVIKZXhwcmVzc2lvbhI9CgZyZXN1bHQYAiABKA4yJS5h",
+            "dXRoemVkLmFwaS52MS5DYXZlYXRFdmFsSW5mby5SZXN1bHRSBnJlc3VsdBIx",
+            "Cgdjb250ZXh0GAMgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVjdFIHY29u",
+            "dGV4dBJRChNwYXJ0aWFsX2NhdmVhdF9pbmZvGAQgASgLMiEuYXV0aHplZC5h",
+            "cGkudjEuUGFydGlhbENhdmVhdEluZm9SEXBhcnRpYWxDYXZlYXRJbmZvEh8K",
+            "C2NhdmVhdF9uYW1lGAUgASgJUgpjYXZlYXROYW1lInwKBlJlc3VsdBIWChJS",
+            "RVNVTFRfVU5TUEVDSUZJRUQQABIWChJSRVNVTFRfVU5FVkFMVUFURUQQARIQ",
+            "CgxSRVNVTFRfRkFMU0UQAhIPCgtSRVNVTFRfVFJVRRADEh8KG1JFU1VMVF9N",
+            "SVNTSU5HX1NPTUVfQ09OVEVYVBAEQkoKEmNvbS5hdXRoemVkLmFwaS52MVAB",
+            "WjJnaXRodWIuY29tL2F1dGh6ZWQvYXV0aHplZC1nby9wcm90by9hdXRoemVk",
+            "L2FwaS92MWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Authzed.Api.V1.CoreReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Authzed.Api.V1.CoreReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.DebugInformation), global::Authzed.Api.V1.DebugInformation.Parser, new[]{ "Check", "SchemaUsed" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.CheckDebugTrace), global::Authzed.Api.V1.CheckDebugTrace.Parser, new[]{ "Resource", "Permission", "PermissionType", "Subject", "Result", "CaveatEvaluationInfo", "Duration", "WasCachedResult", "SubProblems" }, new[]{ "Resolution" }, new[]{ typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.PermissionType), typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.Permissionship) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.SubProblems), global::Authzed.Api.V1.CheckDebugTrace.Types.SubProblems.Parser, new[]{ "Traces" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.CheckDebugTrace), global::Authzed.Api.V1.CheckDebugTrace.Parser, new[]{ "Resource", "Permission", "PermissionType", "Subject", "Result", "CaveatEvaluationInfo", "Duration", "WasCachedResult", "SubProblems", "OptionalExpiresAt", "TraceOperationId", "Source" }, new[]{ "Resolution" }, new[]{ typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.PermissionType), typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.Permissionship) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.SubProblems), global::Authzed.Api.V1.CheckDebugTrace.Types.SubProblems.Parser, new[]{ "Traces" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.CaveatEvalInfo), global::Authzed.Api.V1.CaveatEvalInfo.Parser, new[]{ "Expression", "Result", "Context", "PartialCaveatInfo", "CaveatName" }, null, new[]{ typeof(global::Authzed.Api.V1.CaveatEvalInfo.Types.Result) }, null, null)
           }));
     }
@@ -380,6 +384,9 @@ namespace Authzed.Api.V1 {
       result_ = other.result_;
       caveatEvaluationInfo_ = other.caveatEvaluationInfo_ != null ? other.caveatEvaluationInfo_.Clone() : null;
       duration_ = other.duration_ != null ? other.duration_.Clone() : null;
+      optionalExpiresAt_ = other.optionalExpiresAt_ != null ? other.optionalExpiresAt_.Clone() : null;
+      traceOperationId_ = other.traceOperationId_;
+      source_ = other.source_;
       switch (other.ResolutionCase) {
         case ResolutionOneofCase.WasCachedResult:
           WasCachedResult = other.WasCachedResult;
@@ -403,6 +410,8 @@ namespace Authzed.Api.V1 {
     private global::Authzed.Api.V1.ObjectReference resource_;
     /// <summary>
     /// resource holds the resource on which the Check was performed.
+    /// for batched calls, the object_id field contains a comma-separated list of object IDs
+    /// for all the resources checked in the batch.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -549,6 +558,61 @@ namespace Authzed.Api.V1 {
       }
     }
 
+    /// <summary>Field number for the "optional_expires_at" field.</summary>
+    public const int OptionalExpiresAtFieldNumber = 10;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp optionalExpiresAt_;
+    /// <summary>
+    /// optional_expires_at is the time at which at least one of the relationships used to
+    /// compute this result, expires (if any). This is *not* related to the caching window.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp OptionalExpiresAt {
+      get { return optionalExpiresAt_; }
+      set {
+        optionalExpiresAt_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "trace_operation_id" field.</summary>
+    public const int TraceOperationIdFieldNumber = 11;
+    private string traceOperationId_ = "";
+    /// <summary>
+    /// trace_operation_id is a unique identifier for this trace's operation, that will
+    /// be shared for all traces created for the same check operation in SpiceDB.
+    ///
+    /// In cases where SpiceDB performs automatic batching of subproblems, this ID can be used
+    /// to correlate work that was shared across multiple traces.
+    ///
+    /// This identifier is generated by SpiceDB, is to be considered opaque to the caller
+    /// and only guaranteed to be unique within the same overall Check or CheckBulk operation.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string TraceOperationId {
+      get { return traceOperationId_; }
+      set {
+        traceOperationId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "source" field.</summary>
+    public const int SourceFieldNumber = 12;
+    private string source_ = "";
+    /// <summary>
+    /// source holds the source of the result. It is of the form:
+    /// `&lt;sourcetype>:&lt;sourceid>`, where sourcetype can be, among others:
+    /// `spicedb`, `materialize`, etc.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Source {
+      get { return source_; }
+      set {
+        source_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     private object resolution_;
     /// <summary>Enum of possible cases for the "resolution" oneof.</summary>
     public enum ResolutionOneofCase {
@@ -594,6 +658,9 @@ namespace Authzed.Api.V1 {
       if (!object.Equals(Duration, other.Duration)) return false;
       if (WasCachedResult != other.WasCachedResult) return false;
       if (!object.Equals(SubProblems, other.SubProblems)) return false;
+      if (!object.Equals(OptionalExpiresAt, other.OptionalExpiresAt)) return false;
+      if (TraceOperationId != other.TraceOperationId) return false;
+      if (Source != other.Source) return false;
       if (ResolutionCase != other.ResolutionCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -611,6 +678,9 @@ namespace Authzed.Api.V1 {
       if (duration_ != null) hash ^= Duration.GetHashCode();
       if (HasWasCachedResult) hash ^= WasCachedResult.GetHashCode();
       if (resolutionCase_ == ResolutionOneofCase.SubProblems) hash ^= SubProblems.GetHashCode();
+      if (optionalExpiresAt_ != null) hash ^= OptionalExpiresAt.GetHashCode();
+      if (TraceOperationId.Length != 0) hash ^= TraceOperationId.GetHashCode();
+      if (Source.Length != 0) hash ^= Source.GetHashCode();
       hash ^= (int) resolutionCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -666,6 +736,18 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(74);
         output.WriteMessage(Duration);
       }
+      if (optionalExpiresAt_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(OptionalExpiresAt);
+      }
+      if (TraceOperationId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(TraceOperationId);
+      }
+      if (Source.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(Source);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -712,6 +794,18 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(74);
         output.WriteMessage(Duration);
       }
+      if (optionalExpiresAt_ != null) {
+        output.WriteRawTag(82);
+        output.WriteMessage(OptionalExpiresAt);
+      }
+      if (TraceOperationId.Length != 0) {
+        output.WriteRawTag(90);
+        output.WriteString(TraceOperationId);
+      }
+      if (Source.Length != 0) {
+        output.WriteRawTag(98);
+        output.WriteString(Source);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -748,6 +842,15 @@ namespace Authzed.Api.V1 {
       }
       if (resolutionCase_ == ResolutionOneofCase.SubProblems) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(SubProblems);
+      }
+      if (optionalExpiresAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(OptionalExpiresAt);
+      }
+      if (TraceOperationId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(TraceOperationId);
+      }
+      if (Source.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Source);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -793,6 +896,18 @@ namespace Authzed.Api.V1 {
           Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
         }
         Duration.MergeFrom(other.Duration);
+      }
+      if (other.optionalExpiresAt_ != null) {
+        if (optionalExpiresAt_ == null) {
+          OptionalExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        OptionalExpiresAt.MergeFrom(other.OptionalExpiresAt);
+      }
+      if (other.TraceOperationId.Length != 0) {
+        TraceOperationId = other.TraceOperationId;
+      }
+      if (other.Source.Length != 0) {
+        Source = other.Source;
       }
       switch (other.ResolutionCase) {
         case ResolutionOneofCase.WasCachedResult:
@@ -878,6 +993,21 @@ namespace Authzed.Api.V1 {
             input.ReadMessage(Duration);
             break;
           }
+          case 82: {
+            if (optionalExpiresAt_ == null) {
+              OptionalExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(OptionalExpiresAt);
+            break;
+          }
+          case 90: {
+            TraceOperationId = input.ReadString();
+            break;
+          }
+          case 98: {
+            Source = input.ReadString();
+            break;
+          }
         }
       }
     #endif
@@ -948,6 +1078,21 @@ namespace Authzed.Api.V1 {
               Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
             }
             input.ReadMessage(Duration);
+            break;
+          }
+          case 82: {
+            if (optionalExpiresAt_ == null) {
+              OptionalExpiresAt = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(OptionalExpiresAt);
+            break;
+          }
+          case 90: {
+            TraceOperationId = input.ReadString();
+            break;
+          }
+          case 98: {
+            Source = input.ReadString();
             break;
           }
         }

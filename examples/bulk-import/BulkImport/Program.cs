@@ -8,7 +8,7 @@ using Authzed.Api.V1;
 using Grpc.Net.Client;
 using Grpc.Core;
 
-var TOKEN = "sometoken";
+var TOKEN = "something";
 
 var TOTAL_RELATIONSHIPS_TO_WRITE = 1000;
 var RELATIONSHIPS_PER_TRANSACTION = 100;

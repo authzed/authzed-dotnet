@@ -56,6 +56,22 @@ namespace Authzed.Api.V1 {
     static readonly grpc::Marshaller<global::Authzed.Api.V1.WriteSchemaRequest> __Marshaller_authzed_api_v1_WriteSchemaRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.WriteSchemaRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Authzed.Api.V1.WriteSchemaResponse> __Marshaller_authzed_api_v1_WriteSchemaResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.WriteSchemaResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.ReflectSchemaRequest> __Marshaller_authzed_api_v1_ReflectSchemaRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.ReflectSchemaRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.ReflectSchemaResponse> __Marshaller_authzed_api_v1_ReflectSchemaResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.ReflectSchemaResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.ComputablePermissionsRequest> __Marshaller_authzed_api_v1_ComputablePermissionsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.ComputablePermissionsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.ComputablePermissionsResponse> __Marshaller_authzed_api_v1_ComputablePermissionsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.ComputablePermissionsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.DependentRelationsRequest> __Marshaller_authzed_api_v1_DependentRelationsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.DependentRelationsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.DependentRelationsResponse> __Marshaller_authzed_api_v1_DependentRelationsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.DependentRelationsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.DiffSchemaRequest> __Marshaller_authzed_api_v1_DiffSchemaRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.DiffSchemaRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.DiffSchemaResponse> __Marshaller_authzed_api_v1_DiffSchemaResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.DiffSchemaResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Authzed.Api.V1.ReadSchemaRequest, global::Authzed.Api.V1.ReadSchemaResponse> __Method_ReadSchema = new grpc::Method<global::Authzed.Api.V1.ReadSchemaRequest, global::Authzed.Api.V1.ReadSchemaResponse>(
@@ -72,6 +88,38 @@ namespace Authzed.Api.V1 {
         "WriteSchema",
         __Marshaller_authzed_api_v1_WriteSchemaRequest,
         __Marshaller_authzed_api_v1_WriteSchemaResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Authzed.Api.V1.ReflectSchemaRequest, global::Authzed.Api.V1.ReflectSchemaResponse> __Method_ReflectSchema = new grpc::Method<global::Authzed.Api.V1.ReflectSchemaRequest, global::Authzed.Api.V1.ReflectSchemaResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ReflectSchema",
+        __Marshaller_authzed_api_v1_ReflectSchemaRequest,
+        __Marshaller_authzed_api_v1_ReflectSchemaResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Authzed.Api.V1.ComputablePermissionsRequest, global::Authzed.Api.V1.ComputablePermissionsResponse> __Method_ComputablePermissions = new grpc::Method<global::Authzed.Api.V1.ComputablePermissionsRequest, global::Authzed.Api.V1.ComputablePermissionsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ComputablePermissions",
+        __Marshaller_authzed_api_v1_ComputablePermissionsRequest,
+        __Marshaller_authzed_api_v1_ComputablePermissionsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Authzed.Api.V1.DependentRelationsRequest, global::Authzed.Api.V1.DependentRelationsResponse> __Method_DependentRelations = new grpc::Method<global::Authzed.Api.V1.DependentRelationsRequest, global::Authzed.Api.V1.DependentRelationsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DependentRelations",
+        __Marshaller_authzed_api_v1_DependentRelationsRequest,
+        __Marshaller_authzed_api_v1_DependentRelationsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Authzed.Api.V1.DiffSchemaRequest, global::Authzed.Api.V1.DiffSchemaResponse> __Method_DiffSchema = new grpc::Method<global::Authzed.Api.V1.DiffSchemaRequest, global::Authzed.Api.V1.DiffSchemaResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DiffSchema",
+        __Marshaller_authzed_api_v1_DiffSchemaRequest,
+        __Marshaller_authzed_api_v1_DiffSchemaResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -217,6 +265,226 @@ namespace Authzed.Api.V1 {
       public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.WriteSchemaResponse> WriteSchemaAsync(global::Authzed.Api.V1.WriteSchemaRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_WriteSchema, null, options, request);
+      }
+      /// <summary>
+      /// ReflectSchema reflects the current schema stored in SpiceDB, returning a structural
+      /// form of the schema for use by client tooling.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.V1.ReflectSchemaResponse ReflectSchema(global::Authzed.Api.V1.ReflectSchemaRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ReflectSchema(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ReflectSchema reflects the current schema stored in SpiceDB, returning a structural
+      /// form of the schema for use by client tooling.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.V1.ReflectSchemaResponse ReflectSchema(global::Authzed.Api.V1.ReflectSchemaRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ReflectSchema, null, options, request);
+      }
+      /// <summary>
+      /// ReflectSchema reflects the current schema stored in SpiceDB, returning a structural
+      /// form of the schema for use by client tooling.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ReflectSchemaResponse> ReflectSchemaAsync(global::Authzed.Api.V1.ReflectSchemaRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ReflectSchemaAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ReflectSchema reflects the current schema stored in SpiceDB, returning a structural
+      /// form of the schema for use by client tooling.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ReflectSchemaResponse> ReflectSchemaAsync(global::Authzed.Api.V1.ReflectSchemaRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ReflectSchema, null, options, request);
+      }
+      /// <summary>
+      /// ComputablePermissions returns the set of permissions that compute based off a relation
+      /// in the current schema. For example, if the schema has a relation `viewer` and a permission
+      /// `view` defined as `permission view = viewer + editor`, then the
+      /// computable permissions for the relation `viewer` will include `view`.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.V1.ComputablePermissionsResponse ComputablePermissions(global::Authzed.Api.V1.ComputablePermissionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ComputablePermissions(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ComputablePermissions returns the set of permissions that compute based off a relation
+      /// in the current schema. For example, if the schema has a relation `viewer` and a permission
+      /// `view` defined as `permission view = viewer + editor`, then the
+      /// computable permissions for the relation `viewer` will include `view`.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.V1.ComputablePermissionsResponse ComputablePermissions(global::Authzed.Api.V1.ComputablePermissionsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ComputablePermissions, null, options, request);
+      }
+      /// <summary>
+      /// ComputablePermissions returns the set of permissions that compute based off a relation
+      /// in the current schema. For example, if the schema has a relation `viewer` and a permission
+      /// `view` defined as `permission view = viewer + editor`, then the
+      /// computable permissions for the relation `viewer` will include `view`.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ComputablePermissionsResponse> ComputablePermissionsAsync(global::Authzed.Api.V1.ComputablePermissionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ComputablePermissionsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ComputablePermissions returns the set of permissions that compute based off a relation
+      /// in the current schema. For example, if the schema has a relation `viewer` and a permission
+      /// `view` defined as `permission view = viewer + editor`, then the
+      /// computable permissions for the relation `viewer` will include `view`.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ComputablePermissionsResponse> ComputablePermissionsAsync(global::Authzed.Api.V1.ComputablePermissionsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ComputablePermissions, null, options, request);
+      }
+      /// <summary>
+      /// DependentRelations returns the set of relations and permissions that used
+      /// to compute a permission, recursively, in the current schema. It is the
+      /// inverse of the ComputablePermissions API.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.V1.DependentRelationsResponse DependentRelations(global::Authzed.Api.V1.DependentRelationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DependentRelations(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// DependentRelations returns the set of relations and permissions that used
+      /// to compute a permission, recursively, in the current schema. It is the
+      /// inverse of the ComputablePermissions API.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.V1.DependentRelationsResponse DependentRelations(global::Authzed.Api.V1.DependentRelationsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DependentRelations, null, options, request);
+      }
+      /// <summary>
+      /// DependentRelations returns the set of relations and permissions that used
+      /// to compute a permission, recursively, in the current schema. It is the
+      /// inverse of the ComputablePermissions API.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.DependentRelationsResponse> DependentRelationsAsync(global::Authzed.Api.V1.DependentRelationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DependentRelationsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// DependentRelations returns the set of relations and permissions that used
+      /// to compute a permission, recursively, in the current schema. It is the
+      /// inverse of the ComputablePermissions API.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.DependentRelationsResponse> DependentRelationsAsync(global::Authzed.Api.V1.DependentRelationsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DependentRelations, null, options, request);
+      }
+      /// <summary>
+      /// DiffSchema returns the difference between the specified schema and the current
+      /// schema stored in SpiceDB.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.V1.DiffSchemaResponse DiffSchema(global::Authzed.Api.V1.DiffSchemaRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DiffSchema(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// DiffSchema returns the difference between the specified schema and the current
+      /// schema stored in SpiceDB.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.V1.DiffSchemaResponse DiffSchema(global::Authzed.Api.V1.DiffSchemaRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DiffSchema, null, options, request);
+      }
+      /// <summary>
+      /// DiffSchema returns the difference between the specified schema and the current
+      /// schema stored in SpiceDB.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.DiffSchemaResponse> DiffSchemaAsync(global::Authzed.Api.V1.DiffSchemaRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DiffSchemaAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// DiffSchema returns the difference between the specified schema and the current
+      /// schema stored in SpiceDB.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.DiffSchemaResponse> DiffSchemaAsync(global::Authzed.Api.V1.DiffSchemaRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DiffSchema, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

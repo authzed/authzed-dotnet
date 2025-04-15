@@ -326,224 +326,208 @@ namespace Authzed.Api.V1 {
         return CallInvoker.AsyncUnaryCall(__Method_BulkCheckPermission, null, options, request);
       }
       /// <summary>
-      /// EXPERIMENTAL: ReflectSchema is an API that allows clients to reflect the schema stored in
-      /// SpiceDB. This is useful for clients that need to introspect the schema of a SpiceDB instance.
+      /// DEPRECATED: Promoted to ReflectSchema in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Authzed.Api.V1.ExperimentalReflectSchemaResponse ExperimentalReflectSchema(global::Authzed.Api.V1.ExperimentalReflectSchemaRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ExperimentalReflectSchema(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// EXPERIMENTAL: ReflectSchema is an API that allows clients to reflect the schema stored in
-      /// SpiceDB. This is useful for clients that need to introspect the schema of a SpiceDB instance.
+      /// DEPRECATED: Promoted to ReflectSchema in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Authzed.Api.V1.ExperimentalReflectSchemaResponse ExperimentalReflectSchema(global::Authzed.Api.V1.ExperimentalReflectSchemaRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ExperimentalReflectSchema, null, options, request);
       }
       /// <summary>
-      /// EXPERIMENTAL: ReflectSchema is an API that allows clients to reflect the schema stored in
-      /// SpiceDB. This is useful for clients that need to introspect the schema of a SpiceDB instance.
+      /// DEPRECATED: Promoted to ReflectSchema in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ExperimentalReflectSchemaResponse> ExperimentalReflectSchemaAsync(global::Authzed.Api.V1.ExperimentalReflectSchemaRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ExperimentalReflectSchemaAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// EXPERIMENTAL: ReflectSchema is an API that allows clients to reflect the schema stored in
-      /// SpiceDB. This is useful for clients that need to introspect the schema of a SpiceDB instance.
+      /// DEPRECATED: Promoted to ReflectSchema in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ExperimentalReflectSchemaResponse> ExperimentalReflectSchemaAsync(global::Authzed.Api.V1.ExperimentalReflectSchemaRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ExperimentalReflectSchema, null, options, request);
       }
       /// <summary>
-      /// EXPERIMENTAL: ComputablePermissions is an API that allows clients to request the set of
-      /// permissions that compute based off a relation. For example, if a schema has a relation
-      /// `viewer` and a permission `view` defined as `permission view = viewer + editor`, then the
-      /// computable permissions for the relation `viewer` will include `view`.
+      /// DEPRECATED: Promoted to ComputablePermissions in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Authzed.Api.V1.ExperimentalComputablePermissionsResponse ExperimentalComputablePermissions(global::Authzed.Api.V1.ExperimentalComputablePermissionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ExperimentalComputablePermissions(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// EXPERIMENTAL: ComputablePermissions is an API that allows clients to request the set of
-      /// permissions that compute based off a relation. For example, if a schema has a relation
-      /// `viewer` and a permission `view` defined as `permission view = viewer + editor`, then the
-      /// computable permissions for the relation `viewer` will include `view`.
+      /// DEPRECATED: Promoted to ComputablePermissions in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Authzed.Api.V1.ExperimentalComputablePermissionsResponse ExperimentalComputablePermissions(global::Authzed.Api.V1.ExperimentalComputablePermissionsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ExperimentalComputablePermissions, null, options, request);
       }
       /// <summary>
-      /// EXPERIMENTAL: ComputablePermissions is an API that allows clients to request the set of
-      /// permissions that compute based off a relation. For example, if a schema has a relation
-      /// `viewer` and a permission `view` defined as `permission view = viewer + editor`, then the
-      /// computable permissions for the relation `viewer` will include `view`.
+      /// DEPRECATED: Promoted to ComputablePermissions in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ExperimentalComputablePermissionsResponse> ExperimentalComputablePermissionsAsync(global::Authzed.Api.V1.ExperimentalComputablePermissionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ExperimentalComputablePermissionsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// EXPERIMENTAL: ComputablePermissions is an API that allows clients to request the set of
-      /// permissions that compute based off a relation. For example, if a schema has a relation
-      /// `viewer` and a permission `view` defined as `permission view = viewer + editor`, then the
-      /// computable permissions for the relation `viewer` will include `view`.
+      /// DEPRECATED: Promoted to ComputablePermissions in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ExperimentalComputablePermissionsResponse> ExperimentalComputablePermissionsAsync(global::Authzed.Api.V1.ExperimentalComputablePermissionsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ExperimentalComputablePermissions, null, options, request);
       }
       /// <summary>
-      /// EXPERIMENTAL: DependentRelations is an API that allows clients to request the set of
-      /// relations and permissions that used to compute a permission, recursively. It is the
-      /// inverse of the ComputablePermissions API.
+      /// DEPRECATED: Promoted to DependentRelations in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Authzed.Api.V1.ExperimentalDependentRelationsResponse ExperimentalDependentRelations(global::Authzed.Api.V1.ExperimentalDependentRelationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ExperimentalDependentRelations(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// EXPERIMENTAL: DependentRelations is an API that allows clients to request the set of
-      /// relations and permissions that used to compute a permission, recursively. It is the
-      /// inverse of the ComputablePermissions API.
+      /// DEPRECATED: Promoted to DependentRelations in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Authzed.Api.V1.ExperimentalDependentRelationsResponse ExperimentalDependentRelations(global::Authzed.Api.V1.ExperimentalDependentRelationsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ExperimentalDependentRelations, null, options, request);
       }
       /// <summary>
-      /// EXPERIMENTAL: DependentRelations is an API that allows clients to request the set of
-      /// relations and permissions that used to compute a permission, recursively. It is the
-      /// inverse of the ComputablePermissions API.
+      /// DEPRECATED: Promoted to DependentRelations in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ExperimentalDependentRelationsResponse> ExperimentalDependentRelationsAsync(global::Authzed.Api.V1.ExperimentalDependentRelationsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ExperimentalDependentRelationsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// EXPERIMENTAL: DependentRelations is an API that allows clients to request the set of
-      /// relations and permissions that used to compute a permission, recursively. It is the
-      /// inverse of the ComputablePermissions API.
+      /// DEPRECATED: Promoted to DependentRelations in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ExperimentalDependentRelationsResponse> ExperimentalDependentRelationsAsync(global::Authzed.Api.V1.ExperimentalDependentRelationsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ExperimentalDependentRelations, null, options, request);
       }
       /// <summary>
-      /// EXPERIMENTAL: DiffSchema is an API that allows clients to request the difference between the
-      /// specified schema and the schema stored in SpiceDB. This is useful for clients that need to
-      /// introspect the schema of a SpiceDB instance.
+      /// DEPRECATED: Promoted to DiffSchema in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Authzed.Api.V1.ExperimentalDiffSchemaResponse ExperimentalDiffSchema(global::Authzed.Api.V1.ExperimentalDiffSchemaRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ExperimentalDiffSchema(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// EXPERIMENTAL: DiffSchema is an API that allows clients to request the difference between the
-      /// specified schema and the schema stored in SpiceDB. This is useful for clients that need to
-      /// introspect the schema of a SpiceDB instance.
+      /// DEPRECATED: Promoted to DiffSchema in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::Authzed.Api.V1.ExperimentalDiffSchemaResponse ExperimentalDiffSchema(global::Authzed.Api.V1.ExperimentalDiffSchemaRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ExperimentalDiffSchema, null, options, request);
       }
       /// <summary>
-      /// EXPERIMENTAL: DiffSchema is an API that allows clients to request the difference between the
-      /// specified schema and the schema stored in SpiceDB. This is useful for clients that need to
-      /// introspect the schema of a SpiceDB instance.
+      /// DEPRECATED: Promoted to DiffSchema in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ExperimentalDiffSchemaResponse> ExperimentalDiffSchemaAsync(global::Authzed.Api.V1.ExperimentalDiffSchemaRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ExperimentalDiffSchemaAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// EXPERIMENTAL: DiffSchema is an API that allows clients to request the difference between the
-      /// specified schema and the schema stored in SpiceDB. This is useful for clients that need to
-      /// introspect the schema of a SpiceDB instance.
+      /// DEPRECATED: Promoted to DiffSchema in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.ExperimentalDiffSchemaResponse> ExperimentalDiffSchemaAsync(global::Authzed.Api.V1.ExperimentalDiffSchemaRequest request, grpc::CallOptions options)
       {

@@ -204,74 +204,57 @@ namespace Authzed.Api.V1 {
       }
 
       /// <summary>
-      /// BulkImportRelationships is a faster path to writing a large number of
-      /// relationships at once. It is both batched and streaming. For maximum
-      /// performance, the caller should attempt to write relationships in as close
-      /// to relationship sort order as possible: (resource.object_type,
-      /// resource.object_id, relation, subject.object.object_type,
-      /// subject.object.object_id, subject.optional_relation)
-      /// 
-      /// EXPERIMENTAL
-      /// https://github.com/authzed/spicedb/issues/1303
+      /// DEPRECATED: Promoted to ImportBulkRelationships in the stable API.
       /// </summary>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncClientStreamingCall<global::Authzed.Api.V1.BulkImportRelationshipsRequest, global::Authzed.Api.V1.BulkImportRelationshipsResponse> BulkImportRelationships(grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return BulkImportRelationships(new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// BulkImportRelationships is a faster path to writing a large number of
-      /// relationships at once. It is both batched and streaming. For maximum
-      /// performance, the caller should attempt to write relationships in as close
-      /// to relationship sort order as possible: (resource.object_type,
-      /// resource.object_id, relation, subject.object.object_type,
-      /// subject.object.object_id, subject.optional_relation)
-      /// 
-      /// EXPERIMENTAL
-      /// https://github.com/authzed/spicedb/issues/1303
+      /// DEPRECATED: Promoted to ImportBulkRelationships in the stable API.
       /// </summary>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncClientStreamingCall<global::Authzed.Api.V1.BulkImportRelationshipsRequest, global::Authzed.Api.V1.BulkImportRelationshipsResponse> BulkImportRelationships(grpc::CallOptions options)
       {
         return CallInvoker.AsyncClientStreamingCall(__Method_BulkImportRelationships, null, options);
       }
       /// <summary>
-      /// BulkExportRelationships is the fastest path available to exporting
-      /// relationships from the server. It is resumable, and will return results
-      /// in an order determined by the server.
+      /// DEPRECATED: Promoted to ExportBulkRelationships in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncServerStreamingCall<global::Authzed.Api.V1.BulkExportRelationshipsResponse> BulkExportRelationships(global::Authzed.Api.V1.BulkExportRelationshipsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return BulkExportRelationships(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// BulkExportRelationships is the fastest path available to exporting
-      /// relationships from the server. It is resumable, and will return results
-      /// in an order determined by the server.
+      /// DEPRECATED: Promoted to ExportBulkRelationships in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncServerStreamingCall<global::Authzed.Api.V1.BulkExportRelationshipsResponse> BulkExportRelationships(global::Authzed.Api.V1.BulkExportRelationshipsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncServerStreamingCall(__Method_BulkExportRelationships, null, options, request);
       }
       /// <summary>
-      /// NOTE: BulkCheckPermission has been promoted to the stable API as "CheckBulkPermission" and the
-      /// API will be removed from experimental in a future release.
+      /// DEPRECATED: Promoted to CheckBulkPermission in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -285,8 +268,7 @@ namespace Authzed.Api.V1 {
         return BulkCheckPermission(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// NOTE: BulkCheckPermission has been promoted to the stable API as "CheckBulkPermission" and the
-      /// API will be removed from experimental in a future release.
+      /// DEPRECATED: Promoted to CheckBulkPermission in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -298,8 +280,7 @@ namespace Authzed.Api.V1 {
         return CallInvoker.BlockingUnaryCall(__Method_BulkCheckPermission, null, options, request);
       }
       /// <summary>
-      /// NOTE: BulkCheckPermission has been promoted to the stable API as "CheckBulkPermission" and the
-      /// API will be removed from experimental in a future release.
+      /// DEPRECATED: Promoted to CheckBulkPermission in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -313,8 +294,7 @@ namespace Authzed.Api.V1 {
         return BulkCheckPermissionAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// NOTE: BulkCheckPermission has been promoted to the stable API as "CheckBulkPermission" and the
-      /// API will be removed from experimental in a future release.
+      /// DEPRECATED: Promoted to CheckBulkPermission in the stable API.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

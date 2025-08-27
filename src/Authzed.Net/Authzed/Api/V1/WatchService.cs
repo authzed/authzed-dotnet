@@ -25,41 +25,64 @@ namespace Authzed.Api.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiJhdXRoemVkL2FwaS92MS93YXRjaF9zZXJ2aWNlLnByb3RvEg5hdXRoemVk",
-            "LmFwaS52MRocZ29vZ2xlL2FwaS9hbm5vdGF0aW9ucy5wcm90bxocZ29vZ2xl",
-            "L3Byb3RvYnVmL3N0cnVjdC5wcm90bxoXdmFsaWRhdGUvdmFsaWRhdGUucHJv",
-            "dG8aGWF1dGh6ZWQvYXBpL3YxL2NvcmUucHJvdG8aJ2F1dGh6ZWQvYXBpL3Yx",
-            "L3Blcm1pc3Npb25fc2VydmljZS5wcm90byLKAgoMV2F0Y2hSZXF1ZXN0EoMB",
-            "ChVvcHRpb25hbF9vYmplY3RfdHlwZXMYASADKAlCT/pCTJIBSQgAIkVyQyiA",
-            "ATI+XihbYS16XVthLXowLTlfXXsxLDYyfVthLXowLTldLykqW2Etel1bYS16",
-            "MC05X117MSw2Mn1bYS16MC05XSRSE29wdGlvbmFsT2JqZWN0VHlwZXMSTAoV",
-            "b3B0aW9uYWxfc3RhcnRfY3Vyc29yGAIgASgLMhguYXV0aHplZC5hcGkudjEu",
-            "WmVkVG9rZW5SE29wdGlvbmFsU3RhcnRDdXJzb3ISZgodb3B0aW9uYWxfcmVs",
-            "YXRpb25zaGlwX2ZpbHRlcnMYAyADKAsyIi5hdXRoemVkLmFwaS52MS5SZWxh",
-            "dGlvbnNoaXBGaWx0ZXJSG29wdGlvbmFsUmVsYXRpb25zaGlwRmlsdGVycyLt",
-            "AQoNV2F0Y2hSZXNwb25zZRI8Cgd1cGRhdGVzGAEgAygLMiIuYXV0aHplZC5h",
-            "cGkudjEuUmVsYXRpb25zaGlwVXBkYXRlUgd1cGRhdGVzEkEKD2NoYW5nZXNf",
-            "dGhyb3VnaBgCIAEoCzIYLmF1dGh6ZWQuYXBpLnYxLlplZFRva2VuUg5jaGFu",
-            "Z2VzVGhyb3VnaBJbCh1vcHRpb25hbF90cmFuc2FjdGlvbl9tZXRhZGF0YRgD",
-            "IAEoCzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3RSG29wdGlvbmFsVHJhbnNh",
-            "Y3Rpb25NZXRhZGF0YTJsCgxXYXRjaFNlcnZpY2USXAoFV2F0Y2gSHC5hdXRo",
-            "emVkLmFwaS52MS5XYXRjaFJlcXVlc3QaHS5hdXRoemVkLmFwaS52MS5XYXRj",
-            "aFJlc3BvbnNlIhSC0+STAg4iCS92MS93YXRjaDoBKjABQkoKEmNvbS5hdXRo",
-            "emVkLmFwaS52MVABWjJnaXRodWIuY29tL2F1dGh6ZWQvYXV0aHplZC1nby9w",
-            "cm90by9hdXRoemVkL2FwaS92MWIGcHJvdG8z"));
+            "LmFwaS52MRoZYXV0aHplZC9hcGkvdjEvY29yZS5wcm90bxonYXV0aHplZC9h",
+            "cGkvdjEvcGVybWlzc2lvbl9zZXJ2aWNlLnByb3RvGhtidWYvdmFsaWRhdGUv",
+            "dmFsaWRhdGUucHJvdG8aHGdvb2dsZS9hcGkvYW5ub3RhdGlvbnMucHJvdG8a",
+            "HGdvb2dsZS9wcm90b2J1Zi9zdHJ1Y3QucHJvdG8aLnByb3RvYy1nZW4tb3Bl",
+            "bmFwaXYyL29wdGlvbnMvYW5ub3RhdGlvbnMucHJvdG8aF3ZhbGlkYXRlL3Zh",
+            "bGlkYXRlLnByb3RvIukDCgxXYXRjaFJlcXVlc3QS0wEKFW9wdGlvbmFsX29i",
+            "amVjdF90eXBlcxgBIAMoCUKeAfpCTJIBSQgAIkVyQyiAATI+XihbYS16XVth",
+            "LXowLTlfXXsxLDYyfVthLXowLTldLykqW2Etel1bYS16MC05X117MSw2Mn1b",
+            "YS16MC05XSS6SEySAUkIACJFckMogAEyPl4oW2Etel1bYS16MC05X117MSw2",
+            "Mn1bYS16MC05XS8pKlthLXpdW2EtejAtOV9dezEsNjJ9W2EtejAtOV0kUhNv",
+            "cHRpb25hbE9iamVjdFR5cGVzEkwKFW9wdGlvbmFsX3N0YXJ0X2N1cnNvchgC",
+            "IAEoCzIYLmF1dGh6ZWQuYXBpLnYxLlplZFRva2VuUhNvcHRpb25hbFN0YXJ0",
+            "Q3Vyc29yEmYKHW9wdGlvbmFsX3JlbGF0aW9uc2hpcF9maWx0ZXJzGAMgAygL",
+            "MiIuYXV0aHplZC5hcGkudjEuUmVsYXRpb25zaGlwRmlsdGVyUhtvcHRpb25h",
+            "bFJlbGF0aW9uc2hpcEZpbHRlcnMSTQoVb3B0aW9uYWxfdXBkYXRlX2tpbmRz",
+            "GAQgAygOMhkuYXV0aHplZC5hcGkudjEuV2F0Y2hLaW5kUhNvcHRpb25hbFVw",
+            "ZGF0ZUtpbmRzIrkCCg1XYXRjaFJlc3BvbnNlEjwKB3VwZGF0ZXMYASADKAsy",
+            "Ii5hdXRoemVkLmFwaS52MS5SZWxhdGlvbnNoaXBVcGRhdGVSB3VwZGF0ZXMS",
+            "QQoPY2hhbmdlc190aHJvdWdoGAIgASgLMhguYXV0aHplZC5hcGkudjEuWmVk",
+            "VG9rZW5SDmNoYW5nZXNUaHJvdWdoElsKHW9wdGlvbmFsX3RyYW5zYWN0aW9u",
+            "X21ldGFkYXRhGAMgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVjdFIbb3B0",
+            "aW9uYWxUcmFuc2FjdGlvbk1ldGFkYXRhEiUKDnNjaGVtYV91cGRhdGVkGAQg",
+            "ASgIUg1zY2hlbWFVcGRhdGVkEiMKDWlzX2NoZWNrcG9pbnQYBSABKAhSDGlz",
+            "Q2hlY2twb2ludCqfAQoJV2F0Y2hLaW5kEhoKFldBVENIX0tJTkRfVU5TUEVD",
+            "SUZJRUQQABIrCidXQVRDSF9LSU5EX0lOQ0xVREVfUkVMQVRJT05TSElQX1VQ",
+            "REFURVMQARIlCiFXQVRDSF9LSU5EX0lOQ0xVREVfU0NIRU1BX1VQREFURVMQ",
+            "AhIiCh5XQVRDSF9LSU5EX0lOQ0xVREVfQ0hFQ0tQT0lOVFMQAzJ2CgxXYXRj",
+            "aFNlcnZpY2USZgoFV2F0Y2gSHC5hdXRoemVkLmFwaS52MS5XYXRjaFJlcXVl",
+            "c3QaHS5hdXRoemVkLmFwaS52MS5XYXRjaFJlc3BvbnNlIh6SQQcKBVdhdGNo",
+            "gtPkkwIOIgkvdjEvd2F0Y2g6ASowAUJKChJjb20uYXV0aHplZC5hcGkudjFQ",
+            "AVoyZ2l0aHViLmNvbS9hdXRoemVkL2F1dGh6ZWQtZ28vcHJvdG8vYXV0aHpl",
+            "ZC9hcGkvdjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Authzed.Api.V1.CoreReflection.Descriptor, global::Authzed.Api.V1.PermissionServiceReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.WatchRequest), global::Authzed.Api.V1.WatchRequest.Parser, new[]{ "OptionalObjectTypes", "OptionalStartCursor", "OptionalRelationshipFilters" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.WatchResponse), global::Authzed.Api.V1.WatchResponse.Parser, new[]{ "Updates", "ChangesThrough", "OptionalTransactionMetadata" }, null, null, null, null)
+          new pbr::FileDescriptor[] { global::Authzed.Api.V1.CoreReflection.Descriptor, global::Authzed.Api.V1.PermissionServiceReflection.Descriptor, global::Buf.Validate.ValidateReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.AnnotationsReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Authzed.Api.V1.WatchKind), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.WatchRequest), global::Authzed.Api.V1.WatchRequest.Parser, new[]{ "OptionalObjectTypes", "OptionalStartCursor", "OptionalRelationshipFilters", "OptionalUpdateKinds" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.WatchResponse), global::Authzed.Api.V1.WatchResponse.Parser, new[]{ "Updates", "ChangesThrough", "OptionalTransactionMetadata", "SchemaUpdated", "IsCheckpoint" }, null, null, null, null)
           }));
     }
     #endregion
 
   }
+  #region Enums
+  public enum WatchKind {
+    /// <summary>
+    /// Default, just relationship updates (for backwards compatibility)
+    /// </summary>
+    [pbr::OriginalName("WATCH_KIND_UNSPECIFIED")] Unspecified = 0,
+    [pbr::OriginalName("WATCH_KIND_INCLUDE_RELATIONSHIP_UPDATES")] IncludeRelationshipUpdates = 1,
+    [pbr::OriginalName("WATCH_KIND_INCLUDE_SCHEMA_UPDATES")] IncludeSchemaUpdates = 2,
+    [pbr::OriginalName("WATCH_KIND_INCLUDE_CHECKPOINTS")] IncludeCheckpoints = 3,
+  }
+
+  #endregion
+
   #region Messages
   /// <summary>
-  /// WatchRequest specifies the object definitions for which we want to start
-  /// watching mutations, and an optional start snapshot for when to start
+  /// WatchRequest specifies what mutations to watch for, and an optional start snapshot for when to start
   /// watching.
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
@@ -100,6 +123,7 @@ namespace Authzed.Api.V1 {
       optionalObjectTypes_ = other.optionalObjectTypes_.Clone();
       optionalStartCursor_ = other.optionalStartCursor_ != null ? other.optionalStartCursor_.Clone() : null;
       optionalRelationshipFilters_ = other.optionalRelationshipFilters_.Clone();
+      optionalUpdateKinds_ = other.optionalUpdateKinds_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -115,7 +139,7 @@ namespace Authzed.Api.V1 {
         = pb::FieldCodec.ForString(10);
     private readonly pbc::RepeatedField<string> optionalObjectTypes_ = new pbc::RepeatedField<string>();
     /// <summary>
-    /// optional_object_types is a filter of resource object types to watch for changes.
+    /// optional_object_types is a filter of resource object types to watch for relationship changes.
     /// If specified, only changes to the specified object types will be returned and
     /// optional_relationship_filters cannot be used.
     /// </summary>
@@ -164,6 +188,20 @@ namespace Authzed.Api.V1 {
       get { return optionalRelationshipFilters_; }
     }
 
+    /// <summary>Field number for the "optional_update_kinds" field.</summary>
+    public const int OptionalUpdateKindsFieldNumber = 4;
+    private static readonly pb::FieldCodec<global::Authzed.Api.V1.WatchKind> _repeated_optionalUpdateKinds_codec
+        = pb::FieldCodec.ForEnum(34, x => (int) x, x => (global::Authzed.Api.V1.WatchKind) x);
+    private readonly pbc::RepeatedField<global::Authzed.Api.V1.WatchKind> optionalUpdateKinds_ = new pbc::RepeatedField<global::Authzed.Api.V1.WatchKind>();
+    /// <summary>
+    /// optional_update_kinds, if specified, indicates what kinds of mutations to include.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Authzed.Api.V1.WatchKind> OptionalUpdateKinds {
+      get { return optionalUpdateKinds_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -182,6 +220,7 @@ namespace Authzed.Api.V1 {
       if(!optionalObjectTypes_.Equals(other.optionalObjectTypes_)) return false;
       if (!object.Equals(OptionalStartCursor, other.OptionalStartCursor)) return false;
       if(!optionalRelationshipFilters_.Equals(other.optionalRelationshipFilters_)) return false;
+      if(!optionalUpdateKinds_.Equals(other.optionalUpdateKinds_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -192,6 +231,7 @@ namespace Authzed.Api.V1 {
       hash ^= optionalObjectTypes_.GetHashCode();
       if (optionalStartCursor_ != null) hash ^= OptionalStartCursor.GetHashCode();
       hash ^= optionalRelationshipFilters_.GetHashCode();
+      hash ^= optionalUpdateKinds_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -216,6 +256,7 @@ namespace Authzed.Api.V1 {
         output.WriteMessage(OptionalStartCursor);
       }
       optionalRelationshipFilters_.WriteTo(output, _repeated_optionalRelationshipFilters_codec);
+      optionalUpdateKinds_.WriteTo(output, _repeated_optionalUpdateKinds_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -232,6 +273,7 @@ namespace Authzed.Api.V1 {
         output.WriteMessage(OptionalStartCursor);
       }
       optionalRelationshipFilters_.WriteTo(ref output, _repeated_optionalRelationshipFilters_codec);
+      optionalUpdateKinds_.WriteTo(ref output, _repeated_optionalUpdateKinds_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -247,6 +289,7 @@ namespace Authzed.Api.V1 {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(OptionalStartCursor);
       }
       size += optionalRelationshipFilters_.CalculateSize(_repeated_optionalRelationshipFilters_codec);
+      size += optionalUpdateKinds_.CalculateSize(_repeated_optionalUpdateKinds_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -267,6 +310,7 @@ namespace Authzed.Api.V1 {
         OptionalStartCursor.MergeFrom(other.OptionalStartCursor);
       }
       optionalRelationshipFilters_.Add(other.optionalRelationshipFilters_);
+      optionalUpdateKinds_.Add(other.optionalUpdateKinds_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -299,6 +343,11 @@ namespace Authzed.Api.V1 {
           }
           case 26: {
             optionalRelationshipFilters_.AddEntriesFrom(input, _repeated_optionalRelationshipFilters_codec);
+            break;
+          }
+          case 34:
+          case 32: {
+            optionalUpdateKinds_.AddEntriesFrom(input, _repeated_optionalUpdateKinds_codec);
             break;
           }
         }
@@ -335,6 +384,11 @@ namespace Authzed.Api.V1 {
             optionalRelationshipFilters_.AddEntriesFrom(ref input, _repeated_optionalRelationshipFilters_codec);
             break;
           }
+          case 34:
+          case 32: {
+            optionalUpdateKinds_.AddEntriesFrom(ref input, _repeated_optionalUpdateKinds_codec);
+            break;
+          }
         }
       }
     }
@@ -343,8 +397,8 @@ namespace Authzed.Api.V1 {
   }
 
   /// <summary>
-  /// WatchResponse contains all tuple modification events in ascending
-  /// timestamp order, from the requested start snapshot to a snapshot
+  /// WatchResponse contains all mutation events in ascending timestamp order,
+  /// from the requested start snapshot to a snapshot
   /// encoded in the watch response. The client can use the snapshot to resume
   /// watching where the previous watch response left off.
   /// </summary>
@@ -386,6 +440,8 @@ namespace Authzed.Api.V1 {
       updates_ = other.updates_.Clone();
       changesThrough_ = other.changesThrough_ != null ? other.changesThrough_.Clone() : null;
       optionalTransactionMetadata_ = other.optionalTransactionMetadata_ != null ? other.optionalTransactionMetadata_.Clone() : null;
+      schemaUpdated_ = other.schemaUpdated_;
+      isCheckpoint_ = other.isCheckpoint_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -444,6 +500,38 @@ namespace Authzed.Api.V1 {
       }
     }
 
+    /// <summary>Field number for the "schema_updated" field.</summary>
+    public const int SchemaUpdatedFieldNumber = 4;
+    private bool schemaUpdated_;
+    /// <summary>
+    /// schema_updated, if true, indicates that the schema was changed in this revision.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool SchemaUpdated {
+      get { return schemaUpdated_; }
+      set {
+        schemaUpdated_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "is_checkpoint" field.</summary>
+    public const int IsCheckpointFieldNumber = 5;
+    private bool isCheckpoint_;
+    /// <summary>
+    /// is_checkpoint, if true, indicates that a checkpoint was reached.
+    /// A checkpoint indicates that the server guarantees that the client
+    /// will not observe any changes at a revision below or equal to the revision in this response.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool IsCheckpoint {
+      get { return isCheckpoint_; }
+      set {
+        isCheckpoint_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -462,6 +550,8 @@ namespace Authzed.Api.V1 {
       if(!updates_.Equals(other.updates_)) return false;
       if (!object.Equals(ChangesThrough, other.ChangesThrough)) return false;
       if (!object.Equals(OptionalTransactionMetadata, other.OptionalTransactionMetadata)) return false;
+      if (SchemaUpdated != other.SchemaUpdated) return false;
+      if (IsCheckpoint != other.IsCheckpoint) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -472,6 +562,8 @@ namespace Authzed.Api.V1 {
       hash ^= updates_.GetHashCode();
       if (changesThrough_ != null) hash ^= ChangesThrough.GetHashCode();
       if (optionalTransactionMetadata_ != null) hash ^= OptionalTransactionMetadata.GetHashCode();
+      if (SchemaUpdated != false) hash ^= SchemaUpdated.GetHashCode();
+      if (IsCheckpoint != false) hash ^= IsCheckpoint.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -499,6 +591,14 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(26);
         output.WriteMessage(OptionalTransactionMetadata);
       }
+      if (SchemaUpdated != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(SchemaUpdated);
+      }
+      if (IsCheckpoint != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(IsCheckpoint);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -518,6 +618,14 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(26);
         output.WriteMessage(OptionalTransactionMetadata);
       }
+      if (SchemaUpdated != false) {
+        output.WriteRawTag(32);
+        output.WriteBool(SchemaUpdated);
+      }
+      if (IsCheckpoint != false) {
+        output.WriteRawTag(40);
+        output.WriteBool(IsCheckpoint);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -534,6 +642,12 @@ namespace Authzed.Api.V1 {
       }
       if (optionalTransactionMetadata_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(OptionalTransactionMetadata);
+      }
+      if (SchemaUpdated != false) {
+        size += 1 + 1;
+      }
+      if (IsCheckpoint != false) {
+        size += 1 + 1;
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -559,6 +673,12 @@ namespace Authzed.Api.V1 {
           OptionalTransactionMetadata = new global::Google.Protobuf.WellKnownTypes.Struct();
         }
         OptionalTransactionMetadata.MergeFrom(other.OptionalTransactionMetadata);
+      }
+      if (other.SchemaUpdated != false) {
+        SchemaUpdated = other.SchemaUpdated;
+      }
+      if (other.IsCheckpoint != false) {
+        IsCheckpoint = other.IsCheckpoint;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -597,6 +717,14 @@ namespace Authzed.Api.V1 {
             input.ReadMessage(OptionalTransactionMetadata);
             break;
           }
+          case 32: {
+            SchemaUpdated = input.ReadBool();
+            break;
+          }
+          case 40: {
+            IsCheckpoint = input.ReadBool();
+            break;
+          }
         }
       }
     #endif
@@ -632,6 +760,14 @@ namespace Authzed.Api.V1 {
               OptionalTransactionMetadata = new global::Google.Protobuf.WellKnownTypes.Struct();
             }
             input.ReadMessage(OptionalTransactionMetadata);
+            break;
+          }
+          case 32: {
+            SchemaUpdated = input.ReadBool();
+            break;
+          }
+          case 40: {
+            IsCheckpoint = input.ReadBool();
             break;
           }
         }

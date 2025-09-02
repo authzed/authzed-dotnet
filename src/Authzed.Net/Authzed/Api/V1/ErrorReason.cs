@@ -79,7 +79,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     { 
+    ///     {
     ///       "reason": "ERROR_REASON_SCHEMA_PARSE_ERROR",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -99,7 +99,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_SCHEMA_TYPE_ERROR",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -114,7 +114,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_UNKNOWN_DEFINITION",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -128,7 +128,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_UNKNOWN_RELATION_OR_PERMISSION",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -157,7 +157,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_TOO_MANY_PRECONDITIONS_IN_REQUEST",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -172,7 +172,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_WRITE_OR_DELETE_PRECONDITION_FAILURE",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -188,7 +188,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_SERVICE_READ_ONLY",
     ///       "domain": "authzed.com"
     ///     }
@@ -199,7 +199,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_UNKNOWN_CAVEAT",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -213,7 +213,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_INVALID_SUBJECT_TYPE",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -229,7 +229,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_CAVEAT_PARAMETER_TYPE_ERROR",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -247,7 +247,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_UPDATES_ON_SAME_RELATIONSHIP",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -262,7 +262,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_CANNOT_UPDATE_PERMISSION",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -277,7 +277,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_CAVEAT_EVALUATION_ERROR",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -291,7 +291,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_INVALID_CURSOR",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -307,7 +307,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_TOO_MANY_RELATIONSHIPS_FOR_TRANSACTIONAL_DELETE",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -389,7 +389,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_TOO_MANY_CHECKS_IN_REQUEST",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -404,7 +404,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_EXCEEDS_MAXIMUM_ALLOWABLE_LIMIT",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -419,7 +419,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_INVALID_FILTER",
     ///       "domain": "authzed.com",
     ///       "metadata": {
@@ -434,7 +434,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_INMEMORY_TOO_MANY_CONCURRENT_UPDATES",
     ///       "domain": "authzed.com",
     ///       "metadata": {}
@@ -446,7 +446,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_EMPTY_PRECONDITION",
     ///       "domain": "authzed.com",
     ///       "metadata": {}
@@ -458,7 +458,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_COUNTER_ALREADY_REGISTERED",
     ///       "domain": "authzed.com",
     ///       "metadata": { "counter_name": "name" }
@@ -470,7 +470,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_COUNTER_NOT_REGISTERED",
     ///       "domain": "authzed.com",
     ///       "metadata": { "counter_name": "name"  }
@@ -484,7 +484,7 @@ namespace Authzed.Api.V1 {
     ///
     /// Example of an ErrorInfo:
     ///
-    ///     {  
+    ///     {
     ///       "reason": "ERROR_REASON_WILDCARD_NOT_ALLOWED",
     ///       "domain": "authzed.com",
     ///       "metadata": { "disallowed_field": "subject_id" }

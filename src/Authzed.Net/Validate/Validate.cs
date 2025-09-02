@@ -8948,7 +8948,7 @@ namespace Validate {
 
     private string pattern_;
     /// <summary>
-    /// Pattern specifes that this field must match against the specified
+    /// Pattern specifies that this field must match against the specified
     /// regular expression (RE2 syntax). The included expression should elide
     /// any delimiters.
     /// </summary>
@@ -10444,7 +10444,7 @@ namespace Validate {
 
     private string pattern_;
     /// <summary>
-    /// Pattern specifes that this field must match against the specified
+    /// Pattern specifies that this field must match against the specified
     /// regular expression (RE2 syntax). The included expression should elide
     /// any delimiters.
     /// </summary>
@@ -11912,7 +11912,7 @@ namespace Validate {
     private bool unique_;
     /// <summary>
     /// Unique specifies that all elements in this field must be unique. This
-    /// contraint is only applicable to scalar and enum types (messages are not
+    /// constraint is only applicable to scalar and enum types (messages are not
     /// supported).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11941,7 +11941,7 @@ namespace Validate {
     public const int ItemsFieldNumber = 4;
     private global::Validate.FieldRules items_;
     /// <summary>
-    /// Items specifies the contraints to be applied to each item in the field.
+    /// Items specifies the constraints to be applied to each item in the field.
     /// Repeated message fields will still execute validation against each item
     /// unless skip is specified here.
     /// </summary>

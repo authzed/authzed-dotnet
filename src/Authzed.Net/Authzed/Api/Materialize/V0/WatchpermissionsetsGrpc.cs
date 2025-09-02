@@ -53,6 +53,10 @@ namespace Authzed.Api.Materialize.V0 {
     static readonly grpc::Marshaller<global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequest> __Marshaller_authzed_api_materialize_v0_LookupPermissionSetsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Authzed.Api.Materialize.V0.LookupPermissionSetsResponse> __Marshaller_authzed_api_materialize_v0_LookupPermissionSetsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.Materialize.V0.LookupPermissionSetsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.Materialize.V0.DownloadPermissionSetsRequest> __Marshaller_authzed_api_materialize_v0_DownloadPermissionSetsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.Materialize.V0.DownloadPermissionSetsRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse> __Marshaller_authzed_api_materialize_v0_DownloadPermissionSetsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Authzed.Api.Materialize.V0.WatchPermissionSetsRequest, global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse> __Method_WatchPermissionSets = new grpc::Method<global::Authzed.Api.Materialize.V0.WatchPermissionSetsRequest, global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse>(
@@ -69,6 +73,14 @@ namespace Authzed.Api.Materialize.V0 {
         "LookupPermissionSets",
         __Marshaller_authzed_api_materialize_v0_LookupPermissionSetsRequest,
         __Marshaller_authzed_api_materialize_v0_LookupPermissionSetsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Authzed.Api.Materialize.V0.DownloadPermissionSetsRequest, global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse> __Method_DownloadPermissionSets = new grpc::Method<global::Authzed.Api.Materialize.V0.DownloadPermissionSetsRequest, global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DownloadPermissionSets",
+        __Marshaller_authzed_api_materialize_v0_DownloadPermissionSetsRequest,
+        __Marshaller_authzed_api_materialize_v0_DownloadPermissionSetsResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -232,6 +244,66 @@ namespace Authzed.Api.Materialize.V0 {
       public virtual grpc::AsyncServerStreamingCall<global::Authzed.Api.Materialize.V0.LookupPermissionSetsResponse> LookupPermissionSets(global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncServerStreamingCall(__Method_LookupPermissionSets, null, options, request);
+      }
+      /// <summary>
+      /// DownloadPermissionSets returns URLs to download permission sets data as Avro files.
+      /// This provides an alternative to LookupPermissionSets for customers who need to download
+      /// large datasets efficiently. The returned URLs point to compressed Avro files containing
+      /// the permission sets data in a normalized format.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse DownloadPermissionSets(global::Authzed.Api.Materialize.V0.DownloadPermissionSetsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DownloadPermissionSets(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// DownloadPermissionSets returns URLs to download permission sets data as Avro files.
+      /// This provides an alternative to LookupPermissionSets for customers who need to download
+      /// large datasets efficiently. The returned URLs point to compressed Avro files containing
+      /// the permission sets data in a normalized format.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse DownloadPermissionSets(global::Authzed.Api.Materialize.V0.DownloadPermissionSetsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DownloadPermissionSets, null, options, request);
+      }
+      /// <summary>
+      /// DownloadPermissionSets returns URLs to download permission sets data as Avro files.
+      /// This provides an alternative to LookupPermissionSets for customers who need to download
+      /// large datasets efficiently. The returned URLs point to compressed Avro files containing
+      /// the permission sets data in a normalized format.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse> DownloadPermissionSetsAsync(global::Authzed.Api.Materialize.V0.DownloadPermissionSetsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DownloadPermissionSetsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// DownloadPermissionSets returns URLs to download permission sets data as Avro files.
+      /// This provides an alternative to LookupPermissionSets for customers who need to download
+      /// large datasets efficiently. The returned URLs point to compressed Avro files containing
+      /// the permission sets data in a normalized format.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse> DownloadPermissionSetsAsync(global::Authzed.Api.Materialize.V0.DownloadPermissionSetsRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DownloadPermissionSets, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

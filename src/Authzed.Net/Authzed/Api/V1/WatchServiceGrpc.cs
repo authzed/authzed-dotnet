@@ -91,11 +91,27 @@ namespace Authzed.Api.V1 {
       {
       }
 
+      /// <summary>
+      /// Watch returns a stream of events that occurred in the datastore in ascending timestamp order.
+      /// The events can be relationship updates, schema updates, or checkpoints.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncServerStreamingCall<global::Authzed.Api.V1.WatchResponse> Watch(global::Authzed.Api.V1.WatchRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Watch(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
+      /// <summary>
+      /// Watch returns a stream of events that occurred in the datastore in ascending timestamp order.
+      /// The events can be relationship updates, schema updates, or checkpoints.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncServerStreamingCall<global::Authzed.Api.V1.WatchResponse> Watch(global::Authzed.Api.V1.WatchRequest request, grpc::CallOptions options)
       {

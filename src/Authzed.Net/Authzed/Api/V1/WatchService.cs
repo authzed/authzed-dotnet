@@ -41,27 +41,29 @@ namespace Authzed.Api.V1 {
             "MiIuYXV0aHplZC5hcGkudjEuUmVsYXRpb25zaGlwRmlsdGVyUhtvcHRpb25h",
             "bFJlbGF0aW9uc2hpcEZpbHRlcnMSTQoVb3B0aW9uYWxfdXBkYXRlX2tpbmRz",
             "GAQgAygOMhkuYXV0aHplZC5hcGkudjEuV2F0Y2hLaW5kUhNvcHRpb25hbFVw",
-            "ZGF0ZUtpbmRzIrkCCg1XYXRjaFJlc3BvbnNlEjwKB3VwZGF0ZXMYASADKAsy",
+            "ZGF0ZUtpbmRzIogDCg1XYXRjaFJlc3BvbnNlEjwKB3VwZGF0ZXMYASADKAsy",
             "Ii5hdXRoemVkLmFwaS52MS5SZWxhdGlvbnNoaXBVcGRhdGVSB3VwZGF0ZXMS",
             "QQoPY2hhbmdlc190aHJvdWdoGAIgASgLMhguYXV0aHplZC5hcGkudjEuWmVk",
             "VG9rZW5SDmNoYW5nZXNUaHJvdWdoElsKHW9wdGlvbmFsX3RyYW5zYWN0aW9u",
             "X21ldGFkYXRhGAMgASgLMhcuZ29vZ2xlLnByb3RvYnVmLlN0cnVjdFIbb3B0",
             "aW9uYWxUcmFuc2FjdGlvbk1ldGFkYXRhEiUKDnNjaGVtYV91cGRhdGVkGAQg",
             "ASgIUg1zY2hlbWFVcGRhdGVkEiMKDWlzX2NoZWNrcG9pbnQYBSABKAhSDGlz",
-            "Q2hlY2twb2ludCqfAQoJV2F0Y2hLaW5kEhoKFldBVENIX0tJTkRfVU5TUEVD",
-            "SUZJRUQQABIrCidXQVRDSF9LSU5EX0lOQ0xVREVfUkVMQVRJT05TSElQX1VQ",
-            "REFURVMQARIlCiFXQVRDSF9LSU5EX0lOQ0xVREVfU0NIRU1BX1VQREFURVMQ",
-            "AhIiCh5XQVRDSF9LSU5EX0lOQ0xVREVfQ0hFQ0tQT0lOVFMQAzJ2CgxXYXRj",
-            "aFNlcnZpY2USZgoFV2F0Y2gSHC5hdXRoemVkLmFwaS52MS5XYXRjaFJlcXVl",
-            "c3QaHS5hdXRoemVkLmFwaS52MS5XYXRjaFJlc3BvbnNlIh6SQQcKBVdhdGNo",
-            "gtPkkwIOIgkvdjEvd2F0Y2g6ASowAUJKChJjb20uYXV0aHplZC5hcGkudjFQ",
-            "AVoyZ2l0aHViLmNvbS9hdXRoemVkL2F1dGh6ZWQtZ28vcHJvdG8vYXV0aHpl",
-            "ZC9hcGkvdjFiBnByb3RvMw=="));
+            "Q2hlY2twb2ludBJNChZmdWxsX3JldmlzaW9uX21ldGFkYXRhGAYgAygLMhcu",
+            "Z29vZ2xlLnByb3RvYnVmLlN0cnVjdFIUZnVsbFJldmlzaW9uTWV0YWRhdGEq",
+            "nwEKCVdhdGNoS2luZBIaChZXQVRDSF9LSU5EX1VOU1BFQ0lGSUVEEAASKwon",
+            "V0FUQ0hfS0lORF9JTkNMVURFX1JFTEFUSU9OU0hJUF9VUERBVEVTEAESJQoh",
+            "V0FUQ0hfS0lORF9JTkNMVURFX1NDSEVNQV9VUERBVEVTEAISIgoeV0FUQ0hf",
+            "S0lORF9JTkNMVURFX0NIRUNLUE9JTlRTEAMydgoMV2F0Y2hTZXJ2aWNlEmYK",
+            "BVdhdGNoEhwuYXV0aHplZC5hcGkudjEuV2F0Y2hSZXF1ZXN0Gh0uYXV0aHpl",
+            "ZC5hcGkudjEuV2F0Y2hSZXNwb25zZSIekkEHCgVXYXRjaILT5JMCDiIJL3Yx",
+            "L3dhdGNoOgEqMAFCSgoSY29tLmF1dGh6ZWQuYXBpLnYxUAFaMmdpdGh1Yi5j",
+            "b20vYXV0aHplZC9hdXRoemVkLWdvL3Byb3RvL2F1dGh6ZWQvYXBpL3YxYgZw",
+            "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Authzed.Api.V1.CoreReflection.Descriptor, global::Authzed.Api.V1.PermissionServiceReflection.Descriptor, global::Buf.Validate.ValidateReflection.Descriptor, global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Grpc.Gateway.ProtocGenOpenapiv2.Options.AnnotationsReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Authzed.Api.V1.WatchKind), }, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.WatchRequest), global::Authzed.Api.V1.WatchRequest.Parser, new[]{ "OptionalObjectTypes", "OptionalStartCursor", "OptionalRelationshipFilters", "OptionalUpdateKinds" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.WatchResponse), global::Authzed.Api.V1.WatchResponse.Parser, new[]{ "Updates", "ChangesThrough", "OptionalTransactionMetadata", "SchemaUpdated", "IsCheckpoint" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.WatchResponse), global::Authzed.Api.V1.WatchResponse.Parser, new[]{ "Updates", "ChangesThrough", "OptionalTransactionMetadata", "SchemaUpdated", "IsCheckpoint", "FullRevisionMetadata" }, null, null, null, null)
           }));
     }
     #endregion
@@ -82,7 +84,7 @@ namespace Authzed.Api.V1 {
 
   #region Messages
   /// <summary>
-  /// WatchRequest specifies what mutations to watch for, and an optional start snapshot for when to start
+  /// WatchRequest specifies what mutations to watch for, and an optional start point for when to start
   /// watching.
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
@@ -155,9 +157,7 @@ namespace Authzed.Api.V1 {
     /// <summary>
     /// optional_start_cursor is the ZedToken holding the point-in-time at
     /// which to start watching for changes.
-    /// If not specified, the watch will begin at the current head revision
-    /// of the datastore, returning any updates that occur after the caller
-    /// makes the request.
+    /// If not specified, the watch will start from the current SpiceDB revision time of the request ("head revision").
     /// Note that if this cursor references a point-in-time containing data
     /// that has been garbage collected, an error will be returned.
     /// </summary>
@@ -195,6 +195,8 @@ namespace Authzed.Api.V1 {
     private readonly pbc::RepeatedField<global::Authzed.Api.V1.WatchKind> optionalUpdateKinds_ = new pbc::RepeatedField<global::Authzed.Api.V1.WatchKind>();
     /// <summary>
     /// optional_update_kinds, if specified, indicates what kinds of mutations to include.
+    /// If your SpiceDB instance is running behind a proxy that aborts idle connections,
+    /// we recommend including Checkpoints to keep the stream alive even when there are no changes.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -397,10 +399,10 @@ namespace Authzed.Api.V1 {
   }
 
   /// <summary>
-  /// WatchResponse contains all mutation events in ascending timestamp order,
-  /// from the requested start snapshot to a snapshot
-  /// encoded in the watch response. The client can use the snapshot to resume
-  /// watching where the previous watch response left off.
+  /// WatchResponse contains all mutation events in ascending timestamp order.
+  /// This excludes relationships that were deleted because they expired.
+  /// The response includes a field that can be used to resume
+  /// watching from that point.
   /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WatchResponse : pb::IMessage<WatchResponse>
@@ -442,6 +444,7 @@ namespace Authzed.Api.V1 {
       optionalTransactionMetadata_ = other.optionalTransactionMetadata_ != null ? other.optionalTransactionMetadata_.Clone() : null;
       schemaUpdated_ = other.schemaUpdated_;
       isCheckpoint_ = other.isCheckpoint_;
+      fullRevisionMetadata_ = other.fullRevisionMetadata_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -458,7 +461,7 @@ namespace Authzed.Api.V1 {
     private readonly pbc::RepeatedField<global::Authzed.Api.V1.RelationshipUpdate> updates_ = new pbc::RepeatedField<global::Authzed.Api.V1.RelationshipUpdate>();
     /// <summary>
     /// updates are the RelationshipUpdate events that have occurred since the
-    /// last watch response.
+    /// call was made, or since the point in time specified by changes_through.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -489,7 +492,8 @@ namespace Authzed.Api.V1 {
     /// <summary>
     /// optional_transaction_metadata is an optional field that returns the transaction metadata
     /// given to SpiceDB during the transaction that produced the changes in this response.
-    /// This field may not exist if no transaction metadata was provided.
+    /// This field may not exist if no transaction metadata was provided, or if multiple pieces
+    /// of metadata were found during the transaction (in which case it is ambiguous which to return).
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -532,6 +536,23 @@ namespace Authzed.Api.V1 {
       }
     }
 
+    /// <summary>Field number for the "full_revision_metadata" field.</summary>
+    public const int FullRevisionMetadataFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::Google.Protobuf.WellKnownTypes.Struct> _repeated_fullRevisionMetadata_codec
+        = pb::FieldCodec.ForMessage(50, global::Google.Protobuf.WellKnownTypes.Struct.Parser);
+    private readonly pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Struct> fullRevisionMetadata_ = new pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Struct>();
+    /// <summary>
+    /// full_revision_metadata contains all transaction metadata given to SpiceDB during the
+    /// revision that produced the changes in this response. Some datastores (such as CockroachDB)
+    /// can "merge" multiple transactions into a single revision (if the changes occurred concurrently),
+    /// so this field is a list of all transaction metadata seen during the revision.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Google.Protobuf.WellKnownTypes.Struct> FullRevisionMetadata {
+      get { return fullRevisionMetadata_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -552,6 +573,7 @@ namespace Authzed.Api.V1 {
       if (!object.Equals(OptionalTransactionMetadata, other.OptionalTransactionMetadata)) return false;
       if (SchemaUpdated != other.SchemaUpdated) return false;
       if (IsCheckpoint != other.IsCheckpoint) return false;
+      if(!fullRevisionMetadata_.Equals(other.fullRevisionMetadata_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -564,6 +586,7 @@ namespace Authzed.Api.V1 {
       if (optionalTransactionMetadata_ != null) hash ^= OptionalTransactionMetadata.GetHashCode();
       if (SchemaUpdated != false) hash ^= SchemaUpdated.GetHashCode();
       if (IsCheckpoint != false) hash ^= IsCheckpoint.GetHashCode();
+      hash ^= fullRevisionMetadata_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -599,6 +622,7 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(40);
         output.WriteBool(IsCheckpoint);
       }
+      fullRevisionMetadata_.WriteTo(output, _repeated_fullRevisionMetadata_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -626,6 +650,7 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(40);
         output.WriteBool(IsCheckpoint);
       }
+      fullRevisionMetadata_.WriteTo(ref output, _repeated_fullRevisionMetadata_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -649,6 +674,7 @@ namespace Authzed.Api.V1 {
       if (IsCheckpoint != false) {
         size += 1 + 1;
       }
+      size += fullRevisionMetadata_.CalculateSize(_repeated_fullRevisionMetadata_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -680,6 +706,7 @@ namespace Authzed.Api.V1 {
       if (other.IsCheckpoint != false) {
         IsCheckpoint = other.IsCheckpoint;
       }
+      fullRevisionMetadata_.Add(other.fullRevisionMetadata_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -725,6 +752,10 @@ namespace Authzed.Api.V1 {
             IsCheckpoint = input.ReadBool();
             break;
           }
+          case 50: {
+            fullRevisionMetadata_.AddEntriesFrom(input, _repeated_fullRevisionMetadata_codec);
+            break;
+          }
         }
       }
     #endif
@@ -768,6 +799,10 @@ namespace Authzed.Api.V1 {
           }
           case 40: {
             IsCheckpoint = input.ReadBool();
+            break;
+          }
+          case 50: {
+            fullRevisionMetadata_.AddEntriesFrom(ref input, _repeated_fullRevisionMetadata_codec);
             break;
           }
         }

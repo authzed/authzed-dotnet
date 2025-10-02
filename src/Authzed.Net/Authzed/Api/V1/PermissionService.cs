@@ -2916,6 +2916,9 @@ namespace Authzed.Api.V1 {
     /// <summary>Field number for the "written_at" field.</summary>
     public const int WrittenAtFieldNumber = 1;
     private global::Authzed.Api.V1.ZedToken writtenAt_;
+    /// <summary>
+    /// written_at is the revision at which the relationships were written or deleted.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::Authzed.Api.V1.ZedToken WrittenAt {

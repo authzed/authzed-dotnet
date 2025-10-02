@@ -12,4 +12,4 @@ plugins:
       - "base_namespace="
       - "no_server=on"
 inputs:
-  - module: buf.build/authzed/api:v1.45.0
+  - module: buf.build/authzed/api:v1.45.4

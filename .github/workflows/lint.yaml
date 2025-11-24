@@ -8,11 +8,11 @@ on:  # yamllint disable-line rule:truthy
     branches: ["*"]
     types:
       # NOTE: these are the defaults
-      - opened
-      - synchronize
-      - reopened
+      - "opened"
+      - "synchronize"
+      - "reopened"
       # NOTE: we add this to let the conversion from draft trigger the workflows
-      - ready_for_review
+      - "ready_for_review"
 jobs:
   lint:
     # Uses pre-commit to run all checks
@@ -26,4 +26,11 @@ jobs:
       - uses: "actions/setup-dotnet@v5"
         with:
           dotnet-version: '8.x'
-      - uses: "pre-commit/action@v3.0.1"
+      - uses: "j178/prek-action@v1"
+
+  conventional-commits:
+    name: "Lint Commit Messages"
+    runs-on: "depot-ubuntu-24.04-small"
+    steps:
+      - uses: "actions/checkout@v5"
+      - uses: "webiny/action-conventional-commits@v1.3.0"

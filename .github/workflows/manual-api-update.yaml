@@ -1,6 +1,6 @@
 ---
 name: Update for API change
-on:
+on:  # yamllint disable-line rule:truthy
   workflow_dispatch:
     inputs:
       buftag:
@@ -43,7 +43,8 @@ jobs:
           # https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#triggering-further-workflow-runs
           # This is how we ensure that workflows run
           draft: "always-true"
-          title: Update API to ${{ inputs.buftag }}
-          branch: api-change/${{ inputs.buftag }}
+          title: "Update API to ${{ inputs.buftag }}"
+          commit-message: "feat: update api version"
+          branch: "api-change/${{ inputs.buftag }}"
           base: "main"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: "${{ secrets.GITHUB_TOKEN }}"

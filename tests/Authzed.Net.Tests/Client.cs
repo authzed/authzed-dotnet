@@ -1,7 +1,6 @@
 namespace Authzed.Net.Tests;
 
 using Authzed.Api.V1;
-using Grpc.Core;
 using Grpc.Net.Client;
 using System;
 public class TestClient

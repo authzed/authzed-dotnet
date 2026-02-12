@@ -31,15 +31,14 @@
 
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.33.5" />
-    <PackageReference Include="Grpc.Core" Version="2.46.6" />
     <PackageReference Include="Grpc.Net.Client" Version="2.76.0" />
     <PackageReference Include="Grpc.Tools" Version="2.76.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
 
-    <None Include="$(MSBuildThisFileDirectory)..\..\LICENSE" Pack="true" PackagePath=""/>
-    <None Include="$(MSBuildThisFileDirectory)..\..\README.md" Pack="true" PackagePath=""/>
+    <None Include="$(MSBuildThisFileDirectory)..\..\LICENSE" Pack="true" PackagePath="" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\README.md" Pack="true" PackagePath="" />
     <!-- TODO: -->
     <!--<None Include="$(MSBuildThisFileDirectory)..\..\Icon.png" Pack="true" PackagePath=""/>-->
   </ItemGroup>

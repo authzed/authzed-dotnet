@@ -2,7 +2,6 @@ namespace Authzed.Net.Tests;
 
 using Authzed.Api.V1;
 using Google.Protobuf.WellKnownTypes;
-using Grpc.Core;
 
 public class V1Test
 {

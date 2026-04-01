@@ -26,7 +26,7 @@ jobs:
       - uses: "actions/setup-dotnet@v5"
         with:
           dotnet-version: '8.x'
-      - uses: "j178/prek-action@v1"
+      - uses: "j178/prek-action@v2"
 
   conventional-commits:
     name: "Lint Commit Messages"

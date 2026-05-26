@@ -25,76 +25,83 @@ namespace Authzed.Api.Materialize.V0 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CjRhdXRoemVkL2FwaS9tYXRlcmlhbGl6ZS92MC93YXRjaHBlcm1pc3Npb25z",
-            "ZXRzLnByb3RvEhphdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MBoZYXV0aHpl",
-            "ZC9hcGkvdjEvY29yZS5wcm90byJuChpXYXRjaFBlcm1pc3Npb25TZXRzUmVx",
-            "dWVzdBJQChdvcHRpb25hbF9zdGFydGluZ19hZnRlchgBIAEoCzIYLmF1dGh6",
-            "ZWQuYXBpLnYxLlplZFRva2VuUhVvcHRpb25hbFN0YXJ0aW5nQWZ0ZXIirQMK",
-            "G1dhdGNoUGVybWlzc2lvblNldHNSZXNwb25zZRJJCgZjaGFuZ2UYASABKAsy",
-            "Ly5hdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MC5QZXJtaXNzaW9uU2V0Q2hh",
-            "bmdlSABSBmNoYW5nZRJJChJjb21wbGV0ZWRfcmV2aXNpb24YAiABKAsyGC5h",
-            "dXRoemVkLmFwaS52MS5aZWRUb2tlbkgAUhFjb21wbGV0ZWRSZXZpc2lvbhKB",
-            "AQofbG9va3VwX3Blcm1pc3Npb25fc2V0c19yZXF1aXJlZBgDIAEoCzI4LmF1",
-            "dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLkxvb2t1cFBlcm1pc3Npb25TZXRz",
-            "UmVxdWlyZWRIAFIcbG9va3VwUGVybWlzc2lvblNldHNSZXF1aXJlZBJoChZi",
-            "cmVha2luZ19zY2hlbWFfY2hhbmdlGAQgASgLMjAuYXV0aHplZC5hcGkubWF0",
-            "ZXJpYWxpemUudjAuQnJlYWtpbmdTY2hlbWFDaGFuZ2VIAFIUYnJlYWtpbmdT",
-            "Y2hlbWFDaGFuZ2VCCgoIcmVzcG9uc2Ui3QEKBkN1cnNvchIUCgVsaW1pdBgB",
-            "IAEoDVIFbGltaXQSLgoFdG9rZW4YBCABKAsyGC5hdXRoemVkLmFwaS52MS5a",
-            "ZWRUb2tlblIFdG9rZW4SJQoOc3RhcnRpbmdfaW5kZXgYBSABKA1SDXN0YXJ0",
-            "aW5nSW5kZXgSKwoRY29tcGxldGVkX21lbWJlcnMYBiABKAhSEGNvbXBsZXRl",
-            "ZE1lbWJlcnMSIQoMc3RhcnRpbmdfa2V5GAcgASgJUgtzdGFydGluZ0tleRIW",
-            "CgZjdXJzb3IYCCABKAlSBmN1cnNvciLoAQobTG9va3VwUGVybWlzc2lvblNl",
-            "dHNSZXF1ZXN0EhQKBWxpbWl0GAEgASgNUgVsaW1pdBJKChRvcHRpb25hbF9h",
-            "dF9yZXZpc2lvbhgCIAEoCzIYLmF1dGh6ZWQuYXBpLnYxLlplZFRva2VuUhJv",
-            "cHRpb25hbEF0UmV2aXNpb24SZwoeb3B0aW9uYWxfc3RhcnRpbmdfYWZ0ZXJf",
-            "Y3Vyc29yGAQgASgLMiIuYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuQ3Vy",
-            "c29yUhtvcHRpb25hbFN0YXJ0aW5nQWZ0ZXJDdXJzb3IiowEKHExvb2t1cFBl",
-            "cm1pc3Npb25TZXRzUmVzcG9uc2USRwoGY2hhbmdlGAEgASgLMi8uYXV0aHpl",
-            "ZC5hcGkubWF0ZXJpYWxpemUudjAuUGVybWlzc2lvblNldENoYW5nZVIGY2hh",
-            "bmdlEjoKBmN1cnNvchgCIAEoCzIiLmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXpl",
-            "LnYwLkN1cnNvclIGY3Vyc29yIvwDChNQZXJtaXNzaW9uU2V0Q2hhbmdlEjkK",
-            "C2F0X3JldmlzaW9uGAEgASgLMhguYXV0aHplZC5hcGkudjEuWmVkVG9rZW5S",
-            "CmF0UmV2aXNpb24SWgoJb3BlcmF0aW9uGAIgASgOMjwuYXV0aHplZC5hcGku",
-            "bWF0ZXJpYWxpemUudjAuUGVybWlzc2lvblNldENoYW5nZS5TZXRPcGVyYXRp",
-            "b25SCW9wZXJhdGlvbhJHCgpwYXJlbnRfc2V0GAMgASgLMiguYXV0aHplZC5h",
-            "cGkubWF0ZXJpYWxpemUudjAuU2V0UmVmZXJlbmNlUglwYXJlbnRTZXQSRwoJ",
-            "Y2hpbGRfc2V0GAQgASgLMiguYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAu",
-            "U2V0UmVmZXJlbmNlSABSCGNoaWxkU2V0ElAKDGNoaWxkX21lbWJlchgFIAEo",
-            "CzIrLmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLk1lbWJlclJlZmVyZW5j",
-            "ZUgAUgtjaGlsZE1lbWJlciJhCgxTZXRPcGVyYXRpb24SHQoZU0VUX09QRVJB",
-            "VElPTl9VTlNQRUNJRklFRBAAEhcKE1NFVF9PUEVSQVRJT05fQURERUQQARIZ",
-            "ChVTRVRfT1BFUkFUSU9OX1JFTU9WRUQQAkIHCgVjaGlsZCKCAQoMU2V0UmVm",
-            "ZXJlbmNlEh8KC29iamVjdF90eXBlGAEgASgJUgpvYmplY3RUeXBlEhsKCW9i",
-            "amVjdF9pZBgCIAEoCVIIb2JqZWN0SWQSNAoWcGVybWlzc2lvbl9vcl9yZWxh",
-            "dGlvbhgDIAEoCVIUcGVybWlzc2lvbk9yUmVsYXRpb24ilgEKD01lbWJlclJl",
-            "ZmVyZW5jZRIfCgtvYmplY3RfdHlwZRgBIAEoCVIKb2JqZWN0VHlwZRIbCglv",
-            "YmplY3RfaWQYAiABKAlSCG9iamVjdElkEkUKH29wdGlvbmFsX3Blcm1pc3Np",
-            "b25fb3JfcmVsYXRpb24YAyABKAlSHG9wdGlvbmFsUGVybWlzc2lvbk9yUmVs",
-            "YXRpb24iZgocTG9va3VwUGVybWlzc2lvblNldHNSZXF1aXJlZBJGChJyZXF1",
-            "aXJlZF9sb29rdXBfYXQYASABKAsyGC5hdXRoemVkLmFwaS52MS5aZWRUb2tl",
-            "blIQcmVxdWlyZWRMb29rdXBBdCJNChRCcmVha2luZ1NjaGVtYUNoYW5nZRI1",
-            "CgljaGFuZ2VfYXQYASABKAsyGC5hdXRoemVkLmFwaS52MS5aZWRUb2tlblII",
-            "Y2hhbmdlQXQiawodRG93bmxvYWRQZXJtaXNzaW9uU2V0c1JlcXVlc3QSSgoU",
-            "b3B0aW9uYWxfYXRfcmV2aXNpb24YASABKAsyGC5hdXRoemVkLmFwaS52MS5a",
-            "ZWRUb2tlblISb3B0aW9uYWxBdFJldmlzaW9uIiwKBEZpbGUSEgoEbmFtZRgB",
-            "IAEoCVIEbmFtZRIQCgN1cmwYAiABKAlSA3VybCJYCh5Eb3dubG9hZFBlcm1p",
-            "c3Npb25TZXRzUmVzcG9uc2USNgoFZmlsZXMYASADKAsyIC5hdXRoemVkLmFw",
-            "aS5tYXRlcmlhbGl6ZS52MC5GaWxlUgVmaWxlczLNAwoaV2F0Y2hQZXJtaXNz",
-            "aW9uU2V0c1NlcnZpY2USigEKE1dhdGNoUGVybWlzc2lvblNldHMSNi5hdXRo",
-            "emVkLmFwaS5tYXRlcmlhbGl6ZS52MC5XYXRjaFBlcm1pc3Npb25TZXRzUmVx",
-            "dWVzdBo3LmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLldhdGNoUGVybWlz",
-            "c2lvblNldHNSZXNwb25zZSIAMAESjQEKFExvb2t1cFBlcm1pc3Npb25TZXRz",
-            "EjcuYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuTG9va3VwUGVybWlzc2lv",
-            "blNldHNSZXF1ZXN0GjguYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuTG9v",
-            "a3VwUGVybWlzc2lvblNldHNSZXNwb25zZSIAMAESkQEKFkRvd25sb2FkUGVy",
-            "bWlzc2lvblNldHMSOS5hdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MC5Eb3du",
-            "bG9hZFBlcm1pc3Npb25TZXRzUmVxdWVzdBo6LmF1dGh6ZWQuYXBpLm1hdGVy",
-            "aWFsaXplLnYwLkRvd25sb2FkUGVybWlzc2lvblNldHNSZXNwb25zZSIAQmIK",
-            "HmNvbS5hdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MFABWj5naXRodWIuY29t",
-            "L2F1dGh6ZWQvYXV0aHplZC1nby9wcm90by9hdXRoemVkL2FwaS9tYXRlcmlh",
-            "bGl6ZS92MGIGcHJvdG8z"));
+            "ZXRzLnByb3RvEhphdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MBoxYXV0aHpl",
+            "ZC9hcGkvbWF0ZXJpYWxpemUvdjAvd2F0Y2hwZXJtaXNzaW9ucy5wcm90bxoZ",
+            "YXV0aHplZC9hcGkvdjEvY29yZS5wcm90bxofZ29vZ2xlL3Byb3RvYnVmL3Rp",
+            "bWVzdGFtcC5wcm90byJuChpXYXRjaFBlcm1pc3Npb25TZXRzUmVxdWVzdBJQ",
+            "ChdvcHRpb25hbF9zdGFydGluZ19hZnRlchgBIAEoCzIYLmF1dGh6ZWQuYXBp",
+            "LnYxLlplZFRva2VuUhVvcHRpb25hbFN0YXJ0aW5nQWZ0ZXIirQMKG1dhdGNo",
+            "UGVybWlzc2lvblNldHNSZXNwb25zZRJJCgZjaGFuZ2UYASABKAsyLy5hdXRo",
+            "emVkLmFwaS5tYXRlcmlhbGl6ZS52MC5QZXJtaXNzaW9uU2V0Q2hhbmdlSABS",
+            "BmNoYW5nZRJJChJjb21wbGV0ZWRfcmV2aXNpb24YAiABKAsyGC5hdXRoemVk",
+            "LmFwaS52MS5aZWRUb2tlbkgAUhFjb21wbGV0ZWRSZXZpc2lvbhKBAQofbG9v",
+            "a3VwX3Blcm1pc3Npb25fc2V0c19yZXF1aXJlZBgDIAEoCzI4LmF1dGh6ZWQu",
+            "YXBpLm1hdGVyaWFsaXplLnYwLkxvb2t1cFBlcm1pc3Npb25TZXRzUmVxdWly",
+            "ZWRIAFIcbG9va3VwUGVybWlzc2lvblNldHNSZXF1aXJlZBJoChZicmVha2lu",
+            "Z19zY2hlbWFfY2hhbmdlGAQgASgLMjAuYXV0aHplZC5hcGkubWF0ZXJpYWxp",
+            "emUudjAuQnJlYWtpbmdTY2hlbWFDaGFuZ2VIAFIUYnJlYWtpbmdTY2hlbWFD",
+            "aGFuZ2VCCgoIcmVzcG9uc2Ui3QEKBkN1cnNvchIUCgVsaW1pdBgBIAEoDVIF",
+            "bGltaXQSLgoFdG9rZW4YBCABKAsyGC5hdXRoemVkLmFwaS52MS5aZWRUb2tl",
+            "blIFdG9rZW4SJQoOc3RhcnRpbmdfaW5kZXgYBSABKA1SDXN0YXJ0aW5nSW5k",
+            "ZXgSKwoRY29tcGxldGVkX21lbWJlcnMYBiABKAhSEGNvbXBsZXRlZE1lbWJl",
+            "cnMSIQoMc3RhcnRpbmdfa2V5GAcgASgJUgtzdGFydGluZ0tleRIWCgZjdXJz",
+            "b3IYCCABKAlSBmN1cnNvciLoAQobTG9va3VwUGVybWlzc2lvblNldHNSZXF1",
+            "ZXN0EhQKBWxpbWl0GAEgASgNUgVsaW1pdBJKChRvcHRpb25hbF9hdF9yZXZp",
+            "c2lvbhgCIAEoCzIYLmF1dGh6ZWQuYXBpLnYxLlplZFRva2VuUhJvcHRpb25h",
+            "bEF0UmV2aXNpb24SZwoeb3B0aW9uYWxfc3RhcnRpbmdfYWZ0ZXJfY3Vyc29y",
+            "GAQgASgLMiIuYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuQ3Vyc29yUhtv",
+            "cHRpb25hbFN0YXJ0aW5nQWZ0ZXJDdXJzb3IiowEKHExvb2t1cFBlcm1pc3Np",
+            "b25TZXRzUmVzcG9uc2USRwoGY2hhbmdlGAEgASgLMi8uYXV0aHplZC5hcGku",
+            "bWF0ZXJpYWxpemUudjAuUGVybWlzc2lvblNldENoYW5nZVIGY2hhbmdlEjoK",
+            "BmN1cnNvchgCIAEoCzIiLmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLkN1",
+            "cnNvclIGY3Vyc29yIvwDChNQZXJtaXNzaW9uU2V0Q2hhbmdlEjkKC2F0X3Jl",
+            "dmlzaW9uGAEgASgLMhguYXV0aHplZC5hcGkudjEuWmVkVG9rZW5SCmF0UmV2",
+            "aXNpb24SWgoJb3BlcmF0aW9uGAIgASgOMjwuYXV0aHplZC5hcGkubWF0ZXJp",
+            "YWxpemUudjAuUGVybWlzc2lvblNldENoYW5nZS5TZXRPcGVyYXRpb25SCW9w",
+            "ZXJhdGlvbhJHCgpwYXJlbnRfc2V0GAMgASgLMiguYXV0aHplZC5hcGkubWF0",
+            "ZXJpYWxpemUudjAuU2V0UmVmZXJlbmNlUglwYXJlbnRTZXQSRwoJY2hpbGRf",
+            "c2V0GAQgASgLMiguYXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuU2V0UmVm",
+            "ZXJlbmNlSABSCGNoaWxkU2V0ElAKDGNoaWxkX21lbWJlchgFIAEoCzIrLmF1",
+            "dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLk1lbWJlclJlZmVyZW5jZUgAUgtj",
+            "aGlsZE1lbWJlciJhCgxTZXRPcGVyYXRpb24SHQoZU0VUX09QRVJBVElPTl9V",
+            "TlNQRUNJRklFRBAAEhcKE1NFVF9PUEVSQVRJT05fQURERUQQARIZChVTRVRf",
+            "T1BFUkFUSU9OX1JFTU9WRUQQAkIHCgVjaGlsZCKCAQoMU2V0UmVmZXJlbmNl",
+            "Eh8KC29iamVjdF90eXBlGAEgASgJUgpvYmplY3RUeXBlEhsKCW9iamVjdF9p",
+            "ZBgCIAEoCVIIb2JqZWN0SWQSNAoWcGVybWlzc2lvbl9vcl9yZWxhdGlvbhgD",
+            "IAEoCVIUcGVybWlzc2lvbk9yUmVsYXRpb24ilgEKD01lbWJlclJlZmVyZW5j",
+            "ZRIfCgtvYmplY3RfdHlwZRgBIAEoCVIKb2JqZWN0VHlwZRIbCglvYmplY3Rf",
+            "aWQYAiABKAlSCG9iamVjdElkEkUKH29wdGlvbmFsX3Blcm1pc3Npb25fb3Jf",
+            "cmVsYXRpb24YAyABKAlSHG9wdGlvbmFsUGVybWlzc2lvbk9yUmVsYXRpb24i",
+            "ZgocTG9va3VwUGVybWlzc2lvblNldHNSZXF1aXJlZBJGChJyZXF1aXJlZF9s",
+            "b29rdXBfYXQYASABKAsyGC5hdXRoemVkLmFwaS52MS5aZWRUb2tlblIQcmVx",
+            "dWlyZWRMb29rdXBBdCKvAQoUQnJlYWtpbmdTY2hlbWFDaGFuZ2USNQoJY2hh",
+            "bmdlX2F0GAEgASgLMhguYXV0aHplZC5hcGkudjEuWmVkVG9rZW5SCGNoYW5n",
+            "ZUF0EmAKFGFmZmVjdGVkX3Blcm1pc3Npb25zGAIgAygLMi0uYXV0aHplZC5h",
+            "cGkubWF0ZXJpYWxpemUudjAuV2F0Y2hlZFBlcm1pc3Npb25SE2FmZmVjdGVk",
+            "UGVybWlzc2lvbnMiawodRG93bmxvYWRQZXJtaXNzaW9uU2V0c1JlcXVlc3QS",
+            "SgoUb3B0aW9uYWxfYXRfcmV2aXNpb24YASABKAsyGC5hdXRoemVkLmFwaS52",
+            "MS5aZWRUb2tlblISb3B0aW9uYWxBdFJldmlzaW9uIiwKBEZpbGUSEgoEbmFt",
+            "ZRgBIAEoCVIEbmFtZRIQCgN1cmwYAiABKAlSA3VybCLNAQoeRG93bmxvYWRQ",
+            "ZXJtaXNzaW9uU2V0c1Jlc3BvbnNlEjYKBWZpbGVzGAEgAygLMiAuYXV0aHpl",
+            "ZC5hcGkubWF0ZXJpYWxpemUudjAuRmlsZVIFZmlsZXMSOAoJdGltZXN0YW1w",
+            "GAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcFIJdGltZXN0YW1w",
+            "EjkKC2F0X3JldmlzaW9uGAMgASgLMhguYXV0aHplZC5hcGkudjEuWmVkVG9r",
+            "ZW5SCmF0UmV2aXNpb24yzQMKGldhdGNoUGVybWlzc2lvblNldHNTZXJ2aWNl",
+            "EooBChNXYXRjaFBlcm1pc3Npb25TZXRzEjYuYXV0aHplZC5hcGkubWF0ZXJp",
+            "YWxpemUudjAuV2F0Y2hQZXJtaXNzaW9uU2V0c1JlcXVlc3QaNy5hdXRoemVk",
+            "LmFwaS5tYXRlcmlhbGl6ZS52MC5XYXRjaFBlcm1pc3Npb25TZXRzUmVzcG9u",
+            "c2UiADABEo0BChRMb29rdXBQZXJtaXNzaW9uU2V0cxI3LmF1dGh6ZWQuYXBp",
+            "Lm1hdGVyaWFsaXplLnYwLkxvb2t1cFBlcm1pc3Npb25TZXRzUmVxdWVzdBo4",
+            "LmF1dGh6ZWQuYXBpLm1hdGVyaWFsaXplLnYwLkxvb2t1cFBlcm1pc3Npb25T",
+            "ZXRzUmVzcG9uc2UiADABEpEBChZEb3dubG9hZFBlcm1pc3Npb25TZXRzEjku",
+            "YXV0aHplZC5hcGkubWF0ZXJpYWxpemUudjAuRG93bmxvYWRQZXJtaXNzaW9u",
+            "U2V0c1JlcXVlc3QaOi5hdXRoemVkLmFwaS5tYXRlcmlhbGl6ZS52MC5Eb3du",
+            "bG9hZFBlcm1pc3Npb25TZXRzUmVzcG9uc2UiAEJiCh5jb20uYXV0aHplZC5h",
+            "cGkubWF0ZXJpYWxpemUudjBQAVo+Z2l0aHViLmNvbS9hdXRoemVkL2F1dGh6",
+            "ZWQtZ28vcHJvdG8vYXV0aHplZC9hcGkvbWF0ZXJpYWxpemUvdjBiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Authzed.Api.V1.CoreReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Authzed.Api.Materialize.V0.WatchpermissionsReflection.Descriptor, global::Authzed.Api.V1.CoreReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.WatchPermissionSetsRequest), global::Authzed.Api.Materialize.V0.WatchPermissionSetsRequest.Parser, new[]{ "OptionalStartingAfter" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse), global::Authzed.Api.Materialize.V0.WatchPermissionSetsResponse.Parser, new[]{ "Change", "CompletedRevision", "LookupPermissionSetsRequired", "BreakingSchemaChange" }, new[]{ "Response" }, null, null, null),
@@ -105,10 +112,10 @@ namespace Authzed.Api.Materialize.V0 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.SetReference), global::Authzed.Api.Materialize.V0.SetReference.Parser, new[]{ "ObjectType", "ObjectId", "PermissionOrRelation" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.MemberReference), global::Authzed.Api.Materialize.V0.MemberReference.Parser, new[]{ "ObjectType", "ObjectId", "OptionalPermissionOrRelation" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequired), global::Authzed.Api.Materialize.V0.LookupPermissionSetsRequired.Parser, new[]{ "RequiredLookupAt" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.BreakingSchemaChange), global::Authzed.Api.Materialize.V0.BreakingSchemaChange.Parser, new[]{ "ChangeAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.BreakingSchemaChange), global::Authzed.Api.Materialize.V0.BreakingSchemaChange.Parser, new[]{ "ChangeAt", "AffectedPermissions" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.DownloadPermissionSetsRequest), global::Authzed.Api.Materialize.V0.DownloadPermissionSetsRequest.Parser, new[]{ "OptionalAtRevision" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.File), global::Authzed.Api.Materialize.V0.File.Parser, new[]{ "Name", "Url" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse), global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse.Parser, new[]{ "Files" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse), global::Authzed.Api.Materialize.V0.DownloadPermissionSetsResponse.Parser, new[]{ "Files", "Timestamp", "AtRevision" }, null, null, null, null)
           }));
     }
     #endregion
@@ -2998,6 +3005,7 @@ namespace Authzed.Api.Materialize.V0 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public BreakingSchemaChange(BreakingSchemaChange other) : this() {
       changeAt_ = other.changeAt_ != null ? other.changeAt_.Clone() : null;
+      affectedPermissions_ = other.affectedPermissions_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3022,6 +3030,20 @@ namespace Authzed.Api.Materialize.V0 {
       }
     }
 
+    /// <summary>Field number for the "affected_permissions" field.</summary>
+    public const int AffectedPermissionsFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Authzed.Api.Materialize.V0.WatchedPermission> _repeated_affectedPermissions_codec
+        = pb::FieldCodec.ForMessage(18, global::Authzed.Api.Materialize.V0.WatchedPermission.Parser);
+    private readonly pbc::RepeatedField<global::Authzed.Api.Materialize.V0.WatchedPermission> affectedPermissions_ = new pbc::RepeatedField<global::Authzed.Api.Materialize.V0.WatchedPermission>();
+    /// <summary>
+    /// affected_permissions lists all the watched permissions that were directly affected by the breaking schema change.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Authzed.Api.Materialize.V0.WatchedPermission> AffectedPermissions {
+      get { return affectedPermissions_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3038,6 +3060,7 @@ namespace Authzed.Api.Materialize.V0 {
         return true;
       }
       if (!object.Equals(ChangeAt, other.ChangeAt)) return false;
+      if(!affectedPermissions_.Equals(other.affectedPermissions_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3046,6 +3069,7 @@ namespace Authzed.Api.Materialize.V0 {
     public override int GetHashCode() {
       int hash = 1;
       if (changeAt_ != null) hash ^= ChangeAt.GetHashCode();
+      hash ^= affectedPermissions_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3068,6 +3092,7 @@ namespace Authzed.Api.Materialize.V0 {
         output.WriteRawTag(10);
         output.WriteMessage(ChangeAt);
       }
+      affectedPermissions_.WriteTo(output, _repeated_affectedPermissions_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3082,6 +3107,7 @@ namespace Authzed.Api.Materialize.V0 {
         output.WriteRawTag(10);
         output.WriteMessage(ChangeAt);
       }
+      affectedPermissions_.WriteTo(ref output, _repeated_affectedPermissions_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3095,6 +3121,7 @@ namespace Authzed.Api.Materialize.V0 {
       if (changeAt_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(ChangeAt);
       }
+      size += affectedPermissions_.CalculateSize(_repeated_affectedPermissions_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3113,6 +3140,7 @@ namespace Authzed.Api.Materialize.V0 {
         }
         ChangeAt.MergeFrom(other.ChangeAt);
       }
+      affectedPermissions_.Add(other.affectedPermissions_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3139,6 +3167,10 @@ namespace Authzed.Api.Materialize.V0 {
             input.ReadMessage(ChangeAt);
             break;
           }
+          case 18: {
+            affectedPermissions_.AddEntriesFrom(input, _repeated_affectedPermissions_codec);
+            break;
+          }
         }
       }
     #endif
@@ -3163,6 +3195,10 @@ namespace Authzed.Api.Materialize.V0 {
               ChangeAt = new global::Authzed.Api.V1.ZedToken();
             }
             input.ReadMessage(ChangeAt);
+            break;
+          }
+          case 18: {
+            affectedPermissions_.AddEntriesFrom(ref input, _repeated_affectedPermissions_codec);
             break;
           }
         }
@@ -3660,6 +3696,8 @@ namespace Authzed.Api.Materialize.V0 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public DownloadPermissionSetsResponse(DownloadPermissionSetsResponse other) : this() {
       files_ = other.files_.Clone();
+      timestamp_ = other.timestamp_ != null ? other.timestamp_.Clone() : null;
+      atRevision_ = other.atRevision_ != null ? other.atRevision_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3683,6 +3721,39 @@ namespace Authzed.Api.Materialize.V0 {
       get { return files_; }
     }
 
+    /// <summary>Field number for the "timestamp" field.</summary>
+    public const int TimestampFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp timestamp_;
+    /// <summary>
+    /// timestamp represents the time associated with the returned data revision.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp Timestamp {
+      get { return timestamp_; }
+      set {
+        timestamp_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "at_revision" field.</summary>
+    public const int AtRevisionFieldNumber = 3;
+    private global::Authzed.Api.V1.ZedToken atRevision_;
+    /// <summary>
+    /// at_revision is the snapshot revision the returned files were produced at,
+    /// encoded as a ZedToken. Consumers should pass this token to
+    /// WatchPermissionSets as optional_starting_after to resume the stream
+    /// immediately after the snapshot without leaving gaps in event history.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.ZedToken AtRevision {
+      get { return atRevision_; }
+      set {
+        atRevision_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -3699,6 +3770,8 @@ namespace Authzed.Api.Materialize.V0 {
         return true;
       }
       if(!files_.Equals(other.files_)) return false;
+      if (!object.Equals(Timestamp, other.Timestamp)) return false;
+      if (!object.Equals(AtRevision, other.AtRevision)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -3707,6 +3780,8 @@ namespace Authzed.Api.Materialize.V0 {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= files_.GetHashCode();
+      if (timestamp_ != null) hash ^= Timestamp.GetHashCode();
+      if (atRevision_ != null) hash ^= AtRevision.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -3726,6 +3801,14 @@ namespace Authzed.Api.Materialize.V0 {
       output.WriteRawMessage(this);
     #else
       files_.WriteTo(output, _repeated_files_codec);
+      if (timestamp_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Timestamp);
+      }
+      if (atRevision_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(AtRevision);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -3737,6 +3820,14 @@ namespace Authzed.Api.Materialize.V0 {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       files_.WriteTo(ref output, _repeated_files_codec);
+      if (timestamp_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Timestamp);
+      }
+      if (atRevision_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(AtRevision);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -3748,6 +3839,12 @@ namespace Authzed.Api.Materialize.V0 {
     public int CalculateSize() {
       int size = 0;
       size += files_.CalculateSize(_repeated_files_codec);
+      if (timestamp_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Timestamp);
+      }
+      if (atRevision_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(AtRevision);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -3761,6 +3858,18 @@ namespace Authzed.Api.Materialize.V0 {
         return;
       }
       files_.Add(other.files_);
+      if (other.timestamp_ != null) {
+        if (timestamp_ == null) {
+          Timestamp = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        Timestamp.MergeFrom(other.Timestamp);
+      }
+      if (other.atRevision_ != null) {
+        if (atRevision_ == null) {
+          AtRevision = new global::Authzed.Api.V1.ZedToken();
+        }
+        AtRevision.MergeFrom(other.AtRevision);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -3784,6 +3893,20 @@ namespace Authzed.Api.Materialize.V0 {
             files_.AddEntriesFrom(input, _repeated_files_codec);
             break;
           }
+          case 18: {
+            if (timestamp_ == null) {
+              Timestamp = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Timestamp);
+            break;
+          }
+          case 26: {
+            if (atRevision_ == null) {
+              AtRevision = new global::Authzed.Api.V1.ZedToken();
+            }
+            input.ReadMessage(AtRevision);
+            break;
+          }
         }
       }
     #endif
@@ -3805,6 +3928,20 @@ namespace Authzed.Api.Materialize.V0 {
             break;
           case 10: {
             files_.AddEntriesFrom(ref input, _repeated_files_codec);
+            break;
+          }
+          case 18: {
+            if (timestamp_ == null) {
+              Timestamp = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(Timestamp);
+            break;
+          }
+          case 26: {
+            if (atRevision_ == null) {
+              AtRevision = new global::Authzed.Api.V1.ZedToken();
+            }
+            input.ReadMessage(AtRevision);
             break;
           }
         }

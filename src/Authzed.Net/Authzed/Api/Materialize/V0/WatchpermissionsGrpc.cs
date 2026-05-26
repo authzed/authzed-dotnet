@@ -113,6 +113,7 @@ namespace Authzed.Api.Materialize.V0 {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncServerStreamingCall<global::Authzed.Api.Materialize.V0.WatchPermissionsResponse> WatchPermissions(global::Authzed.Api.Materialize.V0.WatchPermissionsRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
@@ -138,6 +139,7 @@ namespace Authzed.Api.Materialize.V0 {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
+      [global::System.ObsoleteAttribute]
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual grpc::AsyncServerStreamingCall<global::Authzed.Api.Materialize.V0.WatchPermissionsResponse> WatchPermissions(global::Authzed.Api.Materialize.V0.WatchPermissionsRequest request, grpc::CallOptions options)
       {

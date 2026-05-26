@@ -25,7 +25,7 @@ namespace Authzed.Api.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiFhdXRoemVkL2FwaS92MS9lcnJvcl9yZWFzb24ucHJvdG8SDmF1dGh6ZWQu",
-            "YXBpLnYxKqIKCgtFcnJvclJlYXNvbhIcChhFUlJPUl9SRUFTT05fVU5TUEVD",
+            "YXBpLnYxKssKCgtFcnJvclJlYXNvbhIcChhFUlJPUl9SRUFTT05fVU5TUEVD",
             "SUZJRUQQABIjCh9FUlJPUl9SRUFTT05fU0NIRU1BX1BBUlNFX0VSUk9SEAES",
             "IgoeRVJST1JfUkVBU09OX1NDSEVNQV9UWVBFX0VSUk9SEAISIwofRVJST1Jf",
             "UkVBU09OX1VOS05PV05fREVGSU5JVElPThADEi8KK0VSUk9SX1JFQVNPTl9V",
@@ -54,9 +54,10 @@ namespace Authzed.Api.V1 {
             "VEVSX0FMUkVBRFlfUkVHSVNURVJFRBAaEicKI0VSUk9SX1JFQVNPTl9DT1VO",
             "VEVSX05PVF9SRUdJU1RFUkVEEBsSJQohRVJST1JfUkVBU09OX1dJTERDQVJE",
             "X05PVF9BTExPV0VEEBwSLworRVJST1JfUkVBU09OX1RSQU5TQUNUSU9OX01F",
-            "VEFEQVRBX1RPT19MQVJHRRAdQkoKEmNvbS5hdXRoemVkLmFwaS52MVABWjJn",
-            "aXRodWIuY29tL2F1dGh6ZWQvYXV0aHplZC1nby9wcm90by9hdXRoemVkL2Fw",
-            "aS92MWIGcHJvdG8z"));
+            "VEFEQVRBX1RPT19MQVJHRRAdEicKI0VSUk9SX1JFQVNPTl9EQVRBU1RPUkVf",
+            "Tk9UX01JR1JBVEVEEB5CSgoSY29tLmF1dGh6ZWQuYXBpLnYxUAFaMmdpdGh1",
+            "Yi5jb20vYXV0aHplZC9hdXRoemVkLWdvL3Byb3RvL2F1dGh6ZWQvYXBpL3Yx",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Authzed.Api.V1.ErrorReason), }, null, null));
@@ -506,6 +507,20 @@ namespace Authzed.Api.V1 {
     ///     }
     /// </summary>
     [pbr::OriginalName("ERROR_REASON_TRANSACTION_METADATA_TOO_LARGE")] TransactionMetadataTooLarge = 29,
+    /// <summary>
+    /// The request failed because the datastore has not been migrated.
+    /// This typically indicates that the `spicedb datastore migrate` command
+    /// has not been run against the backing database.
+    ///
+    /// Example of an ErrorInfo:
+    ///
+    ///     {
+    ///       "reason": "ERROR_REASON_DATASTORE_NOT_MIGRATED",
+    ///       "domain": "authzed.com",
+    ///       "metadata": {}
+    ///     }
+    /// </summary>
+    [pbr::OriginalName("ERROR_REASON_DATASTORE_NOT_MIGRATED")] DatastoreNotMigrated = 30,
   }
 
   #endregion

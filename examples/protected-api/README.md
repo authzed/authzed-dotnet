@@ -4,9 +4,12 @@ It uses the service dependency injection mechanism to stand up the gRPC services
 and provide them to the endpoint.
 
 ## Running the project
-In a separate terminal, set up a running spicedb instance:
+In a separate terminal, set up a running spicedb instance. `--pull always`
+ensures you get a current image; a stale locally-cached `authzed/spicedb`
+predating the v1 PermissionsService is the usual cause of
+`unknown service authzed.api.v1.PermissionsService` errors.
 ```bash
-docker run --rm -p 50051:50051 authzed/spicedb serve --grpc-preshared-key lovelycoconuts
+docker run --pull always --rm -p 50051:50051 authzed/spicedb serve --grpc-preshared-key lovelycoconuts
 ```
 
 Write the schema from the resources folder to the SpiceDB server:

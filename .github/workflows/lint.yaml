@@ -18,19 +18,19 @@ jobs:
     # Uses pre-commit to run all checks
     runs-on: "ubuntu-latest"
     steps:
-      - uses: "actions/checkout@v6"
+      - uses: "actions/checkout@v7"
       # needed for pre-commit
-      - uses: "actions/setup-python@v6"
+      - uses: "actions/setup-python@v7"
         with:
           python-version: "3.11"
-      - uses: "actions/setup-dotnet@v5"
+      - uses: "actions/setup-dotnet@v6"
         with:
           dotnet-version: '8.x'
-      - uses: "j178/prek-action@v2"
+      - uses: "j178/prek-action@v2.0.6"
 
   conventional-commits:
     name: "Lint Commit Messages"
     runs-on: "depot-ubuntu-24.04-small"
     steps:
-      - uses: "actions/checkout@v6"
+      - uses: "actions/checkout@v7"
       - uses: "webiny/action-conventional-commits@v1.4.2"
